@@ -1,11 +1,29 @@
 # Lista mestra de profissões e termos que vendem low ticket (30/10/2026)
 
-> Status: EM ANDAMENTO (gravado aos poucos).
+> Status: CONCLUÍDO em 30/10/2026, com as limitações listadas abaixo.
+
+**Resumo:** o melhor conceito novo é **Farmácia (POPs e "farmácia pronta pra vigilância")**, com nota 8,0. No Brasil está em teste quente e no México já é PROVADO: um vendedor de PNOs a $249–999 MXN roda há 98,8 dias.
+
+Em seguida, todos com nota 7,0 ou mais:
+- **Fonoaudiólogo** (PROVADO na Polônia, 226 dias).
+- **Síndico** (teste pesado no Brasil, BRECHA em IT, PT e LATAM).
+- **Terapeuta ABA** (PROVADO no Brasil, BRECHA em espanhol).
+- **SOAPs para a APS** (PROVADO no Brasil).
+- **Escala 5x2** (PRAZO 16/12/2026).
+
+Dois achados laterais importam para a fila atual:
+- No México existe um concorrente do psicólogo: "Kit Legal Psicología" a $499 MXN, numa página com 98,8 dias.
+- A Zulma Laguna (dentista EUA) cruza 30 dias em 31/10.
 
 ## Avisos de método
 - A versão anterior (v1 de 29/10) e os arquivos do Desktop NÃO estavam acessíveis neste ambiente (container na nuvem). Não há comparação linha a linha com a v1.
 - O banco `escalalow-20-10.db` (13.604 anunciantes, 70.600 anúncios) NÃO estava acessível. Base usada: `dados/escalalow-ofertas-24-10.json` (1.946 ofertas de 24/10) + `dados/escalalow-ofertas-validadas.json` (213) + `notas/meta-varredura-low-ticket.md` (varreduras de 07–08/10).
 - SearchAPI indisponível (sem chave aqui e créditos zerados até 08/11/2026). Medição feita pelo conector Meta (`ads_library_search`, só anúncios ATIVOS). DIAS REAIS = 30/10/2026 − menor `ad_delivery_start_time` entre anúncios ativos da página.
+- Foram feitas cerca de 45 consultas no conector Meta (BR + exterior). Limitações:
+  - O conector devolve no máximo 50 anúncios, os mais novos primeiro. Em página com mais de 50 ativos, a idade é "pelo menos X".
+  - **WebFetch bloqueado** neste ambiente (domínios externos dão ENOTFOUND): nenhuma página de vendas foi aberta.
+  - **WebSearch esgotou a cota do turno** (200 buscas, compartilhada entre os agentes): só a EC 141/2026 foi confirmada por busca web. Tamanhos de mercado e normas ficaram VERIFICAR.
+- Notas de trabalho brutas (page_ids e timestamps): `/tmp/claude-0/-home-user-ofertas/65e3a336-5a5d-550f-88e2-a220d0284836/scratchpad/lm/meta_log.md` (fora do repositório).
 
 ## 1. Mineração da base (1.946 ofertas)
 
@@ -206,6 +224,78 @@ Feita no conector Meta (anúncios ativos, 30/10), com o termo traduzido e vário
 - **Concorrente no México para o Maletín del Psicólogo:** Recursos Legales PRO vende "Kit Legal Psicología" a $499 MXN, numa página com ativo de 98,8d. Abrir a página (bloqueado aqui) → VERIFICAR conteúdo, normas citadas e app.
 - **Dentista EUA (Lic. Zulma Laguna, 778739435326228):** a página tem anúncio ativo desde 1/out (28,8d em 30/10), então **cruza 30 dias em 31/10**. Criativos novos em 23–24/10: "Dental Docs, Done for You", "Not a Blank Template", "Lawyer-Reviewed Dental Consents". Ela vira PROVADO na janela de re-checagem combinada (31/10–05/11).
 
-## 5. Ranking 0–10
+## 5. Ranking 0–10 (conceitos NOVOS)
+
+Critérios, nesta ordem:
+1. Prova de compra (BR e fora).
+2. Brecha lá fora.
+3. Encaixe no modelo do usuário (kit de documentos + app), com reaproveitamento de algo que ele já tem: app de inspeção/Consultora, motor do Maletín/Valigetta.
+4. Gancho de norma ou prazo.
+5. Risco de enxurrada de clonadores.
+
+| Pos. | Conceito | Nota | Por quê | Onde atacar primeiro | Reaproveita |
+|---|---|---|---|---|---|
+| 1 | **Farmácia: POPs + "farmácia pronta pra vigilância"** | **8,0** | BR: 4 vendedores entraram em 7 dias, e a Grupo T3 Farma tem página com 46d. **MX PROVADO**: PNOs de farmácia a $249–999 MXN numa página com 98,8d. Fiscalização com checklist encaixa no simulador de inspeção | BR (já, antes da enxurrada); MX (provado); CO/PE/CL (brecha, VERIFICAR normas) | App de inspeção / Consultora (simulador de vistoria) |
+| 2 | **Fonoaudiólogo: documentos + materiais + app** | **7,5** | **PL PROVADO forte** (226d, 193d, 115d, em PLN); IT 1 vendedora com 37d; BR: o kit de documentos existe desde mai/2026 mas não roda contínuo, e clones começaram em LATAM (2–3d) | BR e LATAM agora (ainda TESTE); PL depois do psicólogo escolar (mesmo público e mesma "teczka") | Motor do Maletín del Psicólogo |
+| 3 | **Síndico: kit do síndico + AVCB/incêndio** | **7,0** | BR TESTE quente: GrandCondo jogou dezenas de criativos a R$47–87 esta semana, RPM Síndico está com 28,6d. **BRECHA** em ES-LATAM, IT e PT (só SaaS/serviço) | BR (medir GrandCondo em 30 dias); IT e PT como brecha (VERIFICAR regras de condomínio) | App de checklist/inspeção de manutenção |
+| 4 | **Terapeuta ABA / AT: documentos + programas** | **7,0** | BR PROVADO (Inovaba 148–179d, R$47–69). ES-LATAM **BRECHA** (só clínicas). Demanda por TEA forte em LATAM | MX/CO/AR em espanhol | Motor do psicólogo/psicopedagogia |
+| 5 | **APS (UBS/ESF): SOAPs prontos** | **7,0** | BR **PROVADO** (≥31,6d, ~45 anúncios, Black Friday rodando). Fora: EN tomado por escriba com IA, ES sem demanda visível | Só BR | App de registro/prontuário |
+| 6 | **Escala 5x2 / fim da 6x1** | **7,0** | **PRAZO 16/12/2026** (EC 141/2026, VERIFICAR DOU); 1.547 anúncios no termo e vários kits novos. Janela curta e muita gente entrando. No MX, o par é "48→46h em 2027 + registro de jornada jan/2027", que já é o item Jornada México da fila | BR até dez/2026; MX jan/2027 | Planilha/app de escala |
+| 7 | Psicomotricista: documentos | 6,5 | BR PROVADO (114d, R$15,90); ES BRECHA. Nicho pequeno | BR + ES-LATAM | Motor do psicólogo |
+| 8 | Médico de consultório: kit legal (atestados, termos, POPs) | 6,5 | **MX PROVADO** (Kit Consultorio Médico $499 MXN, 98,8d); BR TESTE (1–2d) | MX, BR | Valigetta/Maletín |
+| 9 | Avaliador de imóveis / perito: laudo + planilha NBR 14653 | 6,5 | BR PROVADO 281d a R$97–197 (ticket mais alto que a média); fora: perito ES sem vendedor | BR | — |
+| 10 | ILPI / casa de repouso: documentos para vigilância | 6,5 | BR TESTE (16d, R$97, "evite multa e interdição"); sem sinal fora | BR | App de inspeção |
+| 11 | Corretor de imóveis | 6,0 | BR PROVADO fraco (33,5d; Corretor IA 96d); ES BRECHA | BR | — |
+| 12 | Terapeuta ocupacional | 6,0 | BR PROVADO só com atividades a R$10; CL TESTE (US$17,99) | BR, CL | Motor do psicólogo |
+| 13 | Lash/nail: termo de consentimento + fichas | 6,0 | BR PROVADO ("Termo para lash" 319d); EN sem vendedor no Meta | BR, EN (VERIFICAR Etsy) | Kit estética |
+| 14 | Perito judicial | 5,5 | BR PROVADO 99d; ES BRECHA | BR | — |
+| 15 | Igreja: documentos de secretaria + pregações | 5,5 | Pregação PROVADO BR (92–104d); documentos de igreja = BRECHA (só SaaS); sermões em ES TESTE (US$9,90) | BR, LATAM | — |
+| 16 | Veterinário: kit de documentos | 5,5 | BRECHA em BR, ES e EN, mas nenhuma prova de demanda | Teste barato BR | Valigetta |
+| 17 | Arquiteto / designer de interiores | 5,5 | Nota 08/10: 430d (VERIFICAR); BR 9–10d nos novos | BR | — |
+| 18 | Personal trainer / avaliação física | 5,5 | BR PROVADO (72–187d), mas saturado (agente irmão 07 cobre) | — | — |
+| 19 | Fotógrafo: contratos | 5,0 | BR PROVADO 134d; EN tem marca forte (The Legal Paige) | BR | — |
+| 20 | Food service: precificação/ficha técnica | 5,0 | BR PROVADO (38–54d); encosta na Consultora | BR | Consultora |
+| 21 | Enfermagem: evolução/anotação | 5,0 | BR TESTE recorrente (R$10) | BR | — |
+| 22 | Assistente social / CRAS | 5,0 | BR PROVADO com 1 vendedor (53d) | BR | — |
+| 23 | Professor de artes marciais | 5,0 | BR PROVADO (169d); fora não checado | — | — |
+| 24 | Engenheiro: laudos | 5,0 | BR TESTE (5–18d) | BR | — |
+| 25 | Ofícios (eletricista, marmorista, vidraceiro, CFTV) | 5,0 | BR PROVADO (85–184d), ticket R$10–67 | BR | — |
+| 26 | Terapeuta holístico | 5,0 | BR PROVADO (164d) | — | — |
+| 27 | Mecânico / oficina | 4,5 | BR: kit barato é BRECHA (só SaaS); base 24d/57 | BR | — |
+| 28 | Cuidador de idosos | 4,5 | BR TESTE (8d) | BR | — |
+| 29 | ACS/ACE | 4,5 | BR PROVADO fraco (93d, 4 anúncios) | BR | — |
+| 30 | Qualidade ISO 9001/IATF | 4,0 | BR TESTE (16d) | BR | — |
+
+**Diferença em relação à versão anterior:** a v1 (29/10) não estava acessível neste ambiente, então não dá para listar o que mudou. O que esta versão traz que as notas do usuário não tinham:
+- Farmácia/vigilância como onda nova (BR e MX).
+- Concorrente mexicano do psicólogo (Recursos Legales PRO).
+- Logopeda PROVADO na Polônia.
+- APS/SOAP PROVADO no BR.
+- Síndico em teste pesado no BR e sem vendedor em IT/PT/LATAM.
+- Gancho da EC 141/2026 (fim da 6x1).
+- Zulma Laguna (dentista EUA) cruzando 30 dias em 31/10.
 
 ## 6. VERIFICAR
+1. **EC 141/2026 (fim da 6x1):** número, data de publicação no DOU e datas de vigência. As notícias dão 5x2 + 42h em 16/12/2026 e 40h em 2027, mas divergem na segunda etapa.
+2. **"RDC 1.000"** (anúncio da Farmatécnica): o que é, quem atinge e prazos para farmácia. Também as normas de POP/boas práticas de farmácia (RDC 44/2009 e sucessoras).
+3. **Recursos Legales PRO (MX, page 880855681786807):** abrir a página. Ver o conteúdo do "Kit Legal Psicología" ($499 MXN), as normas citadas, se tem app, a plataforma e a garantia. É concorrente direto do Maletín MX.
+4. **PNOs de farmácia no México:** a exigência COFEPRIS/FEUM e o número de farmácias.
+5. **Lic. Zulma Laguna (EUA):** re-medir entre 31/10 e 05/11 (deve passar de 30d).
+6. **GrandCondo (1240006802532311):** idade real da página e se continua rodando em 30 dias. **RPM Síndico** cruza 30d por volta de 01/11.
+7. **FONO DOCS (101618731821509):** os anúncios foram criados há 155–170d, mas a veiculação recomeçou em 28/10. Confirmar se vendeu de forma contínua.
+8. **APS na Prática 360:** preço, plataforma e conteúdo. A idade passa de 31,6d (a página tem mais de 50 ativos), então medir a página sozinha.
+9. **Tamanho de mercado (sem confirmação; a cota de busca web esgotou):**
+   - Brasil: farmácias (CFF), fonoaudiólogos (CFFa), terapeutas ABA/AT, condomínios e síndicos, equipes de eSF, ILPIs, veterinários (CFMV), corretores (COFECI).
+   - Exterior: farmácias no MX (COFEPRIS), logopedas na Polônia.
+10. **Normas para os ganchos:**
+    - Brasil: RDC 502/2021 (ILPI); AVCB/CLCB por estado (síndico); NBR 14653 (avaliação de imóveis); resoluções do CFMV (documentos do veterinário) e do CFFa (registro do fonoaudiólogo).
+    - Itália: regras do amministratore di condominio.
+    - Portugal: regime do condomínio.
+11. **Nota 08/10 "Arquiteto docs 430d":** re-medir.
+12. **Produtos a identificar:**
+    - Alan Scherer – Personal Trainer (144d).
+    - Patricia Amorin (muitos anúncios no termo "cuidador de idosos").
+    - Elegance IV (fichas clínicas R$59,90).
+13. **Idade das páginas sem medição:** Luz y Palabra (sermões LATAM), The Legal Paige (EUA, e também o preço) e Mi Colega T.O (CL).
+14. **Conceitos 18–30 sem checagem lá fora** (seção 4).
+15. **Nenhuma página de vendas foi aberta** (WebFetch bloqueado). Preço, plataforma, order bumps e garantia de todos os vendedores citados ficam VERIFICAR, exceto quando o preço aparece no título do anúncio ou na base do EscalaLow.
