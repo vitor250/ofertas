@@ -72,8 +72,9 @@ Busca "home care agency forms": só ruído (suplementos). Home care em inglês �
 ### 1.6 Varreduras por profissão (LATAM, 6 países)
 - **Fisioterapia** ("formatos fisioterapia"): 6 anúncios ativos no total (Recursos Salud Pro MX: 1 anúncio de catálogo há 373d; DigitalShop USD "Fisioterapia deportiva"). → BRECHA.
 - **Fonoaudiologia** ("fonoaudiología material terapia" CO/CL/AR/PE/EC): 16 ativos, só clínicas e Nexora (USD, lançamento). Nenhum kit documental. → BRECHA.
-- **Terapia ocupacional**: "Bien Ocupados Pro" (CL, loja online, anúncio de ~56d) — medir (bloqueado pelo limite do conector).
-- **Nutrição** MX ("formatos para nutriólogos"): 5 ativos — NutriKits (MX) "70 kits para nutriólogos desde $50" (medir) e Media Center México "+4,000 archivos de nutrición $99". Chile: Vilboplanner 510d.
+- **Terapia ocupacional**: "Bien Ocupados Pro" (1207970605743920, CL, CLP): 1 anúncio, 55,9d, "Tienda en línea de Bien Ocupados" (loja; produto VERIFICAR).
+- **Nutrição** MX ("formatos para nutriólogos"): 5 ativos — NutriKits (293707977159186, MX) 1 anúncio, 6,0d, "70 kits para nutriólogos desde $50"; Media Center México "+4,000 archivos de nutrición $99". Chile: Vilboplanner 510d.
+- **Equador SST** ("reglamento de higiene y seguridad", EC): 10 ativos, todos consultorias (Nova Green, SYSO Consulting via WhatsApp, SITSO EC 45,3d, admindu 49,4d, J&K Capacitaciones). Nenhum kit. Moeda USD (país dolarizado, então USD não separa neutro de local).
 - **Veterinária** ("historia clínica veterinaria", 6 países): 126 ativos, todos clínicas/consumidor; vendedor para o veterinário só Kit-Vet (AR, 88d) e Esencial VET (PE, estudante, novo). → BRECHA (MX/CO/CL sem ninguém).
 - **Estética sem injetáveis** ("consentimiento informado estética"): 58 ativos; kits: Ultra Pack (operador BR, USD, espanhol neutro: "Más de 50 Fichas para Estética" 20,7d, "Ficha de Depilación Láser", "+200 Reels"), Fer Torres (MX, "Conoce el kit", 1,4d), Recursos Legales PRO "Kit Spas y Cosmetología $699" (MX, 99d na página). → TESTE; neutro não prova país.
 - **Advogado** ("formatos para abogados"): 45 ativos (editoras jurídicas CASAN, Notarial Ediciones, cursos). Kit low ticket: só Recursos Legales PRO (linha nova de 27/10, $499/$699 MXN) e Media Center México (mega-pack $99 MXN). Colômbia: Mentoría Luz Bermudez "Kit Inspección del Ministerio de Trabajo 2026" (COP, 7,1d).

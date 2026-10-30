@@ -1,6 +1,6 @@
 # Educação e inclusão por país (v2, 30/10/2026)
 
-> Status: EM ANDAMENTO (gravado aos poucos).
+> Status: CONCLUÍDO em 30/10/2026 (conector Meta + busca web; sem SearchAPI e sem abrir páginas de vendas).
 
 ## Avisos de método
 - A v1 (`pesquisas-nichos-2026-10-29/educacao-inclusao.md`) NÃO estava acessível neste ambiente. Usei os candidatos e os itens VERIFICAR listados no próprio prompt e nas notas do usuário (fila-ofertas, pesquisa-europa).
@@ -55,6 +55,7 @@ Régua: PROVADO = vendedor ativo há 30+ dias no país/idioma/moeda; TESTE = sin
 | Didattica Persuasiva (839518676072641) | guias "ADHD/DOP senza paura" para professores | poucos | EUR | ~11 d | TESTE (nativo) |
 | Edizioni Centro Studi Erickson (203065183038056) | SOFIA ICF, plataforma de compilação de PEI/PDP | – | EUR | 72 d | incumbente (software/editora), não low ticket |
 
+- Checagem de nativo: os termos "PEI pronto" (13 resultados) e "PDP DSA modelli" (1: "Il piacere di apprendere", EUR, catálogo BES ~24 d) não trazem nenhum vendedor italiano em EUR de PEI pronto. Só os mesmos clonadores (Ludo Kids, Estimulación en casa, Sostegno Pronto).
 - Preço/página de Ludo Kids e Sostegno Pronto: NÃO consegui abrir (Facebook e a maioria dos sites estão bloqueados pela rede deste ambiente; a busca web não indexa as páginas) → VERIFICAR preço, plataforma, bumps e garantia.
 - Leitura: há um operador BR (Ludo Kids) chegando a ~30 dias em sostegno IT com 29 criativos e um clonador (Estimulación en casa) que copiou o ângulo "PEI già scritto" em 26/10. Ninguém vende **PEI conforme o DL 170 + app** (gerador de PEI/relazione finale/verbale GLO). BRECHA de mecanismo, não de nicho.
 
@@ -81,11 +82,9 @@ Régua: PROVADO = vendedor ativo há 30+ dias no país/idioma/moeda; TESTE = sin
 | Estimulación en casa - Kids (563516643501385) | "WOPFU i IPET już napisane + 120 zajęć" | 4 (PL) | USD | 0,2 d (30/10) | clonador estrangeiro chegou HOJE |
 
 - Preços (Pani Andzia, Centrum Pedagogiczne, COS 149 zł citado na v1): não abri as páginas (rede bloqueada) → VERIFICAR. A nota de 29/10 fala em faixa 88–239 zł e nenhum concorrente com app.
-- Leitura: Polônia é o único país europeu deste nicho com vendedores NATIVOS em moeda local há 150–226 dias (o mais antigo de todos os países europeus medidos hoje). É PROVADO. A janela muda: em 30/10 um clonador estrangeiro (USD) entrou com "WOPFU i IPET już napisane". Nosso ângulo continua livre: **ocena funkcjonalna (nova obrigação) + IPET/WOPFU gerados por app a partir de uma observação** ("Jedna obserwacja – pięć dokumentów").
+- Leitura: Polônia é o único país europeu deste nicho com vendedores NATIVOS em moeda local há 150–247 dias (os mais antigos de todos os países europeus medidos hoje). É PROVADO. A janela muda: em 30/10 um clonador estrangeiro (USD) entrou com "WOPFU i IPET już napisane". Nosso ângulo continua livre: **ocena funkcjonalna (nova obrigação) + IPET/WOPFU gerados por app a partir de uma observação** ("Jedna obserwacja – pięć dokumentów").
 
 
-## Lista final de VERIFICAR
-(a preencher)
 
 ### Espanha: opositores docentes e professores (programación / situaciones de aprendizaje)
 
@@ -191,3 +190,33 @@ Em 15 dias apareceram operadores em USD/BRL replicando "kit do professor" em vá
 - **Ludo Kids / Jogos Terapêuticos (BRL)**: mesma família de produto ("25 Musicogramas") em ES/DE/EN/IT/FR/PT; o "sostegno" IT tem ~30 d.
 - Spielschachtel (DE, USD), Poteca (RO, USD), Leonie Schmid (PT, USD), KompraFácil (PEN, atividades de inglês em italiano).
 → Em PL/IT o nativo ainda lidera, mas a janela de "primeiro com documento normativo + app" está fechando. Re-checar em 12/11 e 28/11 quais clones passaram de 30 dias.
+
+## Lista final de VERIFICAR
+
+**Normas e datas**
+1. Itália: texto final da lei de conversão do DL 170/2026 (A.S. 2053; prazo 29/11/2026). Confirmar os prazos do PEI (junho; 15/10 para novos matriculados/nova certificação; atualização nas 2 primeiras semanas de outubro) e se a emenda do GLO online entrou. Só escrever os modelos depois disso.
+2. Itália: vigência e calendário das "Nuove Indicazioni" para a scuola dell'infanzia/primo ciclo (o clonador anuncia "Nuove Indicazioni 2026 · 3, 4 e 5 anni"). Não checado: a busca web acabou.
+3. Polônia: os artigos exatos das "obowiązkowe tygodnie projektowe" da Kompas Jutra e o calendário de revisão de IPET/WOPFU (base do pico de jan/2027).
+4. Polônia: o nº oficial de etaty de psicólogos, pedagogos e pedagogos especiais (MEN 09/07/2026, vindo da nota de 29/10). Não reconferido hoje.
+5. França: as datas oficiais do CRPE 2027 no Cyclades/devenirenseignant (inscrição até 25/11/2026 às 12h e escritas em 30–31/03/2027 vêm só do digiSchool) e as datas da via bac+3. Também o nº de inscritos e de vagas.
+6. Espanha: as convocatórias 2027 por CCAA nos boletins (Baleares com provas a partir de 17/04/2027 e 474 vagas, BOIB; Murcia ~2.000; Castilla y León Maestros; Asturias 199). O dado de Baleares pode ser de mobilidade.
+7. Chile: a data de fechamento do Portafolio 2026 no docentemas.cl (ciclo 2025 fechou em 10/11/2025), a abertura do ciclo 2027 e o nº de docentes inscritos.
+8. Colômbia: o nº de estudantes com PIAR/deficiência no SIMAT.
+
+**Vendedores (todas as páginas de vendas ficaram sem abrir: rede bloqueada)**
+9. Ludo Kids (1064674326719515): preço, plataforma, bumps e garantia do "+120 Attività pronte per il sostegno". Re-checar em 31/10–05/11 se passou de 30 d.
+10. Sostegno Pronto / The Digital Resource VAULT (417217511687270): preço e conteúdo do "Kit Operativo 2026/27". Só 2 anúncios, em USD.
+11. Estimulación en casa - Kids (563516643501385): preço do "PEI già scritto" e do "WOPFU i IPET już napisane". Re-checar em 12/11 e 28/11 quais clones (IT/PL/RO/HU/UK/AU/IE) sobreviveram.
+12. Pani Andzia (106813384719110), Centrum Pedagogiczne (1620840041579216), Edu Anima (108220223931574), Specjalni.pl (1125669750798210): preços (a v1 citava 88–239 zł e COS 149 zł), plataforma, aceita BLIK? fatura para escola?
+13. Edukapol (644196402392423): se vende algum kit pago ou só cursos (aparece com webinars grátis). O anúncio mais antigo não ficou visível (>50 ativos).
+14. Profe Ernesto (633472899847838): o que vende hoje (são 3 anúncios de out–dez/2025 ainda ativos) e o preço. Idem para Einstein Academic, Sube IA, Planificada.cl e Material Educativo ECEP.
+15. Ucademy (100357595817123): confirmado como academia (FP oficial/oposiciones), não vendedor de kit. Falta o preço do curso de oposiciones docentes.
+16. Pentru Educatoare (RO): não apareceu em nenhum anúncio ativo nem na busca web. Confirmar se parou ou mudou de nome.
+17. Materiales Miss eli (MX, 718224014710342): qual produto (os anúncios não trazem título). Apareceu no termo "USAER".
+18. Checkout: PLN/BLIK na Hotmart/Kiwify para a Polônia (bloqueio já anotado em 29/10).
+
+**Bloqueios desta rodada**
+- SearchAPI: sem chave aqui e sem crédito até 08/11.
+- Rede: Facebook e sites de notícias/vendas recusados pelo proxy (liberar em Network access do ambiente).
+- Busca web: o limite da sessão acabou no fim da pesquisa.
+- Conector Meta: um "Too Many Requests" isolado, resolvido ao reduzir o ritmo. Ele devolve no máximo 50 anúncios por consulta, os mais novos primeiro.

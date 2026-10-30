@@ -27,10 +27,8 @@ Medição no conector Meta em 30/10/2026, só anúncios ATIVOS, por `page_id`.
 | **Ratio Studio** (1227357643798350) | Argentina (ART, amparos de salud) / USD | **216** | ≥ 1,8 d (piso; 166 invisíveis) | "Guía Práctica de ART para Abogados", "...de Amparos de Salud", "...de Daños y Perjuicios", "...de Derecho de Familia", "...de Registro de Marcas" | Não aberta; busca web não achou. Preço VERIFICAR | Volume altíssimo, idade desconhecida → VERIFICAR com SearchAPI após 08/11. Coleção de guias por área (formato "1 área = 1 produto") |
 | **Tubibliotecajuridica** (777997355400950) | Colômbia / COP | 3 | 2,3 d | Biblioteca jurídica (link para Instagram) | — | TESTE |
 | **Rai Lomer** (100828309790367) | Espanha / EUR | 10 | 9,0 d | "Agente de IA para Abogados", "Expedientes sin perseguir", "Del email al borrador" | — | TESTE; é SaaS/serviço de IA, não kit |
-
 | **Automatiza juridico** (1178070148732039) | México / conta em USD, preço em MXN | 25 (todos visíveis) | **0,8 d** (todos de 29/10) | "Claude para Abogados – Edición México": guia + 53 ferramentas + 8 bônus, **MXN 349 pagamento único, 10 dias de garantia**; a mesma página roda criativos para CONTADOR ("correo falso del SAT", "le pasaron una CIEC", "papeles del mes", "otro contador cobra menos") | Não aberta; preço e garantia lidos no título do anúncio | TESTE (nasceu ontem). Mostra o preço-âncora do MX para kit profissional: MXN 349 (~R$ 105) |
 | **Dra. Catalina Leal** (801292493075440) | USD | 1+ | VERIFICAR | "Claude para Abogados" | — | TESTE |
-
 | **Abogadologia** (322764450912522) | Argentina / ARS | 2 | 16,8 d (desde 13/10/2026) | "Pack Jurídico Argentino" | Não aberta; busca web esgotada antes de achar | TESTE (perto de virar prova; re-checar 13/11) |
 | **Leg-TECH** (307460479128102) | Peru / PEN | 5 | **231,8 d** (desde 12/03/2026) | "RECLAMA TU BALOTARIO" (banco de questões de exame/concurso) + WhatsApp | — | PROVADO no Peru, mas nicho de EXAME (concurso), não kit de prática |
 | **Braszka&Merkel** (531264847705050) | Argentina / ARS | 1+ visto | 153 d (anúncio de 29/05/2026) | "Sumate al curso mas completo" (curso) | — | Curso, fora do formato |

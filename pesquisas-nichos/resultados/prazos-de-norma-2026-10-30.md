@@ -67,7 +67,20 @@
 
 ## 2. Checagem de vendedores (top 30)
 
-(em preenchimento)
+Método: `ads_library_search` (só ATIVOS), busca por termo no país; para cada vendedor de info-produto, consulta por `page_ids` → nº de anúncios ativos (estimated_total_count) e DIAS REAIS = 30/10/2026 − menor `ad_delivery_start_time`. A busca do conector NÃO é por frase exata e ordena do mais novo para o mais velho (só mostra os 50 mais recentes); termos genéricos em inglês (US) devolvem ruído. O limite de buscas web da sessão (200, compartilhado entre agentes) esgotou no meio da checagem → páginas de vendas não foram abertas (preço/bumps = VERIFICAR).
+
+### Notas de campo (rascunho)
+- MX "registro de jornada" (471 anúncios ativos): só software/RH (Humand ARS, Chekko MXN, Sesame HR EUR, Aurora Inbox "hazlo gratis", Siigo Aspel, ADAYD IA Abogados), webinars. Info-produto: "Seguridad e higiene y mas.9" (1 anúncio, ~14d). "kit reforma laboral 40 horas" = 2 resultados (contador, TVC). → BRECHA de kit.
+- CO "Decreto 1040 protocolo acoso" = 0; "protocolo acoso laboral plantilla" = 0 relevante. → BRECHA.
+- CO "reglamento interno de trabajo" (47): **Coach Augusto Jimenez — "Kit Reglamento Interno Inteligente"** (page 103857225566410): 39 anúncios ativos, mais antigo 26/09/2026 → **33,6 dias**, conta USD, criativos novos todo dia (escalando). Demais = advogados/consultorias (serviço). "Tu Demanda Laboral" (serviço, COP) 3 anúncios, 132d.
+- CL "Ley 21.719" (61): cursos/diplomados (eClass, UDD, UBO), software (SpindleLab, DataQu, Entel), consultorias. Info-produto: **Me.impulso "Kit Ley 21.719: guía + plantillas"** (page 275744685615964) 5 anúncios, **6,0 d**, CLP; **Centro Árbol "Curso implementación Ley 21.719 para profesionales independientes de salud" (Hotmart)** (page 104393852955400) 4 anúncios, **23,4 d**, CLP; Compliance Center (catálogo, ISO 27001) 5 anúncios, 27 d.
+- ES "Verifactu" (326): quase tudo software/TPV/gestoria. Info-produto: **Kit Contable Práctico "7 cuadernos + 6 bonos por 23,90 €"** (page 1411204478738237) 13 anúncios, **2,8 d**, conta USD (perfil de operação BR/LATAM).
+- FR "facturation électronique" (716): 100% software/banco (Dext, Qonto, Shine, Tide, Abby, Axonaut…). Zero kit.
+- UK "Employment Rights Act" (41): consultorias de RH com lead magnet grátis (Peninsula 135 d, HR Duo 77 d, Citation, BrightHR, WorkNest, iHasco, Indicator "Free Employment Rights Toolkit"). Zero kit pago low ticket.
+- UK "Renters' Rights Act landlord" (127): imobiliárias com checklist/webinar grátis. Zero kit pago.
+- US "WISP"/"written information security plan": ruído total (busca não exata). VERIFICAR com SearchAPI.
+
+(seção consolidada abaixo, em preenchimento)
 
 ## 3. Ranking 0–10
 
