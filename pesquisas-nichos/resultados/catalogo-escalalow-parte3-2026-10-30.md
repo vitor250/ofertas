@@ -126,3 +126,19 @@ Observação de método: a busca do conector ordena do anúncio mais novo para o
 ### B11. Posts prontos por profissão (135 lash, 151 estética "Dra.", 144 personal trainer)
 - ES-LATAM+ES "posts editables Canva para esteticistas": 95 (busca ampla); Mind Digital Studio (USD, "Tu marca de coach"), Pack Insta de Impacto (BRL = brasileiro em espanhol, "Plantillas Black Friday"). Mercado tomado por packs genéricos em USD/BRL.
 - IT "post pronti Canva estetiste": 16; sem pack de posts para esteticista. Achados laterais relevantes: **Kit Studio Blindato - APP** (1294553453740890, USD; o concorrente BR do dentista/psicólogo na Itália agora anuncia "APP", ~8 d); **Paulina Vera** "Kit Immobiliare Pro" (USD, ~1 d = BR levando kit de corretor para a Itália); Marjposa Phytocosmesi (EUR, protocolos para centros de emagrecimento).
+
+### B12. Macros de sublimação (123) e eletricista residencial (108)
+- "plantillas sublimación CorelDRAW" (LATAM+ES): 18. **Smartsubli** (BRL = brasileiro vendendo em espanhol) "Diseño en todos los moldes con 1 clic", ~23 dias. TESTE (o próprio BR exportando).
+- "instalaciones eléctricas residenciales paso a paso PDF": 10. **Faradayos** (USD) "Guía ilustrada de instalaciones eléctricas", ~56 dias; **Mentes Ganadoras - Packs Digitales** (ARS) "Mega Pack Electricidad", ~79 dias; Academia Online PRO (USD) ~5 d; CEDAP e ProAcademy (MXN, cursos). PROVADO (AR e espanhol neutro).
+
+### Checagens finais (top do ranking)
+- Psicólogo, AR/CL/PE/EC/UY "documentos clínicos psicólogo plantillas consentimiento informado": 0. "historia clínica psicología plantillas" (AR/CL/PE/EC/UY/ES): 3; **Psicoagenda** (ARS) ~22 dias (produto VERIFICAR: agenda/software?); Aprende y Emprende en Casa "Pack Psicología" (MXN) ~58 dias (México, já conhecido).
+- "informe psicopedagógico plantilla" (LATAM+ES): 0.
+- ABA, "hojas de registro ABA terapeutas" (LATAM+ES+US): só Conecta ABA (USD, ~5–7 d). Confirma: em espanhol só há 1 vendedor de kit ABA, com 1 semana.
+- Estimulação cognitiva profissional: FR "animation EHPAD fiches activités": 1 = **The Resource Lab** (USD) "Votre semaine d'ateliers, déjà prête", ~10 dias (mesmo padrão de copy de "Palestra Mentale"/"Seduta Pronta" na Itália; provável mesmo operador BR, VERIFICAR). DE "Beschäftigung Senioren Demenz Material": 0. ES "talleres estimulación cognitiva residencias mayores listos": 0; LATAM "sesiones de estimulación cognitiva listas para terapeutas": 0. Palestra Mentale medida por página: 11 ativos, mais antigo ~15 dias, criativos novos há ~9 dias (escalando).
+- Instalador CFTV: PL "kurs instalator monitoringu kamer": 0; DE "Videoüberwachung Kurs Errichter": 0.
+- Grafomotricidade PL "karty pracy grafomotoryka": 9; vendedores nativos em PLN de longa data: **Pomoce dydaktyczne - Gugu Rabbit** ~807 dias, **ABC w dydaktyce** ~114 dias, Zakątek Pedagogicznych Inspiracji ~44 d, Przedszkolne EduStory (900 páginas PDF) ~3 d. PL = PROVADO e competitivo (nativo).
+- Concursos ES "esquemas oposiciones PDF temario": 8; academias (Esfera, Junta de Andalucía, Prefortia, Pilar Fernández) + **Emma Schneider** (BRL = brasileira) "De 300 páginas a 42 esquemas", ~7 dias. TESTE ES (BR chegando).
+
+### Idiomas não pesquisados (orçamento de buscas)
+RO, CZ, SK, HU, GR, NL e TR não foram consultados com termos próprios; DE e PL só nos conceitos de topo. Aparições laterais: CZK em marcenaria (Woodworking DIY Ideas, Dřevo Chotyně). Os termos traduzidos estão na seção 1 para a próxima rodada.
