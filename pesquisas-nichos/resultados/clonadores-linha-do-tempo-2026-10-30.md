@@ -1,6 +1,8 @@
 # Clonadores do nosso modelo: linha do tempo e próximos nichos (30/10/2026)
 
-> **Status:** em andamento (gravado aos poucos).
+> **Status:** concluído em 30/10/2026. Todas as medições são de anúncios ATIVOS via conector Meta.
+>
+> **Não havia versão anterior acessível (v1 de 29/10).** Por isso não dá para listar o que mudou em relação a ela. Toda página nova nesta lista foi encontrada hoje.
 > **Limitações deste ambiente:** a v1 de 29/10 e os arquivos do Desktop NÃO estavam acessíveis; usei só a lista de operadores do prompt e as notas (`notas/*.md`). O SearchAPI NÃO estava disponível (sem chave aqui e créditos zerados até 08/11): toda medição foi feita pelo conector Meta (`ads_library_search`, só anúncios ATIVOS). DIAS REAIS = 30/10/2026 − menor `ad_delivery_start_time` entre os anúncios ativos da página. Como o conector só vê anúncios ativos, "início" = anúncio ativo mais antigo, não necessariamente o primeiro anúncio da página.
 
 ## 0. Método e o que funcionou neste ambiente

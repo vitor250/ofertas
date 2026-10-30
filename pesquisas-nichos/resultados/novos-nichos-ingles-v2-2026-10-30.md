@@ -10,8 +10,10 @@ Data de referência: 30/10/2026.
 - WebSearch: a cota de buscas da sessão (200 por turno, compartilhada entre todos os agentes irmãos) ESGOTOU no meio desta pesquisa. Ficaram sem confirmação oficial nesta v2: short-lets Irlanda, nº de care agencies CQC, FHRS, CDM/RAMS, registro de childminders na Irlanda (Tusla), NZ ECE e Canadá. Esses itens estão marcados VERIFICAR (rodar de novo em outra sessão).
 - Régua: PROVADO = vendedor com anúncio ativo há 30+ dias no país/idioma/moeda; TESTE = sinal sem vendedor antigo; PRAZO = gancho com data de norma; BRECHA = ninguém vende.
 
-## Status
-(em andamento)
+## Resumo (concluído em 30/10/2026)
+- **Top:** 1) Childminders Ofsted UK 8,0 (PROVADO + PRAZO); 2) Landlords Inglaterra "Register your rental property" 7,0 (PRAZO 15/12/2026); 3) Care agencies CQC 6,5; 4) SWMS por ofício AU 6,5; 5) Dentista EUA 6,5 (complemento, já na fila); 6) NDIS kit low ticket 6,0; 7) Planejamento anual EYFS/EYLF/Aistear 6,0 (onda de clonador nova).
+- **O que esta v2 acrescenta ao que a v1 não tinha (pelas lacunas citadas no prompt):** DIAS REAIS por page_id do Childminder Resource Hut (486 d, 35 anúncios), Care Daily (132 d) e Provider360 (486 d, 59 anúncios); fontes oficiais de nº de childminders (24.700), novo ciclo Ofsted (4 anos / 18 meses), EYFS de 01/09/2026, NDIS (21.387 registrados e 245.762 não registrados em dez/2024; registro obrigatório SIL/plataformas desde 01/07/2026), ACECQA (18.197 serviços) e roadmap do Renters' Rights Act (fase 1 em 01/05/2026; banco de dados em 15/12/2026, £65/imóvel). Achados novos: SWMS Kit (AU, A$59, 29 d), ECE Learning Unlimited (NZ, 138 d), Organized Daycare (EUA, 55 d) e o operador LATAM "Estimulación en casa" clonando planejamento anual para EYFS/EYLF/Aistear em 7+ países.
+- **Sem resposta nesta sessão:** preços dos 3 vendedores-chave (WebFetch bloqueado) e short-lets Irlanda (cota de WebSearch esgotada). Ver seção 5.
 
 ## 1. Varredura na Biblioteca de Anúncios (por nicho e país)
 

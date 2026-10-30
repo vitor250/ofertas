@@ -1,6 +1,15 @@
 # Catálogo EscalaLow, parte 1 (índices 0 a 52): brechas por país
 
-Data de referência: 30/10/2026. Autor: agente de pesquisa (Claude). Status: EM ANDAMENTO (arquivo gravado aos poucos).
+Data de referência: 30/10/2026. Autor: agente de pesquisa (Claude). Status: CONCLUÍDO (com limitações listadas abaixo).
+
+## Resumo (top 5)
+1. **8,0 · Pasta HACCP + simulador de inspeção (FR, RO, CZ, SK; depois ES/PT/MX/CO)**: ninguém com 30 dias vendendo kit; um clonador (Andrei Kowalski, USD) testa a mesma tese da Consultora em 4 países há 12 dias. Reaproveita a Consultora.
+2. **7,5 · Kit "facture électronique 2027" para micro/PME (FR)**: prazo oficial 01/09/2027; Amélie Boissieu vende kit contábil a 23,90 € com ~40 anúncios em 9 dias. Reaproveita o motor do Termometro/Agenda Verde.
+3. **7,0 · Kit de documentos do dentista em inglês (EUA)**: Zulma Laguna com 29 dias; um BR vende kit de $27 para dentista americano há 146 dias. Reaproveita a Valigetta.
+4. **6,5 · Kit Verifactu para autónomos (ES)**: mesmo operador do #2 entrou há 3 dias; prazo 01/07/2027 (VERIFICAR).
+5. **6,0 · empate**: KSeF (PL, PDF anunciado há 269 dias), eletricista (IT zerada; BR testando no UK e FR) e psicopedagogo (AR, onda de 0–6 dias).
+
+Diferença em relação à v1: a v1 não estava acessível aqui, então não dá para comparar item a item. O que mudou nesta semana é que operadores brasileiros/estrangeiros começaram a portar ofertas desta faixa (eletricista, HACCP, psicopedagogia, STL católico, Pet Comilão, planner TDAH, kit contábil) com 0 a 12 dias de anúncio.
 
 ## Avisos de ambiente (ler antes)
 - A versão anterior (v1 de 29/10) e os arquivos do Desktop NÃO estavam acessíveis neste ambiente (container na nuvem). Não há comparação linha a linha com a v1; uso só as notas do usuário (`notas/*.md`).
@@ -231,10 +240,88 @@ Dentista já foi pesquisado a fundo em 28–29/10 (ver `notas/fila-ofertas.md` e
 - Marcenaria em inglês está saturada, inclusive por brasileiros (Weekend Woodshop, BRL, "16,000+ plans") (relatório irmão `catalogo-escalalow-parte3`).
 
 ## 3. Aprofundamento das brechas fortes (página de vendas, tamanho da profissão, gancho legal)
-(preenchendo)
+Limitação: com o WebFetch bloqueado e a cota de busca web esgotada (limite de 200 buscas por turno, compartilhado entre agentes, atingido no meio desta pesquisa), não abri nenhuma página de vendas e confirmei por fonte oficial só a data francesa. O resto vai como VERIFICAR, com a norma citada para conferência.
+
+### 3.1 C02 → "Consultora" (simulador de inspeção sanitária + pasta HACCP) em FR, RO, CZ, SK, ES, PT, MX, CO
+- O que vende lá fora: Andrei Kowalski (page 1340912605769671, conta USD, 17 anúncios, mais antigo 18/10 = ~12 dias) vende exatamente a tese da Consultora: "pasta pronta para a inspeção" de café/bistrô, com ganchos de medo ("L'inspecteur de la DDPP est à la porte", "Mâine vine controlul DSVSA", "Kde máte zložku HACCP?"). Preço, plataforma, bumps e garantia: VERIFICAR (página não abriu).
+- Concorrentes que acabaram de entrar: Valéria Moura (BRL, ES-LATAM, combo HACCP 68 documentos, 29/10); Studio Facile (USD, e-book "HACCP com desenhos" em 6 idiomas, 29/10); Novelty Nook (PT, cantinas escolares); Trazabilidad Express (ES, obradores); AHACCP.ai/Sattva (HU).
+- O que dura há meses é serviço/software (HACCP Smart IT ≥164d; NORMA HACCP IT ≥125d; Facile Sicurezza IT 644d segundo o irmão `novos-nichos-europa-v2`), ou seja, o dono de restaurante PAGA para resolver isso; falta a versão barata.
+- Gancho legal (VERIFICAR texto e URL oficial): na UE, o Regulamento (CE) 852/2004, art. 5, obriga todo operador do setor alimentar a manter procedimentos baseados nos princípios HACCP; fiscalização nacional (FR DDPP; RO DSVSA/ANSVSA; CZ KHS; SK RÚVZ; ES Sanidad autonómica; PT ASAE). México: NOM-251-SSA1-2009 (práticas de higiene) e o medo da "clausura" (há curso "Anti Clausura NOM-251" anunciando). Colômbia: Res. 2674/2013 (BPM, plano de saneamento).
+- Tamanho de mercado: VERIFICAR (número de restaurantes/cafés por país).
+- Leitura: BRECHA real (sem vendedor de kit com 30 dias), mas em corrida: um clonador já testa 4 países há 12 dias. Se Kowalski chegar a 30 dias (≈17/11), vira prova de compra em RO/CZ/SK/FR.
+
+### 3.2 C07 → kit/app "faturação eletrônica 2027" para micro e pequenas (FR, ES, PL, DE)
+- FR (PRAZO confirmado em fonte oficial): emissão de fatura eletrônica obrigatória para PME, TPE e microempresas a partir de 01/09/2027; recepção obrigatória para todas desde 01/09/2026 (impots.gouv.fr, página "À partir de quand suis-je concerné par la réforme de la facturation électronique ?": https://impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation ; base: LF 2024 art. 91 e LF 2026 art. 123, segundo La Poste: https://www.laposte.fr/entreprise-collectivites/actualites/calendrier-dematerialisation-factures-en-est-votre-entreprise). Multa de €50 por fatura (art. 1737 CGI) segundo o irmão `prazos-de-norma`: VERIFICAR. Se micro-empresário em "franchise en base de TVA" também emite: VERIFICAR.
+- Quem vende: Amélie Boissieu (page 1363004406903385, USD, ~40 anúncios em 9 dias) "Kit Comptable Pratique 2027 · 7 cahiers + 6 bonus à 23,90 €"; o mesmo operador abriu "Kit Contable Práctico" na Espanha há ~3 dias (12 anúncios, 23,90 €). Câmaras de ofícios (CMA) e consultorias fazem campanha "Factures PDF interdites en 2027". Ritmo de criativos = teste que está dando certo (VERIFICAR conteúdo e funil).
+- ES: Verifactu (RDL 15/2025: sociedades 01/01/2027; autónomos 01/07/2027, segundo o irmão `prazos-de-norma`; VERIFICAR no BOE). Concorrência = SaaS barato (ZIOBE 9,95 €/mês, Quantax grátis) + o kit de 23,90 €.
+- PL: KSeF para micro (≤10 mil zł/mês) a partir de 01/01/2027 (irmão `prazos-de-norma`; VERIFICAR). "Porady dla JDG" anuncia "Poradnik (PDF): KSeF" há ~269 dias (PLN) = demanda contínua por guia em PDF (VERIFICAR se é pago).
+- DE: E-Rechnung, emissão obrigatória 01/01/2027 para faturamento > €800 mil e para todos em 01/01/2028 (irmão `prazos-de-norma`); não pesquisei vendedor.
+- Reaproveitamento: o motor do Termometro 85k / Agenda Verde (calculadora + calendário + checklist) vira "Kit Facture Électronique 2027" (FR) e "Kit Verifactu autónomos" (ES) com app de checklist e modelos.
+
+### 3.3 C01 → dentista em inglês (EUA)
+- Lic. Zulma Laguna (page 778739435326228, USD): "Get Your Dental Clinic Inspection-Ready in 1 Hour" ativo desde 01/10 (~29 dias; vira PROVADO em 31/10 se continuar), mais 4 criativos de 26–27/10 ("Dental Docs, Done for You", "Dental Protocols, Already Written"). Nota anterior do usuário: "Dental Kit in Free Canva $27".
+- Dental Master Pro Max (page 1170940042761217, conta BRL) "Get More Dental Patients For Just $27": anúncio ativo há ~146 dias = PROVADO de que dentista americano compra kit de $27 de operador brasileiro (é kit de marketing, não de documentos; conteúdo VERIFICAR).
+- Reaproveitamento: Valigetta (kit + app) em inglês, com gancho de inspeção (OSHA/estado; VERIFICAR norma).
+
+### 3.4 C04 → eletricista (UK, FR, IT, ES)
+- UK: Markus Schneider (BRL) "+200 Visual Cards for UK Electricians" (~8 dias); Tradecert (app, ~34 dias). Gancho (VERIFICAR): Electrical Safety Standards in the Private Rented Sector (England) Regulations 2020 = EICR a cada 5 anos em imóvel alugado.
+- FR: Acelera Negócios (BRL) "Vos devis professionnels par la voix" = porte da Tabela Digital do Eletricista (35), ~1 dia.
+- IT: zero anúncio para "prezzario elettricista". Gancho (VERIFICAR): DM 37/2008, dichiarazione di conformità obrigatória ao fim de cada instalação.
+- ES-LATAM: Tu Rincon Digital (USD) "¿Cuánto se cobra…?" multi-ofício, ~1 dia.
+- Leitura: TESTE em 3 países com operadores BR; Itália é a brecha limpa.
+
+### 3.5 C03 → psicopedagogia na Argentina (e França)
+- AR: Evaluá Psicope (USD, voseo, "100 pruebas listas para aplicar", "El informe para la escuela, ya redactado", ~3,5d), Consultorio en Orden (USD, "21 plantillas en 8 módulos", "7 días de garantía", ~0,8d), Camila Rodriguez (BRL, "Kit Psicopedagógico Editable"), Formacionpsicopeok (ARS, curso).
+- FR: Jogos Terapêuticos (BRL) "activités psychopédagogiques dès 5 €" (~19d, irmão).
+- Tamanho da profissão na Argentina: VERIFICAR (cota de busca esgotada).
+- Reaproveitamento: estrutura do Maletín del Psicólogo (MX) para "Maletín del Psicopedagogo" AR (informe escolar, anamnese, consentimentos, app de sessões).
 
 ## 4. Ranking das brechas (0 a 10) e reaproveitamento
-(preenchendo)
+Critério: régua do usuário (PROVADO / TESTE / PRAZO / BRECHA), aderência ao modelo "kit de documentos + app por profissão", reaproveitamento do que já existe e velocidade da concorrência.
+
+| # | Brecha (país) | Conceito / ofertas | Status | Nota | Reaproveita | Por quê |
+|---|---|---|---|---|---|---|
+| 1 | Pasta HACCP + simulador de inspeção (FR, RO, CZ, SK; depois ES, PT, MX, CO) | C02 / 30 | BRECHA virando TESTE (Kowalski 12d) | 8,0 | Consultora + app de inspeção | Obrigação legal em toda a UE, medo de fiscalização, só serviço caro dura; clonador já testando = entrar já |
+| 2 | Kit "facture électronique 2027" para micro e PME (FR) | C07 / 13 | PRAZO 01/09/2027 + TESTE (Amélie Boissieu, 23,90 €, ~40 anúncios em 9d) | 7,5 | Motor Termometro 85k / Agenda Verde | Data oficial, público enorme, concorrente estrangeiro escalando rápido |
+| 3 | Kit de documentos do dentista em inglês (EUA) | C01 / 46 | Quase PROVADO (Zulma 29d) + PROVADO de kit $27 de marketing (146d) | 7,0 | Valigetta | Já estava na fila; confirmar 31/10–05/11 |
+| 4 | Kit Verifactu para autónomos (ES) | C07 / 13 | PRAZO 01/07/2027 (VERIFICAR) + TESTE (Kit Contable Práctico ~3d) | 6,5 | Motor Termometro / Agenda Verde | Mesmo produto do #2, segundo idioma |
+| 5 | Guia/kit KSeF para JDG (PL) | C07 / 13 | PROVADO de demanda (PDF há ~269d) + PRAZO 01/01/2027 | 6,0 | Motor Termometro | Polonês, PLN/BLIK e fatura são barreira (mesmo bloqueio já anotado para a Polônia) |
+| 6 | Kit do eletricista (IT; depois UK e FR) | C04 / 35, 32 | BRECHA na IT; TESTE BR no UK (8d) e FR (1d) | 6,0 | App de checklist/inspeção (Consultora) + tabela de preço por voz | DiCo (DM 37/08) e EICR são documentos obrigatórios (VERIFICAR) |
+| 7 | Maletín del Psicopedagogo (AR) | C03 / 23 | TESTE (3–4 vendedores de 0–6 dias) | 6,0 | Maletín del Psicólogo | Carreira forte na AR; risco de câmbio/checkout ARS |
+| 8 | Schede/aulas prontas para professor (IT: scienze, sostegno, infanzia) | C09 / 7, 50, 33, 49 | Loja local PROVADA (L'angolo del Docente ~208d) + TESTE BR a €7,90 | 5,5 | – | Professor italiano compra; preço baixo; concorrência BR chegando |
+| 9 | Catálogo de projetos para herrero/serralheiro cotar (MX) | C12 / 52, 3 | TESTE local (13d, MXN) | 5,0 | – | Ângulo profissional (cotar no WhatsApp); hobby já saturado |
+| 10 | Radiestesia para terapeuta (PT-PT, ES) | C06 / 37 | Quase PROVADO no PT (Caixa do Terapeuta ≥23d, 141 anúncios) | 5,0 | – | O próprio vendedor BR já está lá; nicho místico |
+| 11 | Planner TDAH (ES, FR) | C23 / 31 | TESTE (vários clones, inclusive EUR nativo) | 4,0 | – | Consumidor, muitos clones |
+| 12 | Comida natural para cães (ES-LATAM) | C22 / 9 | TESTE (clone BR 3d) | 4,0 | – | Consumidor |
+| 13 | Receitas para vender (ES-LATAM) | C18 / 2, 15, 51 | PROVADO (irmão: bolis 79d) | 4,0 | – | Funciona, mas fora do modelo profissão |
+| 14 | Moldes de costura (IT) | C13 / 5, 28 | TESTE (só USD, <9d) | 3,5 | – | Consumidor |
+| 15 | Alfabetização / atividades infantis (ES, IT, FR) | C10 / 8, 10, 14, 22, 48 | SATURANDO de BR | 3,0 | – | Oceano vermelho em espanhol |
+| 16 | STL 3D (ES) | C11 / 1, 12, 38 | TESTE com 744 anúncios no termo | 3,0 | – | Consumidor/maker |
+| 17 | Receitas restritivas (IT) | C19 | TESTE em massa BR | 3,0 | – | Consumidor |
+| 18 | QGIS planta + memorial (ES/IT) | C05 / 36 | BRECHA, mas produto depende de regra BR | 3,0 | – | Exige refazer para cadastro de cada país |
+| – | C14, C15, C16, C17, C20, C21, C24, C25, C26 | – | não pesquisado ou fora do modelo | ≤3 | – | ver seção 2 |
+
+### Reaproveitamento em uma linha
+- App de inspeção / Consultora → #1 (HACCP em 8 países) e #6 (checklist do eletricista: DiCo/EICR).
+- Valigetta → #3 (EUA, inglês) e já na fila para CO/ES/RO.
+- Motor Termometro 85k / Agenda Verde → #2, #4, #5 (calendário de obrigação + calculadora + checklist de faturação eletrônica).
+- Maletín del Psicólogo → #7 (psicopedagogo AR).
 
 ## 5. Lista final de VERIFICAR
-(preenchendo)
+1. Andrei Kowalski (page 1340912605769671): re-checar 15–17/11 se passou de 30 dias; abrir a página para preço, plataforma, conteúdo, bumps e garantia.
+2. Amélie Boissieu (1363004406903385) e Kit Contable Práctico (1411204478738237): conteúdo dos "7 cahiers + 6 bonus", checkout e se segue escalando (re-checar 20/11).
+3. FR: micro-empresário em franquia de IVA é obrigado a EMITIR em 01/09/2027? Multa €50 por fatura (art. 1737 CGI)?
+4. ES Verifactu: datas do RDL 15/2025 (01/01/2027 e 01/07/2027) e convalidação no BOE.
+5. PL KSeF: data para micro (01/01/2027) e adiamento das multas; "Porady dla JDG" (983981824797132) cobra pelo PDF?
+6. Zulma Laguna (778739435326228): ativo em 31/10 (30 dias)? preço $27 confirmado?
+7. Dental Master Pro Max (1170940042761217): o que tem no kit de $27; Karbonna (117666710068820): qual produto.
+8. Valéria Moura (828042450397666): preço, países e se o combo HACCP em espanhol sobrevive.
+9. Psicopedagogia AR: Evaluá Psicope (1384325881424603) e Consultorio en Orden (1514939898362514) em 15/11; número de psicopedagogos na Argentina (fonte oficial).
+10. Eletricista: IT DM 37/2008 (DiCo) e UK EICR 2020 (texto oficial); Markus Schneider (1401781706350470) e Acelera Negócios (837418056131966) em 15/11; IT "dichiarazione di conformità" na Biblioteca.
+11. HACCP: Regulamento (CE) 852/2004 art. 5 (URL EUR-Lex), NOM-251-SSA1-2009, Res. 2674/2013; nº de restaurantes/cafés por país.
+12. Caixa do Terapeuta no PT: passa de 30 dias por volta de 07/11?
+13. L'angolo del Docente (IT, ~208d): é loja de material digital ou físico?
+14. Itália, pedagogisti: prazos da Lei 55/2024 (Ordine) que possam virar gancho.
+15. Oferta 0 ("Copie e Cole na Sua Marca", 312 anúncios no BR): qual é o produto (página não abriu).
+16. Não pesquisado por limite (cota de busca web esgotada e "Too Many Requests" no conector): PT/DE/PL para eletricista; ES moldes de costura; FR/DE radiestesia; C14, C15, C16, C20, C21; EN HACCP com termos melhores (ex.: "SFBB", "food safety management system template").
+17. Páginas de vendas das 53 ofertas brasileiras (WebFetch bloqueado): conteúdo, preço final, bumps e garantia, principalmente 23, 30, 35 e 46 (as que viram produto lá fora).
