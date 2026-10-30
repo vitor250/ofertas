@@ -105,8 +105,72 @@ Nichos varridos SEM vendedor low ticket encontrado no conector: FHRS/"food hygie
 - **Nº de landlords:** não confirmado nesta sessão (English Private Landlord Survey) → VERIFICAR.
 - **Leitura (landlords):** a Biblioteca está cheia de imobiliárias usando o tema como isca (webinars, "Free Landlord Health Check", checklist grátis) e a NRLA ("Join Over 110,000 Landlords", "Get Ahead Of EPC C 2029"). Vendedor low ticket de PDF só o PDF Blueprints Store (6 dias). Gancho: "Pasta do landlord pronta para o Register your rental property" (documentos que o registro pede: gas safety, EICR, EPC, deposit, information sheet) + app de prazos de certificados por imóvel.
 
+### 3.5 Preços de referência (trechos do WebSearch; páginas não abertas porque o WebFetch está bloqueado)
+| Produto | Preço | Fonte |
+|---|---|---|
+| Childminder Resource Hut (packs de inspeção, safeguarding, safe sleep) | NÃO obtido → VERIFICAR (site não resolveu no container; busca não trouxe preço) | — |
+| Care Daily (políticas domiciliary / supported living / children's homes) | NÃO obtido → VERIFICAR | — |
+| Provider360 (NDIS) | NÃO publicado; parceria ShiftCare descreve políticas, procedimentos e templates editáveis entregues em 48 h, com garantia de devolução | https://shiftcare.com/partners/provider-360 |
+| Concorrentes NDIS (docs) | A$699 (Verification Package com 6 meses de atualização), A$1.500 (conjunto completo), Sprintlaw a partir de A$1.200+GST, Gumroad "clinicalcompliance" A$1.563 → A$1.250 | https://clinicalcompliance.gumroad.com/l/ytsmek , https://www.sprintlaw.com.au/regulatory-compliance/ndis-service-provider-package |
+| HFL Education "Ready for Inspection" (childminder) | £390 ou £32,50/mês em pacote com 3 visitas; "New to Childminding" £240 | https://hfleducation.org/sites/default/files/2025-04/childminderflyer-apr-2025.pdf |
+| SCMA "Strong Foundations Pack" (Escócia) | £15 sócios / £35 em registro | https://www.childminding.org/news/are-you-built-on-strong-foundations |
+| Payhip "Ofsted registration bundle" | £19,99 | https://payhip.com/b/nY4Ah |
+| OpsReady (food business) | £19,99 (no título do anúncio) | Biblioteca de Anúncios, id 1638628054466808 |
+| SWMS Kit (eletricista, 8 SWMS) | A$59 (no título do anúncio) | Biblioteca de Anúncios, id 987074171074269 |
+| myramsapp | a partir de £20/mês | Biblioteca de Anúncios |
+| ECE Learning Unlimited | a partir de NZ$79/mês (com 50% OFF em campanha) | Biblioteca de Anúncios |
+| Health Connect (políticas CQC) | £70/mês | Biblioteca de Anúncios |
+| CareDocs Direct (Fiverr) | $25 | Biblioteca de Anúncios |
+Plataforma, bumps e garantia dos vendedores PROVADOS: não verificados (WebFetch bloqueado) → VERIFICAR.
+
+### 3.6 Reaproveitamento: app de inspeção como simulador
+- **Ofsted (childminder/nursery):** melhor encaixe. O app vira "simulador da visita": perguntas do inspetor por área do novo toolkit (em uso a partir de 01/09/2026), escala de 5 pontos dos report cards (desde 10/11/2025), checklist do EYFS 2026 (safeguarding, referência escrita antes de começar, notificações ao Ofsted, cães), pasta de evidências por criança. Gancho de data: novos registrados inspecionados em até 18 meses; ciclo de 4 anos.
+- **CQC (care agencies):** simulador por "key question" (safe, effective, caring, responsive, well-led) com checklist de evidências. Os 34 quality statements do Single Assessment Framework e possíveis revisões de 2026 → VERIFICAR antes de escrever.
+- **NDIS:** "audit-ready checker" contra os NDIS Practice Standards (auditoria de verificação x certificação) e a nova obrigação de registro de SIL/plataformas (01/07/2026). Público pagante = pequeno provedor registrado; os autônomos não registrados querem mais modelos (contrato, notas, incidentes, fatura) do que simulador.
+- **FHRS (food):** simulador da nota 0–5 reaproveitando a Consultora (IT/PT). Critérios exatos do FHRS e a obrigatoriedade de exibir a nota (Gales/Irlanda do Norte sim; Inglaterra não) → VERIFICAR. Concorre com o pack GRÁTIS "Safer Food Better Business" da FSA.
+
 ## 4. Ranking 0–10
-(em andamento)
+
+Critérios: prova (vendedor 30+ dias no país/moeda), tamanho, prazo de norma, concorrência low ticket, encaixe com kit + app, esforço de idioma/checkout.
+
+| # | Nicho (país) | Régua | Nota | Por quê |
+|---|---|---|---|---|
+| 1 | **Childminders / early years Ofsted (UK)** — kit "Inspection Ready EYFS 2026" + app simulador Ofsted | PROVADO + PRAZO | **8,0** | Childminder Resource Hut 486 d, 35 anúncios, criativos novos em 20/10; 24.700 childminders + 27.900 nurseries; EYFS novo em 01/09/2026, report cards desde 10/11/2025, ciclo 6→4 anos e 18 meses para novos. Só 1 vendedor forte; nenhum com app. Risco: clonadores chegando (Florence JP, Little Sparks, Year Sorted, Estimulación en casa) e materiais grátis de PACEY/Coram. |
+| 2 | **Landlords Inglaterra — "Register your rental property"** (kit de pasta + app de vencimentos) | PRAZO + TESTE | **7,0** | Banco de dados obrigatório a partir de 15/12/2026 (West Midlands primeiro, depois região a região por 12 meses), £65 por imóvel/ano, ~5 milhões de imóveis; fase 1 do Renters' Rights Act em 01/05/2026. Nenhum vendedor low ticket com 30+ dias (PDF Blueprints 6 d). Risco: muita isca grátis de imobiliária e NRLA. |
+| 3 | **Care agencies CQC (UK)** — políticas por tipo de serviço + simulador CQC | PROVADO | **6,5** | Care Daily 132 d; CareDocs Direct 65 d ($25); resto é consultoria cara (economia de "£701") e SaaS £70/mês → espaço para kit £47–97. Tamanho do mercado e mudanças do framework CQC em 2026 → VERIFICAR. |
+| 4 | **SWMS por ofício (AU)** — kit por profissão (eletricista, encanador, carpinteiro) + app de checklist no canteiro | quase PROVADO + PRAZO | **6,5** | SWMS Kit 29 d com preço A$59 visível e gancho de norma (SA, 2 m desde 01/07/2026 → VERIFICAR); concorrentes são SaaS/IA. Faz 30 dias em 31/10: re-checar. |
+| 5 | **Dentista EUA (complemento; já na fila)** | quase PROVADO | **6,5** | Zulma Laguna 29 d, 8 anúncios, 4 criativos novos em 27/10 ("Inspection-Ready in 1 Hour", "Lawyer-Reviewed Consents"). Re-checar 31/10–05/11 como já combinado. |
+| 6 | **NDIS (AU)** — kit low ticket para pequenos provedores/autônomos + "audit-ready checker" | PROVADO (serviço caro) + BRECHA de preço | **6,0** | 21.387 registrados + 245.762 não registrados (fim de 2024); registro obrigatório de SIL/plataformas desde 01/07/2026; Provider360 486 d. Ninguém vende kit barato. Risco: público fragmentado, promessa de "registro" é sensível. |
+| 7 | **Planejamento anual pronto por currículo (EYFS UK / EYLF AU / Aistear IE)** | TESTE (onda de clonador) | **6,0** | Operador LATAM "Estimulación en casa" com 100 anúncios em 7+ países, todos ≤5 d; Year Sorted EYFS 1 d; The Educators Domain planners 2027. Se seguir ativo em 12–20/11, vira PROVADO. Combina com o item 1 (mesma persona). |
+| 8 | **RAMS para tradespeople (UK)** | PROVADO como SaaS / kit TESTE | **6,0** | myramsapp 92 d (£20/mês), Safe Trade ≥69 d; bundle "125+ Contractor Documents" (14 d). Kit + app concorre com assinatura barata. |
+| 9 | **Home daycare "pronta para o fiscal" (EUA, complemento)** | PROVADO | **6,0** | Organized Daycare 55 d, 5 anúncios, só EUA. Persona próxima do item 1 (reaproveita estrutura do kit Ofsted). |
+| 10 | **ECE centres NZ (políticas + ERO)** | PROVADO (assinatura B2B) | **5,5** | ECE Learning Unlimited 138 d (NZ$79/mês), LIGHTN 66 d, Quliance 14 d. Mercado pequeno (nº de serviços → VERIFICAR); kit seria alternativa barata à assinatura. |
+| 11 | **Early childhood AU (educadores/ACECQA)** | TESTE + PRAZO | **5,0** | 18.197 serviços; reformas de child safety desde 27/02/2026 e multas triplicadas desde 01/01/2026; mas só vendedores de 3 dias e SaaS. |
+| 12 | **Food FHRS (UK)** — simulador nota 5 (reaproveita a Consultora) | TESTE | **4,5** | OpsReady £19,99 com 3 d; pack oficial grátis (SFBB) concorre. |
+| 13 | Dentista CQC (UK) | BRECHA sem prova | 4,0 | Só SaaS e cursos (confirma a decisão de 29/10: UK não). |
+| 14 | Short-lets (IE/UK) | BRECHA sem prova | 3,5 | Zero kit anunciado; normas não confirmadas nesta sessão. |
+| 15 | Childminders Irlanda (Tusla) | BRECHA sem prova | 3,5 | Zero kit; regra de registro de childminders → VERIFICAR. |
+| 16 | Canadá (dayhome/ECE) | nada | 3,0 | Só captação de famílias e cursos. |
+| 17 | África do Sul (POPIA/ECD/CAPS) | nada | 2,5 | Zero kit; baixo poder de compra. |
+
+**Aposta certeira:** item 1 (Ofsted). **Prazo:** item 2 (lançar antes de 15/12/2026; janela de 12 meses por região). **Testes baratos:** itens 3, 4 e 7. **Re-checar:** 4 (31/10), 5 (31/10–05/11), 7 (12–20/11).
+
+## 5. VERIFICAR (lista final)
+1. Preço, plataforma, bumps e garantia do **Childminder Resource Hut**, **Care Daily** e **Provider360** (WebFetch bloqueado; liberar `childminderresourcehut.co.uk`, `provider360.com.au` e o domínio da Care Daily nas configurações de rede, ou abrir no navegador).
+2. Nº de provedores NDIS registrados em 30/06/2026 (relatório Q4 2025-26 da NDIS Commission; último número confirmado é de dez/2024).
+3. Prazo de 27/08/2026 do treinamento obrigatório de child safety no AU (só fonte de escritório de advocacia).
+4. Decent Homes Standard no setor privado: 2035 ou 2037? E se as PRS Database Regulations 2026 estão em vigor ou ainda em draft.
+5. Nº de landlords privados na Inglaterra (English Private Landlord Survey).
+6. Nº de care agencies registradas na CQC (domiciliary care / supported living) e mudanças do Single Assessment Framework em 2026.
+7. Short-lets Irlanda: data e regras do registro da Fáilte Ireland (lei de short term letting) — não confirmado (cota de busca esgotada).
+8. Irlanda: obrigação de registro de childminders na Tusla e datas.
+9. FHRS: critérios e obrigatoriedade de exibir a nota na Inglaterra; nº de estabelecimentos.
+10. CDM 2015 / RAMS: nº de pequenas empresas de construção no UK; "SA fall rule 2 m from 1 July 2026" (Austrália do Sul) citada pelo SWMS Kit.
+11. NZ ECE: nº de serviços licenciados e mudanças de licensing criteria (HS121 citado pela Quliance).
+12. Canadá: regras provinciais de dayhome/ECE (nada encontrado em anúncios).
+13. Checkout em GBP/AUD/NZD (Hotmart ou outra plataforma) e emissão de fatura para empresa (care agency, ECE centre).
+14. Re-checar em 31/10: SWMS Kit (30 d) e Zulma Laguna (30 d). Re-checar 12–20/11: Estimulación en casa (EYFS/EYLF/Aistear) e Year Sorted EYFS.
+15. Página do Ofsted "how Ofsted inspects childminders" ainda mostra o ciclo antigo (6 anos/30 meses): na copy usar a regra do DfE de 2026 (4 anos/18 meses) citando a fonte.
 
 ## 5. VERIFICAR
 (em andamento)
