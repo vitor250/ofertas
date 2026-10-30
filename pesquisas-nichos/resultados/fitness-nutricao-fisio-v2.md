@@ -179,7 +179,76 @@ As páginas de vendas não abriram (proxy bloqueia o domínio delas, Hotmart e K
 Consequência para o ranking: nenhum PRAZO ficou confirmado em fitness/nutri/fisio nesta rodada. Os ganchos possíveis (Itália: apólice + ECM; Polônia: Kamilka; Colômbia: habilitação) entram como hipótese.
 
 ## 5. Ranking 0–10
-(preenchendo)
+
+Como pontuei: prova no país (régua), espaço frente à concorrência, encaixe no nosso modelo (kit de documentos + app por profissão), gancho de norma. Sem tamanho de mercado confirmado (seção 4), nenhuma nota passa de 6,5.
+
+### 5.1 Top geral
+
+| # | Nicho × país | Nota | Régua | Por quê | Próximo passo |
+|---|---|---|---|---|---|
+| 1 | Idosos / estimulação cognitiva, espanhol LATAM (Peru provado; México 21 d) para TO, gerontólogo, cuidador, animador | 6,5 | PROVADO (PE) | Recursos Digitales tem 56,7 d no Peru; Geriactiva roda 143 anúncios em ES/MX/CO/US; no Brasil o mesmo produto dura 165 d (R$ 10). Ponto fraco: concorrência crescendo rápido (6 páginas novas em 3 dias) | Diferenciar com o que eles não têm: documentos (plano de intervenção, registro de sessão, escalas livres tipo Barthel/Lawton/Pfeiffer, termo de consentimento) + app de sessão. Checar o México de novo em 08/11, quando Recursos Digitales completa 30 d lá |
+| 2 | Idosos / animação em RSA, Itália | 5,5 | TESTE | 4 vendedores em USD desde 14/10 (Palestra Mentale 15 d; Seduta Pronta, The Mind Market, The Resource Lab ~2 d). Ninguém em euro. Reaproveita a nossa estrutura italiana | Re-checar Palestra Mentale em 13/11 (fecha 30 d). Se seguir ativa, entrar com versão em euro + documentos (PAI/PI de animação, registro de atividades) |
+| 3 | Nutriólogo, México | 5,5 | TESTE | Megapack "+4,000 archivos de nutrición $99 MXN" com 30,2 d; NutriKits "70 kits desde $50" com 6 d; o vendedor de kits legais de saúde em MXN (98,8 d) não tem kit de nutriólogo | Encaixa no Maletín MX (mesma estrutura do psicólogo). Confirmar se a NOM-004 se aplica a consultório de nutriólogo antes de usar como gancho |
+| 4 | Fisioterapeuta, Itália | 5,0 | BRECHA (+ PRAZO hipotético) | Zero kit anunciado para fisioterapista em italiano. Gancho possível: apólice só vale com ≥70% do ECM (confirmado para dentista), DM 232/2023 | Confirmar vigência do DM 232/2023 e o nº de fisioterapistas no albo. Sem prova de compra: teste barato depois da Valigetta |
+| 5 | Pilates (kit para instrutora), Polônia | 5,0 | TESTE escalando | Centerline Pilates PL: 40 anúncios, lotes a cada 3–5 dias desde 15/10 (sinal de que vende). Clones do mesmo operador abertos em PT/ES/DE em 28–29/10 | Re-checar 14/11. Se passar de 30 d, o nicho está provado lá, mas o concorrente já estará grande. Entrar só com diferencial (app de aula) |
+
+### 5.2 Por país
+
+| País / idioma | Nicho | Nota | Régua | Resumo |
+|---|---|---|---|---|
+| Peru / LATAM neutro | idosos | 6,5 | PROVADO | ver Top 1 |
+| México | idosos | 6,0 | TESTE forte | Geriactiva 73 anúncios no MX; Recursos Digitales 20,8 d no MX (fecha 30 d em 08/11) |
+| México | nutriólogo | 5,5 | TESTE | ver Top 3 |
+| México | fisioterapeuta | 4,5 | BRECHA | nenhum kit; o vendedor de kits legais em MXN não cobre fisio |
+| Colômbia | fisioterapeuta | 5,0 | BRECHA + PRAZO hipotético | nenhum kit; habilitação (Res. 3100 + 465/2025) e REPS, se valerem para fisio independente, reaproveitam o dentista Colômbia |
+| Colômbia | idosos | 5,0 | TESTE | Geriactiva entrega 71 anúncios na CO; Recursos Digitales 0 na CO |
+| Chile / Argentina | TO, yoga | 4,5 / 4,0 | TESTE | Mi Colega T.O (CLP, 2 d, US$ 17,99); Alma Yoga (ARS, 1 d) |
+| Espanha | idosos | 5,0 | TESTE | Geriactiva entrega 71 anúncios na ES em USD; ninguém em euro |
+| Espanha | nutricionista | 5,0 | PROVADO fraco | Grulla com plantillas para nutricionistas há 989 d (1 anúncio); Onmymeal 183 d e 20 anúncios (produto VERIFICAR) |
+| Espanha / LATAM | pilates | 4,5 | TESTE | Clara Ríos (app), Pilates con Método, Mesa de Luz: todos com menos de 3 d |
+| Espanha / LATAM | fisioterapeuta | 4,0 | BRECHA | só cursos e clínicas; DigitalShop "Fisioterapia deportiva" 2,5 d |
+| Itália | idosos | 5,5 | TESTE | ver Top 2 |
+| Itália | fisioterapeuta | 5,0 | BRECHA | ver Top 4 |
+| Itália | personal, nutricionista | 4,0 | BRECHA | zero anúncio; sem sinal de demanda |
+| Portugal | pilates | 4,0 | TESTE | Ana Martins a €5 (8 d) + Centerline (<1 d); mercado pequeno e preço baixíssimo |
+| Portugal | idosos | 4,5 | TESTE | GeriActive Portugal (<1 d) |
+| França | pilates | 4,5 | TESTE | Cris Staruck "Flow Pilates Pro" em EUR, 13 anúncios, 6,5 d |
+| França | idosos | 4,5 | TESTE | The Resource Lab "fiches de suivi", 12,7 d |
+| França | kiné | 3,5 | BRECHA | só SaaS (NeuroXtrain) |
+| Alemanha | pilates | 4,0 | TESTE | Stundenfertig (2 d) |
+| Alemanha | idosos (Betreuung) | 4,5 | BRECHA | zero anúncio nas buscas; mercado grande, mas sem sinal de compra |
+| Polônia | pilates | 5,0 | TESTE escalando | ver Top 5 |
+| Polônia | fisioterapeuta | 4,5 | PROVADO fraco + PRAZO hipotético | mapas de dor/trigger points em polonês: 2 anúncios, 60,7 d; Ustawa Kamilka a confirmar |
+| Polônia | idosos | 4,5 | TESTE | GeriActive Polska (<1 d) |
+| EUA / inglês | documentação fisio + TO | 5,0 | ESCALANDO (dias VERIFICAR) | The Note Ninjas, 67 anúncios; concorrente forte e nativo |
+| EUA / inglês | pilates | 4,0 | TESTE | ClassReady Studio (3,5 d) |
+| EUA / inglês | idosos, nutricionista, personal | 3,5 | BRECHA | zero anúncio nas buscas |
+| Qualquer país fora do BR | personal trainer | 3,0 | BRECHA sem demanda | nem kit nem concorrente; no Brasil só "Fichas de Musculação" (187 d, 4 anúncios) |
+
+### 5.3 Datas para re-checar (quando cada teste fecha 30 dias)
+- 31/10: Lectura Integral (espanhol, operador BR, idosos).
+- 08/11: Recursos Digitales no México.
+- 13/11: Palestra Mentale (Itália, idosos).
+- 14/11: Centerline Pilates PL.
+- 16/11: The Resource Lab (França).
+- 20/11: Ana Martins Pilates a €5 em Portugal.
+- 22/11: Cris Staruck (França, pilates); NutriKits (México).
+- 25–28/11: ClassReady, Clara Ríos, Mi Colega T.O, GeriActive Portugal/Polska.
+
+### 5.4 Diferença em relação à v1
+A v1 não estava acessível, então não dá para comparar notas. O que muda com certeza: (1) a onda de páginas em USD com o mesmo molde ("100 aulas + 500 exercícios"; "1.320 atividades para idosos"; "50 clases + 220 ejercicios") abriu em ES, PT, PL, DE, IT, FR e EN entre 15 e 29/10, depois da v1; (2) Clara Ríos tem hoje só 15 anúncios com 2,7 d (se a v1 a viu mais velha, a página foi trocada); (3) Geriactiva está em 143 anúncios e já clonou para Portugal e Polônia.
 
 ## 6. Lista final de VERIFICAR
-(preenchendo)
+
+1. Dias reais da Geriactiva e da The Note Ninjas (mais de 50 anúncios; o conector não mostra o mais antigo). Usar o SearchAPI depois de 08/11 ou a Biblioteca no navegador.
+2. Preço, plataforma, bumps e garantia de: Geriactiva, Recursos Digitales, Clara Ríos/ClassReady, Centerline Pilates, Palestra Mentale, The Note Ninjas, Onmymeal, Grulla, NutriKits, Recursos Legales PRO Salud Mx. As páginas de vendas não abriram neste ambiente.
+3. Se Clara Ríos, Mi Colega T.O, Pilates con Método, Seduta Pronta, Palestra Mentale, Mesa de Luz e Centerline são o mesmo operador (mesmo molde de copy, todos em USD).
+4. O produto da Onmymeal (kit, curso ou app?) e da Yoga Flow (consumidor ou instrutor?).
+5. Nº de fisioterapeutas em PL, CO, MX, CL, EUA e IT (seção 4).
+6. Vigência e prazos do DM 232/2023 (Itália) e se a regra apólice + 70% do ECM vale para fisioterapista.
+7. Ustawa Kamilka: número no Dz.U., datas e se obriga clínica de fisio e aula esportiva para menores.
+8. Se a habilitação da Res. 3100/2019 + 465/2025 e o REPS valem para fisioterapeuta independente na Colômbia.
+9. Se a NOM-004-SSA3-2012 se aplica a consultório de nutriólogo e de fisioterapeuta no México.
+10. Nua Studio: page_id da v1 (não achei pelo nome).
+11. Recursos Salud Pro: confirmar se é a "Recursos Legales PRO Salud Mx".
+12. Em que país estão os 9 anúncios de Recursos Digitales fora de PE/MX (busca agrupou AR, CL, EC, GT, BO, UY, PY, DO, CR, PA, HN, SV, NI, VE).
