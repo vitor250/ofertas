@@ -8,8 +8,18 @@ Data de referência: 30/10/2026. Pesquisa refeita (v2).
 - DIAS REAIS = 30/10/2026 − menor `ad_delivery_start_time` entre os anúncios ativos da página (consulta por `page_ids`). Nº de anúncios = `estimated_total_count` da consulta por página.
 - Régua: PROVADO = vendedor ativo há 30+ dias NO país/idioma/moeda. TESTE = sinal sem vendedor antigo. PRAZO = gancho com data de norma. BRECHA = ninguém vende. Espanhol neutro não prova país.
 
+- WebFetch está bloqueado para quase todos os domínios nesta sessão (facebook.com, chileprevencion.cl, minsalud.gov.co e outros). Por isso **nenhuma página de vendas foi aberta**. Os preços vêm do título do anúncio, e as normas foram confirmadas por busca web com as URLs oficiais que a busca retornou.
+- O conector Meta deu "Too Many Requests" uma vez. Esperei, reduzi o ritmo e segui.
+
 ## Status
-(em andamento — preenchido aos poucos)
+Concluído em 30/10/2026: cerca de 45 consultas ao conector Meta (27 páginas medidas por page_id) e 12 buscas web.
+
+## Resumo (top 5)
+1. **Colômbia, habilitação de consultório independente: 8,5 (PROVADO).** Qualitiva tem 276d. A Res. 3100 segue vigente porque a Res. 1732/2026 foi revogada pela Res. 2080/2026. Um clonador em USD ("Consultorio al Día Colombia") entrou hoje.
+2. **México, kits de saúde por profissão: 8,0 (PROVADO).** Recursos Legales PRO tem 99d com kits de $499 MXN (médico, dentista, psicólogo, spa, PNOs). Psique y Ciencia vende kit de psicólogo há 33d e é concorrente do Maletín MX.
+3. **México, "Kit Patrón 2027" de registro de jornada: 7,5 (PRAZO 01/01/2027).** Só há SaaS e ofertas grátis anunciando; não existe kit low ticket.
+4. **México, PNOs de farmácia e consultório anexo: 7,0.**
+5. **Chile, Ley Karin + DS 44 para pyme: 7,0 (TESTE).** Os concorrentes começaram a anunciar entre hoje e 3 dias atrás. Empatado com ele, **EUA, kit para preparador de impuestos hispano: 7,0 (BRECHA).**
 
 ## 1. Varredura por nicho e país
 

@@ -146,7 +146,17 @@ Os mesmos produtos aparecem com nome local e o mesmo número de itens em vários
 Implicação: pilates e idosos estão sendo testados AGORA em ES/PT/PL/DE/IT/FR por um concorrente com escala de criativos. Ninguém além dele passou de 30 dias nesses países, exceto Recursos Digitales (espanhol, 57 d) e Geriactiva.
 
 ## 3. Concorrentes da v1 (VERIFICAR conteúdo/preço)
-(preenchendo)
+
+As páginas de vendas não abriram (proxy bloqueia o domínio delas, Hotmart e Kiwify). O que segue é o que o conector Meta e a busca mostraram; preço só onde aparece no título do anúncio.
+
+| Concorrente | O que foi confirmado | Preço | Ainda VERIFICAR |
+|---|---|---|---|
+| Recursos Salud Pro | Nome exato não existe na Biblioteca. O mais próximo é "Recursos Legales PRO Salud Mx" (880855681786807, MXN): 5 ativos, 98,8 dias, catálogo de kits legais (consultório médico, dentista, psicologia, spas, PNOs de farmácia) | $249–999 MXN (no título) | se é o mesmo da v1; não vende kit de fisio nem de nutriólogo |
+| Vilboplanner | SaaS chileno de planos alimentares para nutricionistas (page 250580878147142, CLP), anúncio ativo há ~510 dias. Imprensa chilena diz que a versão completa é gratuita para nutricionistas (diarioestrategia.cl) | grátis (segundo a imprensa) | planos pagos; não é kit, é concorrente indireto |
+| The Note Ninjas | Documentação para PT/OT nos EUA, 67 anúncios ativos, USD, lotes de criativos em 26, 27 e 29/10 | não aparece | preço, conteúdo e dias reais (janela do conector só mostra 3 dias) |
+| Clara Ríos · Pilates y Yoga | 15 ativos, 2,7 dias, USD. Produto é app: "50 clases listas para dar · +220 ejercicios con ficha · Modo clase · 5 regalos · en tu teléfono o tablet · pago único". Gêmeo em inglês: ClassReady Studio | não aparece | preço; se a v1 viu outra página mais velha (esta tem só 3 dias) |
+| Nua Studio | Não encontrado pelo nome na Biblioteca (a busca por "Nua Studio" devolve só ruído) | — | page_id da v1 |
+| Geriactiva | 143 ativos, USD, "+3000 Profesionales lo recomiendan", entrega em ES (71), MX (73), CO (71), US (56). Lotes de ~20 criativos a cada 3 dias. Clones "GeriActive Portugal" e "GeriActive Polska" ("1.320 atividades prontas") abertos em 29/10 | não aparece | dias reais (passa de 50 anúncios, o conector não mostra o mais antigo); preço |
 
 ## 4. Tamanho de mercado e normas (fontes oficiais)
 (preenchendo)
