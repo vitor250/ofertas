@@ -1,0 +1,311 @@
+<title>Ranking de Nichos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: leitura de cima para baixo. Apostas primeiro, depois tabela filtrável por país, depois fila e limites. */
+:root{
+  --bg:#edf1f3; --panel:#ffffff; --ink:#13232b; --muted:#5a6b74; --line:#d3dde2;
+  --accent:#0d6b6b; --accent-ink:#ffffff;
+  --prov:#1b7a3d; --prov-bg:#e1f3e7;
+  --test:#9a6200; --test-bg:#fbefd2;
+  --prazo:#a4262c; --prazo-bg:#fbe3e3;
+  --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1a20; --panel:#16262e; --ink:#e6eef1; --muted:#9bb0ba; --line:#28404a;
+    --accent:#4fc1c1; --accent-ink:#06191c;
+    --prov:#6fd68f; --prov-bg:#16341f;
+    --test:#f0be5a; --test-bg:#3a2d0e;
+    --prazo:#ff9a9f; --prazo-bg:#40181b;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e1a20; --panel:#16262e; --ink:#e6eef1; --muted:#9bb0ba; --line:#28404a;
+  --accent:#4fc1c1; --accent-ink:#06191c;
+  --prov:#6fd68f; --prov-bg:#16341f;
+  --test:#f0be5a; --test-bg:#3a2d0e;
+  --prazo:#ff9a9f; --prazo-bg:#40181b;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;
+  padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:36px}
+h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance;line-height:1.15}
+h1{font-size:clamp(28px,5vw,42px)}
+h2{font-size:24px}
+h3{font-size:17px}
+p{margin:0}
+.lede{color:var(--muted);max-width:68ch;margin-top:10px}
+.meta{font-family:var(--f-mono);font-size:12px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;margin-bottom:8px}
+section{display:flex;flex-direction:column;gap:14px}
+.sec-head p{color:var(--muted);max-width:70ch;margin-top:6px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px}
+.col{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.col h3{display:flex;align-items:center;gap:8px}
+.col ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+.col li{display:flex;flex-direction:column;gap:2px;padding-top:10px;border-top:1px solid var(--line)}
+.col li:first-child{border-top:0;padding-top:0}
+.col li b{font-weight:600}
+.col li span{color:var(--muted);font-size:13.5px}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:4px;white-space:nowrap}
+.tag.P{background:var(--prov-bg);color:var(--prov)}
+.tag.T{background:var(--test-bg);color:var(--test)}
+.tag.J{background:var(--prazo-bg);color:var(--prazo)}
+.pick{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.pick ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 11px;border-radius:999px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.filters button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tablebox{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:14px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500;position:sticky;top:0;background:var(--panel)}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-weight:500;white-space:nowrap}
+td.c{white-space:nowrap;font-weight:600}
+td small{display:block;color:var(--muted);margin-top:2px;font-size:12.5px}
+.count{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.queue{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px}
+.q{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.q b{font-weight:600}
+.q span{color:var(--muted);font-size:13.5px}
+.dates{width:100%;min-width:0}
+.limits ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.limits{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+@media (prefers-reduced-motion:no-preference){.filters button{transition:background .15s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="meta">Pesquisa de 29–30/10/2026 · 36 agentes · Meta Ads Library, fontes oficiais e páginas de venda</div>
+    <h1>Ranking de nichos por país e principais apostas</h1>
+    <p class="lede">Nota de 0 a 10 em todos os relatórios. <span class="tag P">Provado</span> é vendedor com anúncio ativo há 30 dias ou mais. <span class="tag T">Teste</span> é demanda com sinal, mas sem vendedor antigo. <span class="tag J">Prazo</span> é gancho com data. Os "dias" são o piso medido pelo anúncio ativo mais antigo da amostra.</p>
+  </header>
+
+  <section>
+    <div class="sec-head">
+      <h2>Principais apostas</h2>
+      <p>Três listas, do que tem mais chance de vender ao que tem relógio correndo.</p>
+    </div>
+    <div class="grid3">
+      <div class="col">
+        <h3><span class="tag P">Certeiras</span> prova de compra</h3>
+        <ol>
+          <li><b>ES · Oposiciones, Constitución em esquemas</b><span>7,5 (era 9,0). OpoEsquemas tem só 3 anúncios, mas 149 dias; os outros dois vendedores são novos. Convocatória 2027 ainda não publicada.</span></li>
+          <li><b>PL · Simulado Sanepid para salões e massagem</b><span>8,5. Vendedor nativo há ~724 dias, pacote a 144 zł (~€34); os 39 zł eram só o guia de 2027. Sem BLIK na Hotmart, a Polônia fica com nota 6 de pagamento.</span></li>
+          <li><b>CO · Saúde independente, simulado da Res. 3100</b><span>8,5. Qualitiva há 275 dias com 32 anúncios.</span></li>
+          <li><b>UK · Childminders, Ofsted</b><span>8,5. ~34 anúncios, o mais antigo há 485 dias.</span></li>
+          <li><b>RO · Receitas para diabéticos</b><span>8,5. Vendedor há ~440 dias. Sem promessa de tratamento.</span></li>
+          <li><b>PL · HACCP gastronomia</b><span>8,0. Vendedor há ~230 dias com 44 anúncios.</span></li>
+        </ol>
+      </div>
+      <div class="col">
+        <h3><span class="tag T">Testes baratos</span> entrar rápido</h3>
+        <ol>
+          <li><b>GR, CZ, HU · HACCP com anexo nacional</b><span>7,0 / 6,5 / 6,5. Dois operadores do Brasil lançaram em 29/10.</span></li>
+          <li><b>AU · NDIS providers</b><span>8,0. Consultorias cobram AUD 1.375–1.800; ninguém vende kit barato.</span></li>
+          <li><b>MX · STPS e NOM-035</b><span>7,5. Entra como bump da jornada.</span></li>
+          <li><b>ES/LATAM · Pilates, gerador de aula</b><span>7,0. Janela curta: 4 vendedores entraram em 3 dias.</span></li>
+          <li><b>CO · Estética não invasiva</b><span>7,0. Simulador de visita da Secretaría.</span></li>
+          <li><b>NL · Dossiê ZZP (falso autônomo)</b><span>6,5. Zero kits à venda.</span></li>
+        </ol>
+      </div>
+      <div class="col">
+        <h3><span class="tag J">Prazo</span> data marcada</h3>
+        <ol>
+          <li><b>MX · Jornada de trabalho</b><span>Redução gradual (DOF 03/03/2026): 46 h em 01/01/2027, 44 h em 2028, 42 h em 2029 e 40 h só em 2030. Janela de venda 02/11 a 18/12/2026.</span></li>
+          <li><b>IT · Sostegno e PEI</b><span>7,5 (era 8,0). DL 170/2026 em vigor desde 01/10/2026; conversão em lei até ~29/11; o 31/10 do PEI não é prazo perentório.</span></li>
+          <li><b>IT · Forfettario, Termometro 85k</b><span>Nova regra do TUIR em 01/01/2027.</span></li>
+          <li><b>PL · Matura 2027</b><span>8,5. Prova em 4–24/05/2027.</span></li>
+          <li><b>PL · Escolar (ocena funkcjonalna)</b><span>Obrigatória desde 01/09/2026. Pico de compra em jan/2027.</span></li>
+          <li><b>NL · ZZP</b><span>Multas por omissão voltam em 01/01/2027.</span></li>
+        </ol>
+      </div>
+    </div>
+    <div class="pick">
+      <h3>Minha ordem de ataque</h3>
+      <ol>
+        <li><b>Terminar a Valigetta dello Psicologo.</b> Está pronta; faltam Hotmart, domínio e publicação.</li>
+        <li><b>Uma maleta de inspeção sanitária (HACCP) com anexo por país.</b> Aparece em quatro relatórios e reaproveita a Consultora e o app do dentista. Há um concorrente com 23 anúncios em 4 línguas testando o mesmo gancho, então a janela é de semanas.</li>
+        <li><b>Cluster Colômbia.</b> Saúde independente (fisio primeiro), psicólogo e dentista no mesmo país, com ~90% do app do dentista.</li>
+        <li><b>Espanha, oposiciones em esquemas.</b> Maior nota do estudo e serve a todas as convocatórias.</li>
+        <li><b>Polônia, Sanepid e HACCP.</b> Só com revisor nativo e checkout em PLN/BLIK.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Ranking geral</h2>
+      <p>Filtre por país ou por tipo. Quando dois relatórios deram notas diferentes ao mesmo nicho, aparece a faixa.</p>
+    </div>
+    <div class="filters" id="fc" role="group" aria-label="Filtrar por país"></div>
+    <div class="filters" id="ft" role="group" aria-label="Filtrar por tipo"></div>
+    <div class="count" id="cnt"></div>
+    <div class="tablebox">
+      <table>
+        <thead><tr><th>País</th><th>Nicho e formato</th><th>Nota</th><th>Tipo</th><th>Evidência</th></tr></thead>
+        <tbody id="tb"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Fila que já estava decidida</h2>
+      <p>Entra na mesma régua. Estas ofertas não foram renotadas nesta rodada; o status vem do que já foi feito ou decidido.</p>
+    </div>
+    <div class="queue">
+      <div class="q"><b>Psicólogo IT</b><span>Produto e app prontos. Falta Hotmart, domínio e publicação.</span></div>
+      <div class="q"><b>Colômbia, psicólogo</b><span>Vai. Concorrente só na Colômbia desde 06/05, COP 38.000.</span></div>
+      <div class="q"><b>Colômbia, dentista</b><span>Vai. Res. 3100 e REPS. Nunca prometer a data da Res. 914.</span></div>
+      <div class="q"><b>Jornada MX</b><span>46 h em 01/01/2027, 40 h só em 2030. Ninguém vende simulador de jornada; RH em geral está saturado.</span></div>
+      <div class="q"><b>Dentista Romênia</b><span>Concorrente expandindo para Sérvia e Moldávia.</span></div>
+      <div class="q"><b>Termometro 85k (IT)</b><span>Gancho do segundo ano. Mesmo motor da Agenda Verde (PT).</span></div>
+      <div class="q"><b>Espanha, psi e dentista</b><span>Teste barato. Sem vendedor em euro, só espanhol neutro.</span></div>
+      <div class="q"><b>Polônia escolar</b><span>Teste, atrás da Colômbia. Checar BLIK e polonês jurídico.</span></div>
+      <div class="q"><b>Eslováquia, psicólogo</b><span>Teste. Lei 242/2025, zero vendedor.</span></div>
+      <div class="q"><b>México dentista e EUA dentista</b><span>EUA: rechecar o vendedor Zulma Laguna entre 31/10 e 05/11.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Datas para rechecar</h2>
+    </div>
+    <div class="tablebox">
+      <table class="dates">
+        <thead><tr><th>Quando</th><th>O que olhar</th></tr></thead>
+        <tbody>
+          <tr><td class="c">31/10 a 05/11</td><td>EUA dentista (Zulma Laguna). HACCP GR/CZ: se os dois operadores passarem dos 30 dias, vira "vai" (05/11).</td></tr>
+          <tr><td class="c">~03/11</td><td>Pasta de inspeção em 4 línguas: o concorrente de 23 anúncios passa de 30 dias?</td></tr>
+          <tr><td class="c">08/11</td><td>Créditos do SearchAPI renovam; medir os dias reais dos kits do Brasil lá fora.</td></tr>
+          <tr><td class="c">12/11</td><td>Romênia, Sérvia e Bulgária (dentista). IT affitti brevi (vendedor com 29 dias).</td></tr>
+          <tr><td class="c">15/11</td><td>Fisio na Polônia: dois vendedores com 30+ dias viram "vai". Também Digital Future, Belleza Integral e IPSY.</td></tr>
+          <tr><td class="c">27 a 28/11</td><td>Dentista Bulgária e Sérvia; HACCP; conversão do DL 170/2026 (sostegno).</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="limits">
+    <h2>Travas e correções da segunda rodada</h2>
+    <ul>
+      <li><b>Pagamento:</b> a Hotmart não tem BLIK, iDEAL nem Bizum. Em vários meios (Klarna, SEPA, MB WAY, SPEI, PSE) o order bump não aparece. Onde ela cobra imposto, o preço é sem imposto e o comprador paga o IVA por cima: conferir o total no checkout da Valigetta.</li>
+      <li><b>Anúncios na UE:</b> citar prazo de lei pode ser lido como tema político e reprovado. Os ganchos de norma são mais seguros na América Latina; na Europa, usar o nome técnico do documento.</li>
+      <li><b>Itália, concorrência direta:</b> kits de dentista e psicólogo a €19,99 com a mesma promessa de kit + app, garantia de 7 dias. Nossa diferença é o simulado por região, os consentimentos por tratamento e a garantia maior.</li>
+      <li><b>Nosso funil (pixel, sem conciliar):</b> Consultora 8,0, Fono 7,5, Dentista BR 5,5, Psicólogo Infantil 5,0, Advogado 4,5, Maletín MX 3,0. Advogado e MX perdem 43% dos cliques antes da página.</li>
+      <li><b>Divergência com a sessão na nuvem (branch claude/dazzling-hamilton):</b> ela deu 8,0 "provado" à estética no México usando o Archivos Digitales Express com 199 dias, mas nossa medição mostra que esses 199 dias são de optometria e cosmetologia tem 26 dias; aqui a estética MX fica em teste. As linhas que só ela trouxe estão marcadas "sessão na nuvem".</li>
+      <li><b>Valigetta Itália:</b> dois criativos usam o gancho do RENTRI, que já não vale para estúdios individuais (L.199/2025). Vale pausar esse conjunto e rever.</li>
+      <li><b>Sem prova de 30 dias fora dos nichos já listados:</b> vários "provados" da primeira rodada eram na verdade teste. As datas de 2027 em oposiciones, ENARM e concursos continuam por confirmar.</li>
+    </ul>
+  </section>
+
+  <section class="limits">
+    <h2>O que ainda não foi confirmado</h2>
+    <ul>
+      <li>O conector da Meta devolve só o título do link, a moeda e a data de início. Preço e texto dos anúncios ficaram sem confirmar na maioria dos casos.</li>
+      <li>Tamanhos de mercado e prazos de norma estão marcados VERIFICAR em cada arquivo. Só o México tem número oficial para advogados e contadores.</li>
+      <li>As notas vêm de agentes diferentes. A régua é a mesma, mas a medição não é idêntica.</li>
+      <li>Receitas para diabéticos e qualquer nicho de saúde exigem texto sem promessa de resultado.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+var R=[
+["ES","Oposiciones AGE: Constitución em esquemas + testes comentados + contador até a prova","7,5","P","Vendedor local 148 e 138 dias; vendedor do Brasil com 12 anúncios em 13 dias","mapas-mentais"],
+["PL","Salões, barbearia, tatuagem e massagem: simulado Sanepid","8,5","P","~724 dias, pacote 144 zł (~€34; 39 zł é só o guia 2027), criativos novos em 18/10","europa"],
+["CO","Saúde independente (fisio, nutri, fono, TO): simulado da Res. 3100","8,0","P","Qualitiva 275 dias, 32 anúncios; 47 mil profissionais no REPS","americas"],
+["PL","Matura 2027: notas por matéria","8,5","P","105 anúncios, o mais antigo com 53+ dias; prova 4–24/05/2027","mapas-mentais"],
+["RO","Receitas para diabéticos","8,5","P","Editura Gold ~440 dias","arbitragem"],
+["UK","Childminders e early years (Ofsted)","8,5","P","~34 anúncios, 485 dias; 24,7 mil childminders","ingles"],
+["Vários","Simulado de inspeção sanitária e pasta de higiene (Consultora traduzida)","8,5","J","Concorrente com 23 anúncios em FR, RO, CZ e SK há ~13 dias; em IT, PT e DE zero","oficios"],
+["PL","HACCP para gastronomia, loja e comida caseira","8,0","P","sklep-haccp.pl ~230 dias, 44 anúncios","europa"],
+["IT","Aluguel de temporada (CIN, obrigações)","8,0","P","Protocollo Zero Sanzioni: 163 dias, €27; em 30/10 caiu para 1 anúncio, rechecar antes de apostar","europa"],
+["MX","Consultório médico: simulacro COFEPRIS","8,0","P","Kit a MXN 499 há 98 dias; outros com 198 e 372 dias","americas"],
+["DE","Estimulação cognitiva para idosos","8,0","P","CareTable 127 dias; novo concorrente em 29/10","arbitragem"],
+["US","NCLEX: cheat sheets e flashcards","8,0","P","56 anúncios, 84 dias","mapas-mentais"],
+["PL","Documentação escolar: teczki, WOPFU, IPET","8,0","P","Pani Andzia ~226 dias (79–239 zł); Edukapol ~540 dias","educacao"],
+["IT","Sostegno e PEI: gerador + contador de prazos","7,5","J","DL 170/2026 em vigor; 261 mil docentes; Ludo Kids ~30 dias. Risco: plataforma da Erickson","educacao"],
+["AU","NDIS providers (SIL, Practice Standards)","8,0","T","Provider360 97 dias; consultorias a AUD 1.375–1.800; zero kit barato","ingles"],
+["UK","Agências de cuidado (CQC)","7,5–8,0","P","Care Daily ~130 dias; concorrente já escalado","ingles / saude"],
+["CO, PE, MX","SST do pequeno empregador com simulador","8,0","T","MX há ~360 dias; CO e PE novos. Lotado, só com mecanismo","oficios"],
+["IT","ABA e fichas de terapia infantil","7,5–8,0","P","ABA Tools ~90 dias, mais de 50 anúncios. Só ABA e logopedia","saude / arbitragem"],
+["IT","Catequese","7,5","T","Kit a €19,90 com 10 criativos e poucos dias","arbitragem"],
+["MX","Advogado litigante: formatos CNPCF + app","7,5","P","Abogados de Éxito 273 dias; kit a MXN 499 há 98 dias","advogado"],
+["MX","Contador de despacho: papéis de trabalho e honorários","7,5","P","Todo Digital 73 dias a MXN 90; Cer Solutions 130 dias","advogado"],
+["MX","RH: regulamento interno + jornada de 40 h","7,5","P","Dois vendedores escalando (34 dias, 39 anúncios). Precisa de simulador","advogado"],
+["MX","STPS e NOM-035 para pymes","7,5","T","5 páginas novas, ~20 criativos; meta de 38 mil inspeções (VERIFICAR)","americas"],
+["CL","Evaluación Docente: portafolio e simulado","7,5","P","Anúncio ativo mais antigo ~370 dias. Data do portafolio: VERIFICAR","educacao"],
+["ES","Opositores docentes: programación didáctica","7,5","T","Academias 161–476 dias; kit com ~30 dias. Só como ferramenta","educacao"],
+["IT","Concorsi em mappe (Carabinieri, Polizia Locale, docenti)","7,5","T","~30 anúncios com 10 dias","mapas-mentais"],
+["ES","Guardia Civil: guia visual","7,5","T","Academia Prefortia 61 dias; low ticket em teste","mapas-mentais"],
+["US","Licença de corretor de imóveis","7,5","T","52 anúncios em 6 dias","mapas-mentais"],
+["ES/LATAM","Pilates: gerador de aula","7,0","T","Pilates Pro (BR) 58 dias, R$10; 4 vendedores em USD em 3 dias","fitness"],
+["PL","Educadora de pré-escola (nova podstawa)","7,0","T","Muitos vendedores de material; idade não medida","europa"],
+["DE","Kita: texto de observação e desenvolvimento","7,0","T","PRO Kita 372 dias (rodada anterior); Meta local fraco","educacao"],
+["FR","CRPE 2027: trame d'oral","7,0","T","252 anúncios, mas funil de prépa cara. Inscrições até 25/11 (VERIFICAR)","educacao"],
+["PL","Fono: documentação logopédica","7,0","P","Instituto Zasada ~115 dias, hoje atrelado a curso","saude"],
+["ES/LATAM","Fono infantil traduzido","7,0","T","Perfil novo de 16 dias; Edukidz 560 dias no Brasil","saude"],
+["PL","Diabéticos; estimulação cognitiva; fichas de logopedia","7,0","T","Diabéticos disputado; os outros dois sem kit imprimível","arbitragem"],
+["MX, CO","Estética não invasiva (sem injetáveis)","7,0","T","Kit Spas MXN 699; Ultra Pack 69 dias; Bogotá fez 1.296 visitas","americas / estetica"],
+["UK","Landlords e Renters' Rights Act","7,0","T","Um vendedor de kit, com 6 dias","ingles"],
+["ES","Biblia en mapas (espanhol)","7,0","P","Mapa Didáctico de la Biblia 257 dias, 20 anúncios","mapas-mentais"],
+["MX","ENARM: tarjetas","7,0","T","Anki com 1 dia; prova em set/2027","mapas-mentais"],
+["Gastro LATAM","Custo, BPM e plano de saneamento","7,0","P","Gastroguias Hub ~562 dias a ~US$3,5","oficios"],
+["GR","HACCP restaurante, café e padaria","7,0","T","Dois operadores do Brasil em D0; ~47 mil empresas (VERIFICAR)","resto-europa"],
+["CZ, HU","HACCP com anexo nacional","6,5","T","CZ 48 mil empresas; HU com concorrentes novos","resto-europa"],
+["NL","Dossiê ZZP (DBA)","6,5","J","~1,2 milhão de autônomos; multas em 01/01/2027; zero kits","resto-europa"],
+["CO","Fisioterapeuta","6,5","T","Kit de documentos (BR) entrou em 29/10","fitness"],
+["IT","Fisioterapeuta","6,5","T","Nenhum vendedor de kit; DM 232/2023 (seguro)","fitness"],
+["AR","Advogado por matéria","6,5","P","Ratio Studio 216 anúncios (idade a verificar)","advogado"],
+["CO","Restaurantes (Consultora, Res. 2674)","6,5","T","Kit novo de 6 dias; ~70% de reaproveitamento","americas"],
+["Vários","Esteticista na Colômbia (Simulador de visita)","7,0","T","Gancho: Res. 2263/2004, 3924/2005 e 2827/2006","estetica"],
+["RO","Alfabetização; professor do primário","6,5","T","Mister Shop 25 dias; KIT ÎNVĂȚĂTOR ~88 dias","arbitragem / europa"],
+["FR, IT","Fono e ABA (Fono Infantil traduzido)","6,5","T","Orthomap (BR) 27 dias com ~100 criativos; ABA Tools 91 dias","europa"],
+["ES","Fisioterapeuta","6,5","T","Kit do Brasil entrou há 2 dias; 74.990 colegiados","europa"],
+["CL","Residências de idosos (ELEAM)","6,0","T","947 autorizadas; nenhum vendedor de documentos","saude"],
+["ES","Psicopedagogo","6,0","T","IPSY 2 dias; rechecar em 15/11","saude"],
+["CO","Decreto 1040/2026 + RIT (Lei 2466): política, protocolo e cláusulas","8,5","J","Decreto já obriga; dominical a 100% em 01/07/2027. Nenhum relatório nosso confirmou: VERIFICAR na fonte oficial","sessão na nuvem"],
+["BR","Farmácia: POPs + farmácia pronta pra vigilância","8,0","T","4 vendedores entraram em 7 dias; janela curta","sessão na nuvem"],
+["IT, FR, PT, ES, AR, UY","Psicomotricidade (TNPEE): documentos + app","7,0","T","Valigetta quase inteira; ninguém vende documentos fora do Brasil","sessão na nuvem"],
+["ES, PT","Kit ABA: programas + registros + app de coleta","7,5","T","Sem vendedor em ES e PT; Itália provada pela ABA Tools","sessão na nuvem"],
+["ES","Oficinas de estimulação cognitiva para residências","7,0","T","Espanha zerada; IT e FR depois","sessão na nuvem"],
+["ES","Kit do abogado MASC obrigatório","6,0","T","Nenhum kit de abogado na Espanha","sessão na nuvem"],
+["FR","Facture électronique 2027 para micro e PME","7,5","J","Emissão para micro em 01/09/2027. Conflita com nosso relatório de prazos (fiscal dominado por software): VERIFICAR","sessão na nuvem"],
+["BR","Escala 5x2 / fim da 6x1","7,0","J","Data 16/12/2026 por verificar; tema trabalhista e político, risco de anúncio no Brasil","sessão na nuvem"]
+];
+var TIPO={P:"Provado",T:"Teste",J:"Prazo"};
+var fc=document.getElementById("fc"),ft=document.getElementById("ft"),tb=document.getElementById("tb"),cnt=document.getElementById("cnt");
+var sc="Todos",st="Todos";
+function countries(){var s={};R.forEach(function(r){r[0].split(/,\s*|\//).forEach(function(c){c=c.trim();if(c)s[c]=1})});return Object.keys(s).sort()}
+function btn(box,label,cur,set){var b=document.createElement("button");b.type="button";b.textContent=label;b.setAttribute("aria-pressed",label===cur?"true":"false");b.onclick=function(){set(label)};box.appendChild(b)}
+function draw(){
+  fc.innerHTML="";ft.innerHTML="";
+  ["Todos"].concat(countries()).forEach(function(c){btn(fc,c,sc,function(v){sc=v;draw()})});
+  ["Todos","Provado","Teste","Prazo"].forEach(function(t){btn(ft,t,st,function(v){st=v;draw()})});
+  tb.innerHTML="";var n=0;
+  R.forEach(function(r){
+    var okc=sc==="Todos"||r[0].split(/,\s*|\//).map(function(x){return x.trim()}).indexOf(sc)>-1;
+    var okt=st==="Todos"||TIPO[r[3]]===st;
+    if(!okc||!okt)return;n++;
+    var tr=document.createElement("tr");
+    tr.innerHTML='<td class="c"></td><td></td><td class="n"></td><td><span class="tag '+r[3]+'">'+TIPO[r[3]]+'</span></td><td></td>';
+    tr.children[0].textContent=r[0];
+    tr.children[1].textContent=r[1];
+    var sm=document.createElement("small");sm.textContent="Fonte: "+r[5];tr.children[1].appendChild(sm);
+    tr.children[2].textContent=r[2];
+    tr.children[4].textContent=r[4];
+    tb.appendChild(tr);
+  });
+  cnt.textContent=n+" de "+R.length+" nichos";
+}
+draw();
+</script>
