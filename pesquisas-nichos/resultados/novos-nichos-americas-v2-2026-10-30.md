@@ -137,7 +137,56 @@ Para fechar preço, plataforma, bumps e garantia é preciso abrir as páginas no
 - CO, número de profissionais independentes no REPS e de droguerías: NÃO achado (VERIFICAR no REPS/Supersalud).
 
 ## 4. Ranking 0–10
-(pendente)
+
+Critérios: prova no país/moeda (peso maior), prazo de norma, brecha (pouca ou nenhuma oferta), reaproveitamento do que o usuário já tem (kit + app de dentista e psicólogo), e o risco de clonador ou âncora de preço.
+
+| # | Nicho / país | Nota | Régua | Por quê |
+|---|---|---|---|---|
+| 1 | **Habilitação para consultório independente — Colômbia** (dentista, psicólogo, médico, fisio) | **8,5** | PROVADO | Qualitiva 276d e 31 anúncios em COP ("Documentos listos para adaptar", "Evalúa tu cumplimiento Res. 3100"). Dt.Dental 119d e psiorganizado já registrados na fila. Res. 3100 segue valendo, já que a Res. 1732/2026 foi revogada em 08/09: a confusão normativa aumenta a demanda por "qué aplica hoy". **Alerta:** "Consultorio al Día Colombia" (moeda USD, mesmo nome do kit visto em PT) entrou HOJE com "+55 documentos para tu consultorio". Isso reforça o GO da fila (Psicólogo CO e Dentista CO) e pede pressa. |
+| 2 | **Kits documentais de saúde — México** (dentista, consultório médico, psicólogo) | **8,0** | PROVADO | Recursos Legales PRO tem 99d em MXN com kits de $499 (médico, dentista, psicólogo). Psique y Ciencia, "Kit de Plantillas para Psicólogos", tem 33d. Mi Mundo Digital (364d) e Archivos Digitales Express (199d) batem em "formatos expediente clínico". Dr. NOM tem 193d. O dentista MX tem só Dental PRO 360 (3,7d) e o kit de $499 do Recursos Legales, então há espaço para a versão "Maleta del Dentista MX" com app. Concorrente direto do Maletín del Psicólogo MX: Psique y Ciencia (conferir preço). |
+| 3 | **Registro de jornada / Kit Patrón 2027 — México** | **7,5** | PRAZO + BRECHA de formato | Registro eletrônico obrigatório a partir de 01/01/2027, com multa de 250–5.000 UMA, e a jornada cai para 46h. Os 471 anúncios são de SaaS mensal (Humand, Chekko, Sesame) ou "grátis" (Aurora Inbox). Não há kit low ticket. Papeles Laborales MX (vendedor BR, $160) e Media Center (+300 formatos laborais a $99) mostram que o formato "papéis do patrão" já é testado. Risco: as regras operativas da STPS ainda não saíram, e o lançamento teria de ser até meados de novembro. |
+| 4 | **PNOs de farmácia + consultório anexo — México** (e droguería CO) | **7,0** | PROVADO fraco | Recursos Legales PRO vende PNOs de farmácia em três faixas ($249/$699/$999). Formatos Profesionais tem 150d (1 anúncio). Público: cerca de 55 mil farmácias independentes, 33% com consultório. Na Colômbia, Club del Droguista tem 58d mas só 2 anúncios. |
+| 5 | **Ley Karin + DS 44 para pyme — Chile** | **7,0** | TESTE | Obrigação vale para toda empresa e a DT intensificou a fiscalização (Decreto 21/2026). Ninguém tem 30d ou mais: Chileprevencion.cl (10 produtos, começou hoje), Arévalo y Paz ("Dossier") e o reglamento interno PYME são todos novos. A janela para entrar antes deles é agora. |
+| 6 | **Kit para preparador de impuestos hispano — EUA** | **7,0** | BRECHA | Os 216 anúncios são de cursos ("curso gratis", Alpenn, TAX Cursos USA) e ninguém vende o kit de trabalho do preparador formado. A temporada começa em jan/2027. A v1 deu 8,0; baixei porque ninguém prova o formato kit. |
+| 7 | **SG-SST formatos — Colômbia** | **6,5** | TESTE forte | Solunetpro tem 15 criativos em 13d (normas 2025-2026, pós-pago). Luz Bermudez vende "Kit Inspección MinTrabajo 2026" (7d). Público: assessores de SST com várias empresas. |
+| 8 | **SST pyme — Equador** | **6,5** | PRAZO (VERIFICAR) + BRECHA | Pelo Acuerdo MDT-2024-196, o prazo de 24 meses para o regulamento de higiene e segurança vence por volta de out/2026. Só há consultorias anunciando. A v1 deu 7,0; baixei porque o prazo não está confirmado e o mercado é pequeno. |
+| 9 | **Dentista em inglês — EUA** | **6,5** | TESTE→PROVADO em 01/11 | Zulma Laguna tem 28,8d, 8 anúncios e 4 criativos novos em 27/10. Re-checar entre 01/11 e 05/11, como já está na fila. |
+| 10 | **Packs técnicos de engenharia/SST de obra — Peru** | **6,0** | TESTE em escala | Ing. Jorge Hurtado tem 153 anúncios a S/18 (idade real VERIFICAR) e BosQa vende SST a S/19,90. O ticket é baixíssimo. |
+| 11 | **Veterinário — MX/CO/CL** | **6,0** | BRECHA | Nenhum kit para veterinário nesses três países (126 anúncios, todos clínicas). Na Argentina, Kit-Vet tem 88d (produto VERIFICAR). No Peru, Esencial VET é kit de estudante e é novo. A Res. SENASA 43/2026 só afeta o veterinário de planos oficiais. |
+| 12 | **Estética sem injetáveis (fichas, consentimentos) — MX** | **6,0** | TESTE | Recursos Legales tem o "Kit Spas y Cosmetología" a $699 (página com 99d). Fer Torres é novo. Ultra Pack é operador BR em espanhol neutro (USD, 21d), o que não prova país. |
+| 13 | **Fisio / fono / TO — LATAM** | **5,5** | BRECHA | Seis anúncios em fisio, nenhum em fono e só uma loja de TO no Chile (56d). A prova vem do Brasil (Pilates Pro, Psicomotricidade 118d, Exercícios de Fala 101d no EscalaLow), então seria arbitragem sem prova local. |
+| 14 | **Simulador de inspeção sanitária para restaurante — MX/CO/PE** | **5,5** | BRECHA | Há 2 a 4 anúncios e só curso "Anti Clausura NOM-251". Reaproveita a Consultora. Não há prova de demanda paga. |
+| 15 | **Nutrição — MX/CL** | **5,0** | misto | Vilboplanner tem 510d no Chile (ferramenta). No México, NutriKits ($50) e Media Center ($99) derrubam o preço. |
+| 16 | **Advogado / contador — MX/CO** | **5,0** | TESTE fraco | A linha de advogados do Recursos Legales é nova (27/10). Para contador não há kit, há 334,7 mil contadores ativos na Colômbia e o Media Center vende a $99. |
+| 17 | **Home care — EUA** | **4,0** | fora do low ticket | Certified Homecare tem 295d, mas vende manuais de US$299 a US$864 em inglês, com consultoria. |
+
+**Diferenças em relação à v1** (pelo que está nas notas; o arquivo v1 não estava acessível):
+- Preparador de impuestos EUA caiu de 8,0 para 7,0: só há cursos, nenhum kit.
+- Equador SST caiu de 7,0 para 6,5: só consultorias, e o prazo de 24 meses ainda precisa de confirmação.
+- Obamacare (7,0 na v1) não foi re-medido.
+- Entram no topo itens que a v1 não tinha preço nem texto: Colômbia habilitação (com a revogação da Res. 1732), México kits de saúde (Recursos Legales PRO $499, Psique y Ciencia), Registro de jornada MX (prazo confirmado em 01/01/2027) e Chile Ley Karin/DS 44.
+- Clonadores entrando hoje: Consultorio al Día Colombia (USD), Papeles Laborales MX (BRL), Chileprevencion.cl e Ultra Pack (BR, estética em espanhol neutro).
 
 ## 5. VERIFICAR
-(pendente)
+1. **Res. 2080/2026 (CO)**: confirmar no Diario Oficial que ela revogou a Res. 1732/2026, e se o Minsalud reexpediu uma nova norma de habilitação depois de 08/09/2026. Não prometer data em nenhum criativo.
+2. **Páginas de vendas** (WebFetch bloqueado aqui; abrir no navegador do Mac):
+   - Recursos Legales PRO: preço, plataforma, bumps, garantia e conteúdo do kit dentista/psicólogo;
+   - Psique y Ciencia: preço do kit de psicólogo (concorrente direto do Maletín MX);
+   - Qualitiva: preço dos "documentos listos para adaptar";
+   - Solunetpro: preço e o "primero recibes y luego pagas";
+   - Consultorio al Día Colombia: preço em USD e se é o mesmo dono do "Consultório em Dia" de PT;
+   - Chileprevencion.cl: preço do protocolo Ley Karin V3;
+   - Dr. NOM: se vende kit ou serviço;
+   - Kit-Vet: kit físico ou digital;
+   - Mi Mundo Digital e Archivos Digitales Express: o que vendem por WhatsApp.
+3. **Ing. Jorge Hurtado (PE)**: idade real. A página tem 153 anúncios e o conector só mostra os 50 mais novos (≥2,7d).
+4. **Media Center México**: idade real (56 anúncios, ≥37d).
+5. **Zulma Laguna (EUA)**: re-checar em 01–05/11 se passou de 30d.
+6. **Registro de jornada MX**: confirmar no DOF a data (01/05/2026) e acompanhar as disposições operativas da STPS (se uma planilha ou app simples atende ao "registro electrónico").
+7. **Equador**: confirmar no Registro Oficial os prazos de 12 e 24 meses do Acuerdo MDT-2024-196 e se venceram em out/2026.
+8. **Tamanho de mercado**:
+   - MX: número de farmácias no DENUE, de dentistas e de psicólogos com cédula;
+   - CO: profissionais independentes no REPS e droguerías;
+   - CL: número de pymes com 10 ou mais trabalhadores (para RIOHS).
+9. **Res. SENASA 201/26** (protesto de veterinários): conteúdo.
+10. **Obamacare / agentes hispanos (EUA)**: não re-medido nesta v2.
