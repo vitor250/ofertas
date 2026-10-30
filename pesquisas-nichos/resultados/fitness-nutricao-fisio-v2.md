@@ -1,11 +1,19 @@
 # Fitness, nutrição e fisioterapia por país (v2, 30/10/2026)
 
-> Status: EM ANDAMENTO (arquivo gravado aos poucos).
+> Status: CONCLUÍDO em 30/10/2026, com bloqueios (ver avisos). Cobertura: pilates, fisio, personal, nutricionista, geriatria/idosos, TO e yoga em ES/LATAM, IT, PT, FR, DE, PL e inglês.
+
+**Resumo em 5 linhas**
+1. O único nicho PROVADO fora do Brasil é idosos/estimulação cognitiva em espanhol (Recursos Digitales, 56,7 d no Peru; Geriactiva com 143 anúncios). Nota 6,5.
+2. Entre 15 e 29/10 um molde de páginas em USD abriu pilates e idosos em 7 idiomas (Centerline, GeriActive, Clara Ríos/ClassReady, Palestra Mentale…). Nenhuma passou de 30 d ainda; datas de re-checagem na seção 5.3.
+3. Brechas reais (ninguém vende): fisioterapeuta na Itália, no México e na Colômbia; personal e nutricionista na Itália e em inglês.
+4. Nutriólogo no México é o melhor encaixe com o Maletín MX (megapack de nutrição com 30 d; o vendedor de kits legais de saúde em MXN não tem kit de nutriólogo).
+5. Nenhuma norma ou tamanho de mercado foi confirmado: a cota de busca web acabou e os sites oficiais estão bloqueados aqui (seção 4).
 
 ## Avisos de método
 - A v1 de 29/10 (`pesquisas-nichos-2026-10-29/fitness-nutricao-fisio.md`) NÃO estava acessível neste ambiente (container na nuvem, sem o Desktop). Usei só a lista de VERIFICAR escrita no prompt e as notas do usuário.
 - SearchAPI indisponível (sem chave aqui e créditos zerados até 08/11/2026). Toda medição de anúncios foi feita pelo conector Meta (`ads_library_search`, só anúncios ATIVOS).
 - DIAS REAIS = 30/10/2026 − menor `ad_delivery_start_time` entre os anúncios ativos da página (consulta por `page_ids`).
+- Páginas de vendas não abriram: o proxy deste container bloqueia hotmart.com, kiwify.com.br, facebook.com, lovable.app, sites de governo e quase todo domínio. A busca web funcionou só no começo; a cota de 200 buscas (dividida com os outros agentes) acabou antes da parte de normas e tamanho de mercado.
 - Régua: PROVADO = anúncio ativo há 30+ dias no país/idioma/moeda; TESTE = sinal sem vendedor antigo; PRAZO = gancho com data de norma; BRECHA = ninguém vende. Espanhol neutro não prova país.
 
 ## 1. Base Brasil (o que já vende aqui, EscalaLow)

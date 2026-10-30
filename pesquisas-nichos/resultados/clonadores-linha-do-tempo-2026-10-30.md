@@ -35,9 +35,71 @@
 
 ## 1. Tabela de páginas por operador (page_id)
 
-(em preenchimento)
+Como ler a tabela:
+- **Moeda** é a moeda da CONTA de anúncios (USD costuma indicar operador estrangeiro com conta em dólar). Preço em moeda local aparece só quando o título do anúncio mostra.
+- **Início** é a data do anúncio ATIVO mais antigo; **dias** são contados até 30/10/2026.
+- **Nº** é o total de anúncios ativos da página (estimated_total_count).
 
-### Log bruto (vai sendo consolidado)
+### 1.1 Operadores da lista do prompt
+
+| Operador (v1) | Página / page_id | País · idioma | Moeda | Produto | Início | Dias | Nº | Régua |
+|---|---|---|---|---|---|---|---|---|
+| impultienda | **Plataforma** (página "Tu tienda propia" 1413976621794277, ARS). ~390 anúncios de vários vendedores apontam para impultienda.com | AR (loja) | ARS/USD | loja + checkout de infoproduto | — | — | ~390 (domínio) | não é operador |
+| ↳ Farmacia Lista | 1315946498277803 | ES (país VERIFICAR) | USD | "Todo lo que tu farmacia necesita en una sola carpeta" | 28/10 | 1 | 2 | TESTE |
+| ↳ Farmacia al Día | não achado | — | — | — | — | — | — | VERIFICAR |
+| ↳ Consultorio al Día | não achado | — | — | — | — | — | — | VERIFICAR |
+| Andrei Kowalski | 1340912605769671 | SK, CZ, RO, FR | USD | dossiê higiene/HACCP para café e bistrô | 18/10 | 12 | 17 | TESTE |
+| Studio Facile | não achado. A busca IT achou a família APP (abaixo) | IT | — | — | — | — | — | VERIFICAR |
+| PictoStudy Europe | não achado ("pictogrammi"/"Piktogramme" = 0) | — | — | — | — | — | — | VERIFICAR |
+| Ultra Pack | não achado (busca só traz e-commerce) | — | — | — | — | — | — | VERIFICAR |
+| Digital solutions | 1406571882531997 | GR, BG, HU, SR, HR/SL, PT | USD | "+70 documentos para o consultório", "16 tratamentos, 16 consentimentos", psicopatologia, +250 mapas de farmacologia, +90 pranchas de ECG | ≥27/10 (página toda relançada) | ≥3 | **251** | fábrica, TESTE |
+| Recursos Legales PRO | 880855681786807 | MX | MXN | catálogo de kits legais de saúde de $249 a $999 MXN; advogados desde 28/10 | **23/07** | **99** | 5 | **PROVADO MX** |
+| Digital Future | não achado | — | — | — | — | — | — | VERIFICAR |
+| Kits Profesionales | 692615883936217 | MX | MXN | kits 2026: ambulância, laboratório clínico, farmacovigilância hospitalar | 07/10 | 22 | 7 | TESTE |
+| Academia VIP | não achado | — | — | — | — | — | — | VERIFICAR |
+| Escuela Saludable | 100723261734448 | HU, CZ, RO, PL, GR, TR | **CRC**/EUR/USD | kit de terapeuta: 120 exercícios com roteiro de sessão, genograma, nervo vago (64 cartas + 120 ferramentas), ventosas, chakras | 13/10 | 17 | 47 | TESTE |
+| Pure Digital Shop | não achado | — | — | — | — | — | — | VERIFICAR |
+| Recursoslandia | 954945787709648 | ES/LATAM, DE, FR, HR, DA, CZ, PL, HU, JA | USD | multinicho: TCC US$14,90 / CLP 14.990; Ergo/Logopädie €19,90; Triggerpunkte €15,90; handebol €15,90 / 109 kr; NF C 15-100 €19,90 (de €59,90); idiomas 369 Kč / 59 zł | ≥28/10 (relançado) | ≥2 | **332** | fábrica, TESTE |
+| Guias Práticos | não achado | — | — | — | — | — | — | VERIFICAR |
+| Emma Schneider | não achado (DE achou The Resource Lab e Therapy Toolkit, abaixo) | — | — | — | — | — | — | VERIFICAR |
+| Zgodny Gabinet | 1228451337028686 | PL | PLN | documentação para fisioterapeuta móvel e masaż suchy, 199 zł "pierwsze 5 pakietów" | 26/10 | 3 | 6 | TESTE |
+| Extreme Gym | só "extremegym18" (BR, academia física, 2025). Não é clonador | — | — | — | — | — | — | VERIFICAR |
+| Kit Odontologico APP | 1218589731347806 | **AR** (37 de 43) | USD | papéis do consultório com logo, consentimentos, protocolos | **27/09** | **32** | 43 | **PROVADO AR** (no limite) |
+| Consultorio en Regla | 1337994426072311 | **AR** | USD | papéis do consultório (obra social, historia clínica, atendimento online) | 27/10 | 2 | ~17 | TESTE |
+| Consultorio Listo – Pediatras | 1379560635235954 | VERIFICAR | USD | biblioteca para pediatras, "oferta lanzamiento" | 11/10 | 19 | 1 | TESTE |
+| OdontoDocs | 1328543073683086 | ES-LATAM | **BRL** | "105 documentos listos para tu consultorio" | 30/10 | 0 | 1 | TESTE |
+
+### 1.2 Operadores NOVOS achados hoje (não estavam na lista)
+
+| Página | page_id | País · idioma | Moeda | Produto | Início | Dias | Nº | Régua |
+|---|---|---|---|---|---|---|---|---|
+| **Kit Studio Blindato - APP** (família APP) | 1294553453740890 | IT | USD | kit dentista, "Tutte le carte del tuo studio, già pronte" (€19,99 na nota de 28/10) | **17/09** | **43** | 28 | **PROVADO IT** |
+| **Kit di Documenti Psicologici** (família APP) | 1316795101520270 | IT | USD | "Oltre 270 documenti per psicologi" | **23/09** | **36** | 35 | **PROVADO IT** |
+| **Kit Consultorio Psicologico APP** (família APP) | 1304281136103952 | AR | USD | "+120 documentos para psicólogos", "Tu nombre en cada documento" | 26/10 | 4 | >50 | TESTE |
+| **Sorrisi in Regola** | 1063538733498593 | IT | **EUR** | norma do consultório odontológico: kit DVR, rastreabilidade de autoclave, registros de esterilização, consentimentos, kit de higienista, webinar | 17/10 | 13 | 13 | TESTE (concorrente direto) |
+| Luca Ferrari | 1275716428958044 | IT | **BRL** | "A SOLI €9,99" (produto VERIFICAR) | ≤08/10 | ≥22 | 90 | TESTE (perto de 30 d) |
+| Jessica Reynolds | 101176478643659 | IT | USD | "100 Schede Illustrate di Laserterapia" | 14/10 | 16 | VERIFICAR | TESTE |
+| Pronto Soccorso Emotivo (impultienda) | 1429865763533829 | IT | USD | kit psicólogo, "Seduta pronta in 4 minuti" | 26/10 | 4 | VERIFICAR | TESTE |
+| Qualitiva Soluciones | 574842992375227 | CO | COP | "Documentos listos para adaptar" (dentista) | **29/01** | **273** | VERIFICAR | PROVADO CO (já conhecido) |
+| Dental PRO 360 | 768039019732604 | MX | MXN | VERIFICAR | 26/10 | 3 | VERIFICAR | TESTE |
+| Salud Podal | 821483754384430 | ES | BRL | "Podóloga, moderniza tu consultorio" | 27/10 | 3 | VERIFICAR | TESTE |
+| Ioana Mureșan | 1336453036226061 | RO | USD | "Dosarul pentru controlul DSP" (dentista), 89 lei | onda de 22–28/10 (nota); anúncio novo 29/10 | VERIFICAR | VERIFICAR | TESTE |
+| Tereza Blažková | 366485309891364 | CZ | EUR | "Celá práce makléře v jednom diáři" (corretor de imóveis) | 09/10 | 20 | VERIFICAR | TESTE |
+| Kristína Hudáková | 1318646484661479 | SK | EUR | o mesmo diário de corretor (clone SK) | 12/10 | 17 | VERIFICAR | TESTE |
+| **Hanari Digital Sk** | 400335676487161 | SK/CZ | EUR | 250 prompts para professor, "pracovný list za menej ako minútu" | **13/07** | **109** | ≥2 | **PROVADO SK** (professor) |
+| Luna Noire | 978656985328281 | TR | USD | "100 Kullanıma Hazır Terapi Seansı" | 27/10 | 3 | VERIFICAR | TESTE |
+| Marieke Vos | 1450685058119021 | NL/BE | USD | "Kant-en-klare ABA-protocollen" | 29/10 | 1 | ≥12 | TESTE |
+| The Resource Lab | 1123744187496255 | DE | USD | "Die Bibliothek für die soziale Betreuung" (Pflege) | 29/10 | 1 | ≥3 | TESTE |
+| Therapy Toolkit | 102506312071455 | DE | USD | "Therapiematerial-Kit für Kinder" | 11/10 | 19 | ≥4 | TESTE |
+| Digital Home (impultienda) | 1285293408008330 | RO | USD | "90 de fișe de lucru TCC gata pentru ședință" | 29/10 | 1 | VERIFICAR | TESTE |
+| Veronica Rose (impultienda) | 1342395585621504 | PT/EN | USD | "Kit do Terapeuta Sistémico", constelações | 28/10 | 1 | VERIFICAR | TESTE |
+| Fonemas en Juego (impultienda) | 1272500302624536 | ES | USD | fono: "820 piezas listas para imprimir" | 29/10 | 0 | ≥7 | TESTE |
+| Alma Artesana | 1089888217551160 | HR | USD | Natal ("Božićna večer u 3 dijela") | 29/10 | 1 | VERIFICAR | fora do escopo |
+| Етажна собственост | 1087877047748166 | BG | USD | manual do condômino, 3 pacotes | 28/10 | 2 | VERIFICAR | TESTE |
+| Denise Encinas | 777108258821844 | ES | USD | curso "La IA arma tu negocio digital / Valida, escala y traduce" (provável escola dos clones) | 14/10 | 16 | ≥10 | VERIFICAR |
+| Udemia.IA | 1187693011097208 | PT, RO, EL, BG… | USD | curso "Domine Claude/IA em 7 dias" (mesma máquina de tradução) | — | — | VERIFICAR | fora do escopo |
+
+### 1.3 Notas de campo por página (log bruto, na ordem em que foram coletadas)
 - **Zgodny Gabinet** (PL): page 1228451337028686, moeda PLN. Títulos: "Dokumentacja dla fizjoterapeuty mobilnego", "Dokumentacja gabinetu masażu suchego", "199 zł, pierwsze 5 pakietów", "Pliki Word i PDF od razu po zakupie", "RODO i organizacja danych". Anúncios mais antigos vistos: 26/10/2026.
 - **OdontoDocs**: page 1328543073683086. Título "105 documentos listos para tu consultorio" (espanhol), conta em BRL, ou seja, operador brasileiro vendendo em espanhol.
 - **Recursoslandia**: page 954945787709648, conta em USD, multinicho e multi-idioma:
