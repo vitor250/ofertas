@@ -208,7 +208,27 @@ Dentista já foi pesquisado a fundo em 28–29/10 (ver `notas/fila-ofertas.md` e
 | ES-LATAM | moldes de costura PDF | consulta barrada por limite do conector (Too Many Requests) | VERIFICAR |
 | FR / DE / PL | patrons de couture, Schnittmuster, wykroje | não pesquisado (cota) | VERIFICAR |
 
-(continua)
+### C14 a C26 (consumidor final, cursos, SaaS e fora do modelo): leitura rápida
+| Conceito | Ofertas | O que achei lá fora | Leitura |
+|---|---|---|---|
+| C14 Caixinha cenário | 41 | não pesquisado (cota). Parecido: agente irmão (parte 3) achou "Bordados en Papel" (USD) com a MESMA copy do BR em espanhol, ~1d | VERIFICAR |
+| C15 Presets / CapCut | 40, 11 | não pesquisado; mercado global saturado (Lightroom presets) | Fora do modelo |
+| C16 Acervos (músicas, ebooks) | 24, 44 | não pesquisado; risco de direito autoral (100 mil músicas, 3.500 ebooks por R$10) | Não portar |
+| C17 Inglês com mapas mentais | 4 | ver relatório irmão `mapas-mentais-por-pais-v2-2026-10-30.md` (Polônia: "Matura 2027 notatki PDF" PROVADO, PLN, 175 anúncios) | Ver irmão |
+| C18 Receitas para vender | 2, 15, 51 | Relatório irmão (parte 3): "recetas de bolis gourmet para vender" PROVADO em espanhol (Máster Class Online, COP, ~79d; Rincón Artesanal, USD, ~61d) | PROVADO em ES-LATAM (renda extra), fora do modelo profissão |
+| C19 Receitas saudáveis/restritivas | 6, 16, 20, 27, 39, 43 | IT "ricette senza glutine senza lattosio": AirChef (USD) "Keto 365 — ricettario Bimby" (~1,7d, 10+ anúncios), Alessia Romano (USD, ~1,7d), La Mia Cocina Sana (BRL) | TESTE de operadores BR em massa; consumidor |
+| C20 Treino feminino | 18, 19, 25 | não pesquisado (cota); ver `fitness-nutricao-fisio-v2.md` | VERIFICAR |
+| C21 Artes marciais | 29, 47 | não pesquisado (cota) | VERIFICAR |
+| C22 Comida natural para cães | 9 | ES-LATAM: Pet Comilón (BRL, ~2,8d) = porte direto do "Guia Pet Comilão" (9); Impulso E-books (ARS) "¿Sabés qué come realmente tu perro?" (~0,4d); Alimentacion BARF (USD) | TESTE (BR clonando em espanhol) |
+| C23 Planner TDAH | 31 | ES: Mente Inquieta (EUR, "La agenda hecha para tu cerebro", ~0,4d); Semana em Vista (BRL, "El planner para la mente TDAH", ~1d); Agenda sin Caos TDAH (USD, ~7,6d, clone do 31); FR: Lumi Editions (USD) "Le planner pour les cerveaux qui s'éparpillent" (~8,8d); o próprio Planner Sem Caos (BRL) com anúncios de ~14d nessa busca | TESTE (o vendedor BR e clones já saíram para ES/FR) |
+| C24 Planner financeiro via WhatsApp | 26 | SaaS | Fora do modelo |
+| C25 Curso de IA (Claude) | 21 | ES: "Academia Claude AI ES" (USD) apareceu na busca de QGIS | Fora do modelo |
+| C26 Fora do modelo | 0, 17, 45 | 0 = produto não identificado (WebFetch bloqueado); 17 = consultoria; 45 = e-commerce | VERIFICAR o 0 |
+
+### Achados laterais que reforçam o quadro
+- Caixa do Terapeuta (vendedor da oferta 37, radiestesia) já roda em Portugal: 141 anúncios no PT, ≥23 dias (relatório irmão `novos-nichos-europa-v2-2026-10-30.md`). Vira PROVADO PT-PT por volta de 07/11 se continuar.
+- Jogos Terapêuticos (BRL) vende "Plus de 50 activités psychopédagogiques · dès 5 €" na França há ~19 dias, 123 anúncios na página (relatório irmão `educacao-inclusao-v2.md`): psicopedagogia em francês é TESTE com operador BR.
+- Marcenaria em inglês está saturada, inclusive por brasileiros (Weekend Woodshop, BRL, "16,000+ plans") (relatório irmão `catalogo-escalalow-parte3`).
 
 ## 3. Aprofundamento das brechas fortes (página de vendas, tamanho da profissão, gancho legal)
 (preenchendo)

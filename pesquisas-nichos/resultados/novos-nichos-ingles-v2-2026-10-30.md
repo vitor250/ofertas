@@ -14,7 +14,27 @@ Data de referência: 30/10/2026.
 (em andamento)
 
 ## 1. Varredura na Biblioteca de Anúncios (por nicho e país)
-(em andamento)
+
+Conector Meta, só anúncios ATIVOS, 30/10/2026. A busca do conector é "solta" (termos genéricos devolvem anúncios de dorama/novela); por isso usei termos técnicos de cada norma.
+
+| Nicho | País | Termos usados | O que apareceu | Régua |
+|---|---|---|---|---|
+| Childminders / early years (Ofsted, EYFS) | UK | childminder Ofsted, "childminder", EYFS, early years policies, nursery policies, Ofsted ready | Childminder Resource Hut 486 d / 35 anúncios (GBP); Minding Kids 45 d (isca); clonadores novos: Florence JP (NGN, 8 d), Little Sparks (USD, 4 d), Year Sorted EYFS (1 d), Estimulación en casa (EYFS, ≤5 d) | **PROVADO + PRAZO** |
+| Care agencies (CQC) | UK | CQC policies, care agency policies, domiciliary care policies | Care Daily 132 d (políticas prontas por tipo de serviço); CareDocs Direct 65 d (Fiverr $25); resto é consultoria (HQM, Compliance Supports "Save £701", Total Care Advisory) e SaaS (Health Connect £70/mês) | **PROVADO** (poucos) |
+| NDIS | AU | NDIS provider templates, NDIS policies, NDIS progress notes templates, independent support worker | 78 anúncios só de serviço de registro (A$1.375–1.800+); Provider360 486 d / 59 anúncios; nenhum kit barato para os ~245 mil não registrados | PROVADO (serviço caro) / BRECHA de preço |
+| Landlords (Renters' Rights Act) | UK | "Renters' Rights Act", landlord templates, landlord compliance pack, landlord document pack | 225 anúncios sobre a lei, quase todos de imobiliárias (iscas grátis) e NRLA; PDF Blueprints Store 6 d; Proper Templates UK (Etsy) 0 d | **PRAZO** + TESTE |
+| Food hygiene (FHRS) | UK | "food hygiene rating", HACCP pack, "Safer Food Better Business" | Só restaurantes exibindo nota 5 e o app Leafe; OpsReady "Food Business Owners: £19.99 Pack" 3 d | TESTE |
+| Short-lets | IE, UK, AU | short term letting register, Airbnb host, Airbnb host guidebook, holiday let welcome book | Nada de kit (só Lodgify e administradoras) | BRECHA sem prova de demanda |
+| Tradespeople RAMS | UK | "RAMS" templates, risk assessment templates tradesmen | myramsapp 92 d (SaaS £20/mês), Safe Trade ≥69 d (SaaS), HazardCo, Style Contractor "125+ Contractor Documents" (bundle há 14 d) | PROVADO como SaaS / kit TESTE |
+| Tradies SWMS (equivalente AU do RAMS) | AU, NZ | SWMS templates | **SWMS Kit 29 d, "8 electrician SWMS – A$59", gancho "SA fall rule: 2 m from 1 July 2026"**; Sync or SWMS 27 d; Site Paperwork (IA) 1 d; SiteConnect (NZ) | quase PROVADO (low ticket com preço no anúncio) |
+| Early childhood (ACECQA/EYLF) | AU | EYLF templates, family day care educator, early childhood educators documentation | The Educators Domain (planners 2027) 3 d; The Grounded Educator 3 d; Estimulación en casa (EYLF) ≤5 d; OWNA (SaaS) | TESTE |
+| ECE centres | NZ | learning stories ECE, ECE compliance | ECE Learning Unlimited 138 d (assinatura "70+ Policies… From $79/month", NZD+AUD); LIGHTN ECEDocs 66 d; Quliance 14 d / 17 anúncios | PROVADO (assinatura B2B) |
+| Childminders / ECCE | IE | childminder, Tusla inspection, Aistear planning | Só isca de faculdade UK, MindMe.ie (marketplace) e Estimulación en casa (Aistear, <1 d) | BRECHA / TESTE |
+| Dayhome / ECE | CA | dayhome provider, early childhood educator resources, home daycare forms | Só dayhomes captando famílias, prefeituras recrutando e PD (Learn Through Active Play 145 d, curso) | BRECHA sem prova |
+| POPIA / ECD / CAPS | ZA | POPIA compliance templates, ECD centre registration, CAPS lesson plans | Só cursos NQF4 e TeacherMom 1 d | nada |
+| Dentista (complemento) | US | Dental Kit Canva | **Lic. Zulma Laguna 29 d, 8 anúncios, 4 criativos novos em 27/10**; Dental Marketing Vault (kit de marketing $1) | quase PROVADO |
+| Home daycare (complemento) | US | daycare templates | **Organized Daycare 55 d** ("Ready Before She Knocks") | PROVADO |
+| Dentista CQC | UK | dental practice compliance CQC | Só SaaS ("Dentistry", demo, 50 d) e cursos de Registered Manager | BRECHA sem prova (já descartado em 29/10) |
 
 ## 2. Vendedores medidos (DIAS REAIS, nº de anúncios, moeda, página de vendas)
 
