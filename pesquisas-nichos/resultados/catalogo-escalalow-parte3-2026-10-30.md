@@ -49,12 +49,12 @@ Observação de método: a busca do conector ordena do anúncio mais novo para o
   - US: ABA Tools (108617997275390, USD) ~133 dias, 10+ anúncios; The Autism Helper "VB-MAPP Assessment Kit" ~101 dias. PROVADO EN-US (mercado TPT saturado).
   - IT: só cursos (Intandem Formazione "Corso VB-MAPP" ~14 d; Iescum; ICOTEA; Centro APP; ComportaMente). Nenhum kit low ticket. BRECHA IT para kit de programas/registros.
 - "programas ABA" (LATAM + ES): 24 anúncios.
-  - Conecta ABA (1467060063146717, USD neutro): 3 ativos, ~9 dias ("58 programas ABA listos para aplicar", "Programas ABA con registro incluido"). TESTE.
+  - Conecta ABA (1467060063146717, USD neutro): 3 ativos, ~7 dias ("58 programas ABA listos para aplicar", "Programas ABA con registro incluido"). TESTE.
   - Mini Logros (1393263263878199, PEN): 3 ativos, ~1 dia ("Abres, aplicas y registras"). TESTE Peru.
   - PsicoKids and Teens (COP): diplomados ABA/TEA (curso). Abaedu Latam (BRL, curso de aplicador).
 - "terapia ABA" ES+PT: nada de kit (NeuroIdea COP vazando). BRECHA ES e PT.
 - PL "ABA autyzm materiały": **Pro-Edukacja.pl** (840454552492924, PLN) "PAKIET AUTYZM 2+2 GRATIS! Tylko 79 zł" com anúncio ativo há ~280 dias. PROVADO PL (pacote de formações/materiais sobre autismo para professores/terapeutas, 79 zł).
-- Leitura: ABA é o único conceito desta faixa com vendedor de "documentos + app" provado fora do Brasil (FR, ABA Online, 148 d). Na LATAM há dois testes de "programas ABA listos" com menos de 10 dias (USD e PEN), sinal de que a onda está começando. IT/ES/PT: só cursos, ninguém com kit.
+- Leitura: ABA é o único conceito desta faixa com vendedor de "documentos + app" provado fora do Brasil (FR, ABA Online, 148 d). Na LATAM há dois testes de "programas ABA listos" com 7 dias ou menos (USD e PEN), sinal de que a onda está começando. IT/ES/PT: só cursos, ninguém com kit.
 
 ### A3. Biblioteca de projetos ambientais (134)
 - ES-LATAM+ES "plan de manejo ambiental" modelos: 2 anúncios sem relação. "ingeniero ambiental plantillas": 2 (página genérica de IA, MXN).
@@ -125,4 +125,4 @@ Observação de método: a busca do conector ordena do anúncio mais novo para o
 
 ### B11. Posts prontos por profissão (135 lash, 151 estética "Dra.", 144 personal trainer)
 - ES-LATAM+ES "posts editables Canva para esteticistas": 95 (busca ampla); Mind Digital Studio (USD, "Tu marca de coach"), Pack Insta de Impacto (BRL = brasileiro em espanhol, "Plantillas Black Friday"). Mercado tomado por packs genéricos em USD/BRL.
-- IT "post pronti Canva estetiste": 16; sem pack de posts para esteticista. Achados laterais relevantes: **Kit Studio Blindato - APP** (1294553453740890, USD; o concorrente BR do dentista/psicólogo na Itália agora anuncia "APP", ~9–10 d); **Paulina Vera** "Kit Immobiliare Pro" (USD, ~1 d = BR levando kit de corretor para a Itália); Marjposa Phytocosmesi (EUR, protocolos para centros de emagrecimento).
+- IT "post pronti Canva estetiste": 16; sem pack de posts para esteticista. Achados laterais relevantes: **Kit Studio Blindato - APP** (1294553453740890, USD; o concorrente BR do dentista/psicólogo na Itália agora anuncia "APP", ~8 d); **Paulina Vera** "Kit Immobiliare Pro" (USD, ~1 d = BR levando kit de corretor para a Itália); Marjposa Phytocosmesi (EUR, protocolos para centros de emagrecimento).
