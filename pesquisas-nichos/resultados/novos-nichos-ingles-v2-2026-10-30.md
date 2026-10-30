@@ -78,7 +78,6 @@ Medição por `page_ids` (só ATIVOS), 30/10/2026. "Dias" = idade do anúncio at
 
 Nichos varridos SEM vendedor low ticket encontrado no conector: FHRS/"food hygiene rating" (só restaurantes exibindo nota 5 e o app Leafe), "Safer Food Better Business" (só ruído), "EYLF templates" (0 resultados), "NDIS progress notes templates" (0), "childminding templates" (0), Irlanda "Tusla inspection" (0) e "short term letting register" (0), África do Sul "POPIA compliance templates" (0) e "ECD centre registration" (só cursos NQF4), NZ "healthy homes landlord" (só administradoras e e-book grátis da Crockers).
 
-(continua abaixo)
 
 ## 3. Mercado e normas (fontes oficiais)
 
@@ -171,6 +170,3 @@ Critérios: prova (vendedor 30+ dias no país/moeda), tamanho, prazo de norma, c
 13. Checkout em GBP/AUD/NZD (Hotmart ou outra plataforma) e emissão de fatura para empresa (care agency, ECE centre).
 14. Re-checar em 31/10: SWMS Kit (30 d) e Zulma Laguna (30 d). Re-checar 12–20/11: Estimulación en casa (EYFS/EYLF/Aistear) e Year Sorted EYFS.
 15. Página do Ofsted "how Ofsted inspects childminders" ainda mostra o ciclo antigo (6 anos/30 meses): na copy usar a regra do DfE de 2026 (4 anos/18 meses) citando a fonte.
-
-## 5. VERIFICAR
-(em andamento)
