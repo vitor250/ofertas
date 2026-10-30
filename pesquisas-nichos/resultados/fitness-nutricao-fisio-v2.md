@@ -8,8 +8,27 @@
 - DIAS REAIS = 30/10/2026 − menor `ad_delivery_start_time` entre os anúncios ativos da página (consulta por `page_ids`).
 - Régua: PROVADO = anúncio ativo há 30+ dias no país/idioma/moeda; TESTE = sinal sem vendedor antigo; PRAZO = gancho com data de norma; BRECHA = ninguém vende. Espanhol neutro não prova país.
 
-## 1. Base Brasil (o que já vende aqui, EscalaLow 24/10)
-(preenchendo)
+## 1. Base Brasil (o que já vende aqui, EscalaLow)
+
+Fonte: `dados/escalalow-ofertas-validadas.json` (V = índice na lista de 213) e `dados/escalalow-ofertas-24-10.json` (C = índice na coleta de 24/10). Dias e ativos como o EscalaLow registrou; não remedi no Brasil.
+
+| Oferta BR | Nicho | Dias | Ativos | Preço | Fonte |
+|---|---|---|---|---|---|
+| Documentos Prontos para Consultoria em Alimentos (Domine a Nutrição) | nutricionista (UAN/consultoria) | 54 | 50 | R$ 8 | V30 / C248 |
+| Combo Vitalício de Documentos para UAN, Consultoria, ILPIs, Creches (Domine a Nutrição) | nutricionista | 30 | 8 | R$ 79,90 | C899 |
+| Kit de Estimulação Cognitiva (Neuromente) | idosos / estimulação | 165 | 22 | R$ 10 | C97 |
+| +160 Atividades para Idosos (Cantinho das Atividades) | idosos | 61–65 | 9–11 | WhatsApp | V194 / C607 |
+| +120 Fichas de Estimulação Cognitiva para Idosos (Professora Maria) | idosos | 21 | 1 | R$ 17,90 | C1918 (já anuncia em espanhol, ver 2.1) |
+| Pilates Pro: 150+ Aulas Prontas (Ana Martins Pilates) | pilates | 47–58 | 22–35 | R$ 10 | V87 / C244 (já anuncia em Portugal a €5, ver 2.3) |
+| Documentos de Psicomotricidade (Tia Su) | psicomotricidade | 118 | 20 | R$ 15,90 | V99 |
+| 150 Mapas Mentais de Cinesiologia (Edufisicavisual) | estudante/profissional de ed. física | 58–62 | 23 | R$ 17,90 | V80 / C728 |
+| +100 Planilhas de Fisioterapia Respiratória (Luisa Souza) | fisioterapeuta | 15 | 61 | R$ 10 | C243 |
+| Super Kit (Natália Oliveira, fisioterapeuta) | fisioterapeuta | 19 | 31 | R$ 19,78 | C353 |
+| Fichas de Musculação (ed_fisicadozero) | personal trainer | 187 | 4 | R$ 27 | C423 |
+| +150 Atividades de Terapia Ocupacional (T.O. Na Prática) | terapeuta ocupacional | 82 | 6 | R$ 27 | C580 |
+| Kit Profissional com 25 Fichas para Fisioterapeutas; +100 Documentos para Fisioterapeutas; Biblioteca do Fisio Domiciliar; Kit Quiropraxia; Kit Massoterapia; 60 Protocolos de Quiropraxia | fisio e afins | 3–29 | 0–10 | R$ 10–47 | C908, C1664, C760, C1867, C965, C1130 |
+
+Leitura: no Brasil o que passa de 30 dias com volume é nutrição-consultoria (R$ 8), idosos/estimulação (R$ 10), pilates (R$ 10) e psicomotricidade. Fisioterapia tem muitos kits novos (≤30 d) e mais um entrando hoje (Acervo Digital, "+100 Documentos Prontos para Fisioterapeutas", page 1413431898512137, BRL, <1 d). O Brasil está saturado; a brecha está em levar idosos, pilates e nutrição para fora.
 
 ## 2. Medições por país (conector Meta)
 
@@ -95,6 +114,28 @@ Leitura (Itália): a mesma onda em USD chegou à Itália em outubro, focada em e
 | GeriActive Polska (1384620951405497) | atividades para idosos | ≥6 | ~0,7 | USD | "1 320 gotowych zajęć dla seniorów" | TESTE (novo) |
 | "100 wizualnych map bólu rzutowanego i punktów spustowych" (1210544588816989) | fisio/massagem (mapas de dor referida e trigger points) | 2 | 60,7 | USD | "⭐⭐⭐⭐⭐" | PROVADO na PL (escala mínima) |
 | Marek Kowalczyk (1071799122688949) | treinador de futebol (exercícios) | ≥4 | ~0,5 | USD | "Ćwiczenia nagrane z drona – tylko 19 zł" | TESTE |
+
+### 2.6b Espanhol: México, nutrição, yoga, personal (complemento)
+
+| Página (page_id) | Nicho | Ativos | DIAS REAIS | Moeda | O que o anúncio diz | Régua |
+|---|---|---|---|---|---|---|
+| Recursos Digitales (1209103695610757), por país | idosos | PE 6 · MX 3 · outros LATAM 9 · ES 0 · CO 0 · US 0 | PE 56,7 · MX 20,8 | USD | "+500 actividades para mantener la mente activa" | PROVADO no PERU |
+| Recursos Legales PRO Salud Mx (880855681786807) | kits legais de saúde MX | 5 | 98,8 | MXN | "Kit Consultorio Médico $499 · Kit Cirujano Dentista $499 · Kit Legal Psicología $499 · Spas y Cosmetología $699 · PNOs Farmacia $249–999" | PROVADO no MX; NÃO tem kit de fisio, nutriólogo nem pilates (brecha no catálogo dele) |
+| Media Center México (102603028861491) | megapack (inclui nutrição) | 56 | 30,2 (anúncio de nutrição) | MXN | "+4,000 Archivos de nutrición por $99 pesos" | PROVADO no MX, mas é pacotão genérico |
+| NutriKits (293707977159186) | nutriólogos | 1 | 6,0 | MXN | "70 kits para nutriólogos desde $50" | TESTE |
+| LearnFit Institute (276123018926219) | guia profissional | ≥2 | ~0,2 | MXN | "Salud muscular y longevidad: guía profesional" | TESTE |
+| Alma Yoga - Clases para Profes (1378014005397795) | instrutor de yoga | 1 | 0,9 | ARS (Argentina) | "100 clases completas para enseñar sin planificar de más" | TESTE |
+| Yoga reset (1371307229398990) | instrutor de yoga | ≥3 | ~1 | USD | "Clases listas para dar"; "Precio lanzamiento" | TESTE |
+| Professora Maria (1407583632419764) | idosos (vendedora BR em espanhol) | VERIFICAR | ~1,8 | BRL | "Fichas Visuales de Estimulación Cognitiva para Adultos Mayores" | TESTE |
+| buscas "entrenadores personales plantillas rutinas clientes" | personal trainer | só apps (MoveUp Digital, Stenfit) | — | — | — | BRECHA de kit |
+
+### 2.6c Inglês (US/GB/AU/CA)
+
+| Página (page_id) | Nicho | Ativos | DIAS REAIS | Moeda | O que o anúncio diz | Régua |
+|---|---|---|---|---|---|---|
+| The Note Ninjas (120478321017238) | documentação para fisio (PT) e terapeuta ocupacional (OT) | 67 | ≥3,2 (piso; os 50 visíveis são de 26–29/10) | USD | "Stop Writing Notes From Scratch"; "Still Writing Notes at Home?"; "Write Notes With Confidence" | ESCALANDO; dias VERIFICAR (marca existe desde pelo menos mai/2025, segundo podcast achado na busca) |
+| ClassReady Studio (1414757318380882) | pilates (versão em inglês da Clara Ríos) | ≥10 | 3,5 | USD | "50 classes ready to teach + 220 exercises" | TESTE |
+| buscas "activity director seniors printable", "dementia activities printable caregivers", "dietitian handouts templates", "personal trainers client workout templates" | idosos / nutrição / personal | 0 (só um lead magnet da Trainer HQ, AUD) | — | — | — | BRECHA em inglês (ou demanda fora do Meta) |
 
 ### 2.7 O operador multipaís (achado principal da v2)
 
