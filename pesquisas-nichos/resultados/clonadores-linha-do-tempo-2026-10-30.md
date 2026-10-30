@@ -203,32 +203,211 @@ Como ler a tabela:
 
 ## 2. Linha do tempo de lançamentos
 
-(em preenchimento)
+As datas são do anúncio ATIVO mais antigo de cada página. Um lançamento real pode ser anterior, se os anúncios iniciais já foram desligados.
+
+| Data | Página | País | O quê |
+|---|---|---|---|
+| 29/01/2026 | Qualitiva Soluciones | CO | documentos para dentista (Res. 3100), referência mais antiga do modelo em espanhol |
+| 13/07 | Hanari Digital Sk | SK | fichas e prompts para professor |
+| 23/07 | Recursos Legales PRO Salud Mx | MX | catálogo de kits legais de saúde em MXN |
+| **17/09** | **Kit Studio Blindato - APP** | **IT** | dentista: começa a família APP |
+| **23/09** | **Kit di Documenti Psicologici** | **IT** | psicólogo, 6 dias depois do dentista |
+| **27/09** | **Kit Odontologico APP** | **AR** | dentista em espanhol com voseo, 10 dias depois da IT |
+| 05–07/10 | família APP | IT + AR | lote simultâneo nas 3 páginas |
+| 07/10 | Kits Profesionales | MX | um kit novo a cada ~5–10 dias (ambulância 11/10, lab/farmacovigilância 22/10) |
+| ≤08/10 | Luca Ferrari | IT | €9,99, conta BRL |
+| 09/10 → 12/10 | Tereza Blažková → Kristína Hudáková | CZ → SK | diário do corretor (clone com persona local) |
+| 11/10 | Consultorio Listo (pediatras); Therapy Toolkit | ?; DE | pediatria; terapia infantil DE |
+| 13/10 | Escuela Saludable | HU | kit de terapeuta. Depois TR 19/10, GR 20/10, RO/PL/CZ 22–27/10 |
+| 14/10 | Denise Encinas; Jessica Reynolds | ES; IT | curso de clonar com IA; laserterapia IT |
+| 16/10 | Recursos Legales (catálogo atual) | MX | dentista, psicólogo, spa, PNOs de farmácia |
+| **17/10** | **Sorrisi in Regola** | **IT (EUR)** | normas do consultório odontológico, ângulo regulatório italiano |
+| 18/10 → 20/10 → 22/10 → 29/10 | Andrei Kowalski | SK → CZ → RO → **FR** | HACCP/higiene para café |
+| 22–28/10 | Ioana Mureșan (+ Sérvia/Moldávia, nota de 29/10) | RO | dentista DSP 89 lei |
+| 26/10 | Kit Consultorio Psicologico APP; Zgodny Gabinet; Dental PRO 360; Pronto Soccorso Emotivo | AR; PL; MX; IT | psicólogo AR; fisio/masaż PL; dentista MX; psicólogo IT (impultienda) |
+| 27/10 | Consultorio en Regla; Luna Noire; Digital solutions HU; Salud Podal | AR; TR; HU; ES | consultório AR; terapeuta TR; "+70 documentos" HU; podóloga |
+| **28/10** | Recursoslandia (relança 332 anúncios); Digital solutions (BG/GR/SR/HR/PT); Farmacia Lista; Recursos Legales (advogados); BG condomínio | multi | **pico da onda**: ~600 anúncios novos em 2 páginas |
+| 29/10 | Marieke Vos (NL, ABA); The Resource Lab (DE, Pflege); Sorrisi "Kit DVR"; Kowalski FR; Digital Home RO; Fonemas en Juego | NL, DE, IT, FR, RO, ES | entrada em NL/DE/FR |
+| 30/10 | OdontoDocs; Digital solutions (farmacologia PT/BG) | ES-LATAM; PT/BG | mais um BR em espanhol |
 
 ## 3. Páginas de vendas (preço, checkout, bumps, garantia, domínio)
 
-(em preenchimento)
+**Bloqueio:** WebFetch e curl não alcançam nenhuma página de vendas neste ambiente (domínios fora da lista permitida), e o limite de buscas web da sessão (200) acabou no meio da pesquisa. Abaixo está só o que aparece no título do anúncio. Bumps e checkout de cada página: **VERIFICAR**.
+
+| Página | Preço visto | Âncora / escassez | Garantia | Bônus / conteúdo | Domínio / checkout |
+|---|---|---|---|---|---|
+| Kit Studio Blindato - APP (IT) | €19,99 (nota de 28/10) | — | VERIFICAR | "Tutte le carte del tuo studio", "Stampa solo quello che ti serve" (imprime só o que usa), "Ogni foglio della giornata" | VERIFICAR |
+| Kit di Documenti Psicologici (IT) | VERIFICAR | — | VERIFICAR | "Oltre 270 documenti" | VERIFICAR |
+| Kit Odontologico / Psicologico APP (AR) | VERIFICAR | — | VERIFICAR | logo/nome do profissional em cada documento, consentimentos, protocolos, orientações para casa, "+120 documentos" | VERIFICAR |
+| Recursoslandia | **US$ 14,90**; CLP **$14.990**; €15,90; €19,90 (de €59,90); 109 kr; 369 Kč; 59 zł | "au lieu de 59,90 €" | **"garantía 30 días"** | TCC: "15 fichas listas", "Mapa de consulta", "Cada técnica con guion" | VERIFICAR |
+| Ioana Mureșan (RO) | **89 lei** ("Tot kitul") | — | VERIFICAR | 39 documentos do consultório + 22 do paciente + registros; bônus "Ziua controlului", treinamento da equipe, calendário, **"Actualizări 12 luni"** | VERIFICAR |
+| Zgodny Gabinet (PL) | **199 zł** | **"pierwsze 5 pakietów"** | VERIFICAR | 5 documentos / 10 arquivos, Word + PDF, 42 seções | VERIFICAR |
+| Recursos Legales PRO (MX) | **$249 / $499 / $699 / $999 MXN** | catálogo por profissão | VERIFICAR | 26 formatos + 3 guias (advogado) | VERIFICAR |
+| Luca Ferrari (IT) | **€9,99** | "A SOLI" | VERIFICAR | produto VERIFICAR | VERIFICAR |
+| Sorrisi in Regola (IT) | VERIFICAR | — | VERIFICAR | DVR, autoclave em 5 PDF, registros de esterilização, consentimentos, webinar, "tutto in un unico sito" (área de membros/site) | VERIFICAR |
+| Vendedores na impultienda | ex.: "Recetario + 3 bonos · $9.900" (Milanesas para Vender) | — | VERIFICAR | — | **impultienda.com** (loja/checkout AR) |
 
 ## 4. Padrões (ordem de expansão, tempo até matar anúncio)
 
-(em preenchimento)
+1. **Ordem de profissões.** Primeiro dentista, depois psicólogo, no mesmo país e com 6 dias de diferença (família APP em IT). Em seguida vêm os nichos-filhos:
+   - higienista e DVR (Sorrisi);
+   - pediatra (Consultorio Listo);
+   - farmácia (Farmacia Lista, PNOs Recursos Legales, farmacovigilância Kits Profesionales);
+   - fisioterapia e massagem (Zgodny);
+   - podóloga (Salud Podal);
+   - terapeuta, TCC, ABA e fono (Escuela Saludable, Recursoslandia, Marieke Vos, Fonemas en Juego);
+   - laserterapia (Jessica Reynolds).
+   - Fora da saúde, o mesmo molde vai para HACCP de cafeteria, eletricista, corretor de imóveis e advogado.
+2. **Ordem de países.**
+   - BR → **IT** (meados de set) → **AR** (fim de set) → MX (catálogo) → **Leste Europeu** (CZ/SK 09–18/10, RO 22/10, HU 27/10) → BG/GR/HR/SR/TR/PL/DA (26–28/10) → **FR/NL/DE** (29/10).
+   - Espanha e Portugal quase não aparecem como alvo próprio. PT aparece só via impultienda (Jantar Feito, Luisa Diaz, Dra Laura martin, Veronica Rose).
+3. **Persona local + conta USD.** Nome de pessoa nativa na página (Andrei Kowalski, Ioana Mureșan, Tereza Blažková, Kristína Hudáková, Marieke Vos, Luca Ferrari, Emma Schneider na v1) e conta em USD/BRL/CRC. Moeda local só no título ("89 lei", "199 zł", "369 Kč").
+4. **Uma página para N idiomas.** Recursoslandia, Digital solutions, Kowalski e Escuela Saludable rodam 4 a 10 idiomas na mesma página. Isso derruba o filtro "anunciante local": é preciso consultar por page_id com filtro de país.
+5. **Tempo até matar anúncio** (inferido, porque o conector só vê anúncios ativos):
+   - **Família APP:** lote novo a cada 7–12 dias, mantendo 1 a 2 anúncios de cada lote antigo. Os sobreviventes de 32–43 dias são os vencedores. Num lote, a maioria morre antes de ~10 dias.
+   - **Fábricas (Recursoslandia 332, Digital solutions 251):** 100% dos ativos têm ≤3 dias, o que indica rodízio total a cada ~2–4 dias (ou relançamento em massa em 28/10). Não dá para medir a sobrevida.
+   - **Kowalski:** manteve os 17 anúncios desde 18/10 (12 dias), sem matar. Sinal de que SK/CZ estão vendendo.
+   - **Kits Profesionales:** mantém o kit antigo e soma um novo a cada 5–10 dias (catálogo crescente).
+6. **Ganchos repetidos.**
+   - Medo da fiscalização "amanhã" ("Zajtra ráno kontrola", "Mâine vine controlul DSVSA", "L'inspecteur de la DDPP est à la porte", "¿Tu obra social te lo pidió?").
+   - Nome ou logo do profissional em cada documento.
+   - Prova social "⭐ 4.9/5" no título.
+   - "Um consentimento para cada procedimento".
+   - Contagem de documentos (+70, +105, +120, +270).
 
-## 5. Operadores novos (idiomas não cobertos)
+## 5. Operadores novos (idiomas antes não cobertos)
 
-(em preenchimento)
+| Idioma | Termo usado | Achado |
+|---|---|---|
+| RO | "documente gata" | Ioana Mureșan (dentista, já conhecida); Digital Home (TCC, impultienda); Escuela Saludable RO; Kowalski RO |
+| CS | "hotové dokumenty" | Tereza Blažková (corretor); Kowalski CZ; Recursoslandia CZ (idiomas); Escuela Saludable CZ |
+| SK | "hotové dokumenty" | Kristína Hudáková (corretor); **Hanari Digital Sk (109 d, professor)**; Kowalski SK |
+| EL | "έτοιμα έγγραφα" | **Digital solutions** ("+70 έτοιμα έγγραφα για το ιατρείο"); Escuela Saludable GR; Udemia.IA |
+| BG | "готови документи" | **Digital solutions** (+70 docs, 16 consentimentos, psicopatologia, farmacologia, ECG); manual de condomínio BG |
+| HU | "kész dokumentum" | **Digital solutions** ("Rendelő Rendben"); Escuela Saludable HU; «A hit miértje» (catequese, impultienda) |
+| HR/SR/SL | "gotovih" | Recursoslandia (handebol); Digital solutions (farmacologia SR/HR); Alma Artesana; Pozivko |
+| DA/NO | "færdige skabeloner" | nada de kit de profissão. Só Recursoslandia (handebol 109 kr) |
+| NL | "kant-en-klaar" | **Marieke Vos (ABA)** |
+| TR | "hazır belge" / "psikologlar için hazır" | **Luna Noire (100 sessões de terapia)**; Escuela Saludable TR; Tinkerkids (robótica, impultienda) |
+| SV/FI | "färdiga mallar" | só nativos (Kreativ Undervisning, Melina Ede). **Nenhum clone** |
+| DE (extra) | "fertige Vorlagen Praxis" | The Resource Lab (Pflege); Therapy Toolkit (crianças); Recursoslandia (Ergo/Logo/Triggerpunkte) |
+| IT (extra) | "documenti pronti studio" | família APP; **Sorrisi in Regola**; Luca Ferrari; Jessica Reynolds |
+
+Leitura: **SV e DA/NO seguem limpos**, sem nenhum clone de kit de profissão, mas a Recursoslandia já testa DA. **HU, BG e GR viraram terreno da Digital solutions** em 27–28/10. **NL e TR têm 1 clone cada**, com 1 a 3 dias.
 
 ## 6. Previsão do próximo nicho
 
-(em preenchimento)
+Esta seção é inferência, com o sinal que a sustenta em cada item.
 
-## 7. Ranking 0–10
+1. **Família APP:**
+   - **Mais provável:** **par dentista + psicólogo em ES, MX, CO ou CL**, ou **"Kit Consultorio" genérico (médico/nutri) em AR**.
+   - Sinal: o padrão é "dentista → psicólogo no mesmo país → o par em outro país em ~10 dias", e a página AR de psicólogo já se chama "Kit **Consultorio** Psicologico".
+   - Janela: 05–15/11. **Re-checar** com "⭐ 4.9/5 · Todos los papeles" + filtro de país.
+2. **Itália:** **higienista, DVR/segurança do trabalho, esterilização (Sorrisi)** e **laserterapia/fisio**. O psicólogo IT já tem 2 vendedores (APP 36 dias; Pronto Soccorso 4 dias).
+   - Próximo provável na IT: **fisioterapista** (Jessica Reynolds já testa laserterapia) e **nutrizionista**.
+3. **Digital solutions** (+70 docs em GR/BG/HU em 27–28/10): **RO, CZ, SK, PL e HR** em 1–2 semanas. Foi a ordem do Kowalski e da Escuela Saludable.
+4. **Recursoslandia** (Ergo/Logopädie DE em 28/10): **Physiotherapie/Heilpraktiker DE e AT/CH**, e a TCC em outros idiomas.
+5. **Países que acabaram de abrir:** **FR** (Kowalski 29/10; eletricista Recursoslandia), **NL** (ABA) e **DE** (Pflege/Ergo/Logo).
+   - Previsão: **kit de dentista/psicólogo em FR e DE até meados de novembro.** O FR/DE "em espera" da nota de 29/10 deve ganhar clone em breve.
+6. **Farmácia** (Farmacia Lista 28/10, PNOs Recursos Legales, farmacovigilância): **MX farmácias** está na lista de candidatos do usuário e agora tem 3 sinais. Ainda não há vendedor com 30+ dias só de farmácia (o catálogo Recursos Legales tem 99 dias, mas é multi-kit).
 
-(em preenchimento)
+## 7. Ranking 0–10 (oportunidade para nós, lida a partir dos clonadores)
 
-## 8. Lista de page_ids para o EscalaLow
+Critérios da nota:
+- prova (vendedor com 30+ dias no país/moeda);
+- encaixe no nosso modelo (kit + app por profissão);
+- espaço que ainda resta;
+- urgência.
 
-(em preenchimento)
+| # | Nicho · país | Nota | Régua | Por quê |
+|---|---|---|---|---|
+| 1 | **Psicólogo Itália** | **8,5** | PROVADO | Kit di Documenti Psicologici: 36 dias, 35 anúncios, conta USD, genérico, sem norma italiana. Um 2º vendedor entrou em 26/10 (Pronto Soccorso Emotivo). Nosso gancho L.132/2025 segue livre. Lançar antes do 3º. |
+| 2 | **Dentista Itália** | **8,0** | PROVADO | Kit Studio Blindato: 43 dias, 28 anúncios. **Ressalva:** desde 17/10 o Sorrisi in Regola (conta EUR) usa o ângulo de norma italiana (DVR, autoclave, esterilização). Diferenciar pelo app + Lazio DGR 669/2026 + ECM/radioproteção, e não por "kit a norma" genérico. |
+| 3 | Kits legais de saúde **México** (psicólogo/dentista/médico) | **7,5** | PROVADO | Recursos Legales PRO: 99 dias, conta MXN, $499 MXN por profissão. Confirma o Psicólogo MX. |
+| 4 | **Dentista Argentina** | **7,0** | PROVADO (limite) | Kit Odontologico APP: 32 dias, 37 anúncios no AR. Mas chegaram Consultorio en Regla (27/10) e o kit de psicólogo do mesmo operador: o país lota rápido. |
+| 5 | Inspeção sanitária / HACCP de café (SK, CZ, RO, FR) | **6,5** | TESTE | Kowalski segura os 17 anúncios desde 18/10 sem matar. Reaproveita nossa Consultora. Se passar de 30 dias (17/11), vira PROVADO. |
+| 6 | Psicólogo Argentina | **6,0** | TESTE | Mesmo operador que provou psicólogo na IT; 51 anúncios no AR desde 26/10. |
+| 7 | Dentista Romênia | **6,0** | TESTE | Ioana Mureșan, 89 lei, rodada nova em 29/10 (e clones em Sérvia/Moldávia na nota de 29/10). Re-checar 12/11. |
+| 8 | Professor Eslováquia (fichas + prompts de IA) | **6,0** | PROVADO | Hanari Digital Sk: 109 dias, conta EUR. Adjacente ao nosso modelo (professor, não consultório). |
+| 9 | Farmácia México (PNOs, COFEPRIS) | **5,5** | TESTE | 3 sinais: Farmacia Lista 28/10, PNOs no catálogo Recursos Legales, farmacovigilância da Kits Profesionales. Nenhum vendedor só de farmácia com 30+ dias. |
+| 10 | Corretor de imóveis CZ/SK (diário) | **5,5** | TESTE | Tereza 20 dias e Kristína 17 dias, conta EUR, persona local. Re-checar 08/11. |
+| 11 | Kit de terapeuta multi-idioma (HU/CZ/RO/PL/GR/TR) | **5,0** | TESTE | Escuela Saludable: 17 dias, 47 anúncios, contas CRC/EUR/USD. |
+| 12 | "+70 documentos para consultório" GR/BG/HU | **4,5** | TESTE | Digital solutions, 3 dias, fábrica de 251 anúncios. Concorrente barulhento e sem prova. |
+| 13 | Fisioterapia e massagem Polônia | **4,5** | TESTE | Zgodny Gabinet: 3 dias, 199 zł. |
+| 14 | ABA Holanda / Pflege Alemanha | **4,0** | TESTE | Marieke Vos e The Resource Lab, 1 dia cada. |
+| 15 | Eletricista França (NF C 15-100) | **4,0** | TESTE | Recursoslandia, €19,90 com âncora de €59,90. |
+| 16 | Pediatras (espanhol) | **3,5** | TESTE | Consultorio Listo: 1 anúncio, 19 dias. |
+| 17 | Kit de profissão em SV/DA/NO | **3,0** | BRECHA | Ninguém vende, mas também não há prova de demanda. Só nativos (SV) e handebol (DA). |
+
+## 8. Lista de page_ids para o EscalaLow (monitorar)
+
+**Prioridade A** (concorrência direta das nossas ofertas):
+- 1294553453740890 — Kit Studio Blindato - APP — IT dentista — 43 d
+- 1316795101520270 — Kit di Documenti Psicologici — IT psicólogo — 36 d
+- 1063538733498593 — Sorrisi in Regola — IT dentista/norma — EUR — 13 d
+- 1429865763533829 — Pronto Soccorso Emotivo — IT psicólogo (impultienda) — 4 d
+- 1275716428958044 — Luca Ferrari — IT €9,99 — BRL — ≥22 d
+- 1218589731347806 — Kit Odontologico APP — AR dentista — 32 d
+- 1304281136103952 — Kit Consultorio Psicologico APP — AR psicólogo — 4 d
+- 1337994426072311 — Consultorio en Regla — AR consultório — 2 d
+- 880855681786807 — Recursos Legales PRO — MX kits legais — 99 d
+- 1336453036226061 — Ioana Mureșan — RO dentista
+- 574842992375227 — Qualitiva Soluciones — CO dentista — 273 d
+
+**Prioridade B** (clonadores multi-idioma; mostram para onde a onda vai):
+- 1406571882531997 — Digital solutions — GR/BG/HU/SR/HR/PT — 251 anúncios
+- 954945787709648 — Recursoslandia — ES/DE/FR/HR/DA/CZ/PL/HU/JA — 332 anúncios
+- 1340912605769671 — Andrei Kowalski — SK/CZ/RO/FR — HACCP
+- 100723261734448 — Escuela Saludable — HU/CZ/RO/PL/GR/TR — terapeuta
+- 692615883936217 — Kits Profesionales — MX — saúde/hospital
+- 1228451337028686 — Zgodny Gabinet — PL — fisio/massagem
+- 978656985328281 — Luna Noire — TR — terapeuta
+- 1450685058119021 — Marieke Vos — NL — ABA
+- 1123744187496255 — The Resource Lab — DE — Pflege
+- 102506312071455 — Therapy Toolkit — DE — terapia infantil
+- 101176478643659 — Jessica Reynolds — IT — laserterapia
+
+**Prioridade C** (sinais menores, escolas e plataformas):
+- 1315946498277803 — Farmacia Lista
+- 1379560635235954 — Consultorio Listo (pediatras)
+- 1328543073683086 — OdontoDocs (BRL, espanhol)
+- 768039019732604 — Dental PRO 360 (MX)
+- 821483754384430 — Salud Podal (BRL, espanhol)
+- 366485309891364 — Tereza Blažková (CZ)
+- 1318646484661479 — Kristína Hudáková (SK)
+- 400335676487161 — Hanari Digital Sk (SK, 109 d)
+- 1285293408008330 — Digital Home (RO, TCC)
+- 1342395585621504 — Veronica Rose (PT, terapeuta sistêmico)
+- 1272500302624536 — Fonemas en Juego (ES, fono)
+- 1087877047748166 — Етажна собственост (BG)
+- 777108258821844 — Denise Encinas (curso de clonagem com IA)
+- 1413976621794277 — Tu tienda propia / impultienda (plataforma)
+
+**Datas para re-checar:**
+- 05/11: família APP (novo par de países?);
+- 08/11, com o SearchAPI de volta: dias reais de Recursoslandia, Digital solutions, Luca Ferrari e Kit Psicologico APP, que têm >50 anúncios;
+- 08/11: Tereza e Kristína chegam a 30 dias;
+- 12/11: Escuela Saludable chega a 30 dias; Ioana Mureșan;
+- 17/11: Kowalski chega a 30 dias;
+- 16/11: Sorrisi in Regola chega a 30 dias.
 
 ## 9. VERIFICAR
 
-(em preenchimento)
+1. **page_id não encontrado no conector** (precisa do page_id da v1 ou de busca no navegador): Farmacia al Día, Consultorio al Día, Studio Facile, PictoStudy Europe, Ultra Pack, Digital Future, Academia VIP, Pure Digital Shop, Guias Práticos, Emma Schneider, Extreme Gym.
+2. **Páginas de vendas** (todas bloqueadas): preço, plataforma, order bumps, garantia e domínio de:
+   - família APP (Kit Studio Blindato, Kit di Documenti Psicologici, Kit Odontologico/Psicologico APP);
+   - Sorrisi in Regola, Kowalski, Digital solutions, Escuela Saludable, Zgodny Gabinet, Kits Profesionales, Recursos Legales, Consultorio en Regla;
+   - Luca Ferrari: qual é o produto de €9,99?
+3. **Dias reais de páginas com >50 anúncios**: Recursoslandia (332), Digital solutions (251), Luca Ferrari (90) e Kit Consultorio Psicologico APP (>50). O conector mostra só os 50 mais novos.
+4. **País de entrega** das páginas com conta USD sem idioma claro: Farmacia Lista, Consultorio Listo, Fonemas en Juego, Pronto Soccorso Emotivo. Também o país de cada idioma da Digital solutions.
+5. **Ligações entre operadores ainda não confirmadas:**
+   - se Denise Encinas é a escola que alimenta a impultienda e os clones;
+   - se a moeda **CRC** da Escuela Saludable indica operador na Costa Rica;
+   - se o Kit Studio Blindato é mesmo BR (a nota diz BR; aqui a conta é USD).
+6. **Sorrisi in Regola** é operador italiano nativo (conta EUR) ou clone? Preço e app? Essa é a ameaça mais direta ao Dentista Itália.
+7. **Ioana Mureșan**: total de anúncios e dias reais de hoje (o anúncio visto é de 29/10; a nota de 29/10 fala em 36 anúncios).
+8. **Bloqueios desta rodada:**
+   - SearchAPI sem chave/crédito (até 08/11);
+   - WebFetch/curl sem acesso a sites externos;
+   - limite de buscas web da sessão esgotado no fim.
+   - Normas e tamanho de mercado não foram revalidados aqui; valem as fontes das notas de 28–29/10.

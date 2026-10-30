@@ -116,7 +116,66 @@ Feita no conector Meta em 30/10, Brasil, só anúncios ATIVOS. Dias = 30/10 − 
 **Limite do método:** o WebFetch está bloqueado neste ambiente (planalto.gov.br e outros domínios dão ENOTFOUND). Por isso nenhuma página de vendas foi aberta. Preço, plataforma, bumps e garantia vêm só do título do anúncio ou da base do EscalaLow; o resto fica VERIFICAR.
 
 ## 3. LISTA MESTRA
-(em andamento)
+
+Régua: **PROVADO** = vendedor com anúncio ativo há 30+ dias no país/moeda. **TESTE** = há sinal, mas nenhum vendedor com 30+ dias. **PRAZO** = o gancho é uma norma com data. **BRECHA** = ninguém vende.
+- Fonte "base" = EscalaLow 24/10 (dias do EscalaLow / anúncios ativos naquele dia).
+- Fonte "Meta" = medição de 30/10.
+- Fonte "nota" = notas/meta-varredura-low-ticket.md (07–08/10).
+
+### 3.1 Já cobertas pelo usuário (só para referência; não entram no top 30)
+| Profissão | Termo que vende | Evidência BR | Status |
+|---|---|---|---|
+| Dentista | kit de documentos, RDC 1.002 | Artes para Odontologia 234d/32 (base); nota 216–218d | COBERTA |
+| Psicólogo | kit de documentos, prontuário CRP, laudos | ElloCursos 16d/60, Liane Bastos laudos 113d/22 (base); nota 290d/43 | COBERTA |
+| Advogado | peças, contratos, playbook | Renato Porto 60d/20, Luiz Guedes bancário 39d/15 (base) | COBERTA |
+| Contador | reforma tributária IBS/CBS, calculadoras | Educa Visual "Mapa Fácil da Reforma" 87d/84; VGL 37d (base) | COBERTA |
+| Fisioterapeuta | planilhas de exercícios, documentos | Luisa Souza 15d/61; Fisio na Prática 46d (base) | COBERTA |
+| Estética/HOF | documentos, anamnese (HOF fora do escopo) | Mai Milena 214d; nota HOF até 545d | COBERTA |
+| Consultora de alimentos (HACCP) | documentos para consultoria, pasta sanitária | Domine a Nutrição 50d/51 (base) | COBERTA |
+| SST | NR-1, DDS, treinamentos | Seg.Seguro 201d; Guilherme Porto NR-1 104d/13 (base) | COBERTA |
+| Educação/AEE | atividades, PEI/PDI, AEE | centenas de ofertas; nota AEE 210 anúncios | COBERTA |
+
+### 3.2 NOVAS (profissão × termo × evidência)
+| # | Profissão / público | Termo que vende | Evidência BR | Status BR |
+|---|---|---|---|---|
+| 1 | Farmacêutico / dono de farmácia | "POPs da farmácia", "farmácia pronta pra vigilância", "RDC 1.000 descomplicada", precificação | Meta: 4 vendedores novos em 7 dias (Rogerio Antunes 1,4d; Camila R; Farmatécnica; Marco Aurélio); Grupo T3 Farma página 46d/7; base "+100 Exposições para Farmácias" 19d/10 | TESTE quente |
+| 2 | Médico e enfermeiro da Atenção Primária (UBS/ESF) | "100 SOAPs prontos", "SOAP cards", "biblioteca clínica" | Meta: APS na Prática 360 ≥31,6d, ~45 anúncios, Black Friday | **PROVADO** |
+| 3 | Síndico / administradora | "Kit do Síndico", "Kit AVCB & Incêndio" (R$47–87) | Meta: GrandCondo dezenas de anúncios em 1–2d; RPM Síndico 28,6d; base AIsind 58d | TESTE quente |
+| 4 | RH/DP, contador e pequeno empregador | "escala 5x2", "migre da 6x1 sem multa", "mapa da escala 5x2 para farmácias e varejo" | Meta: 1.547 anúncios no termo; vários infoprodutos 0–3d; base "Kit Fácil da Escala 5x2" 3d/19 | **PRAZO 16/12/2026** + TESTE |
+| 5 | Fonoaudiólogo | "kit de documentos para fonoaudiólogos", "fichas clínicas", "app kit fono", "exercícios de voz" | Meta: FONO DOCS (criado mai/2026, reativado 28/10); Elegance IV R$59,90 7d; base App Kit Fono 156d, App Clínico 46d | TESTE |
+| 6 | Terapeuta ABA / acompanhante terapêutico | "documentos essenciais da terapia ABA", "programas de intervenção" | base: Inovaba 148–179d (R$47–69); ABA na Prática 33d | **PROVADO** |
+| 7 | Psicomotricista | "+60 documentos de psicomotricidade" | base: Tia Su 114d/20 R$15,90 (está nas 213); nota 97d/10 e 28 anúncios | **PROVADO** |
+| 8 | Terapeuta ocupacional | "atividades de TO por R$10", "protocolos clínicos TO infantil" | Meta: T.O. na Prática 44,8d; Rebeca Andrade 58,7d | **PROVADO** (atividades; documentos não testados) |
+| 9 | ILPI / casa de repouso | "+35 documentos essenciais – evite multa e interdição" R$97 | Meta: A_casaderepousomodelo 16,3d | TESTE |
+| 10 | Veterinário / clínica veterinária | kit de documentos (termos, prontuário, receituário) | Meta: só SaaS e cursos; base: "Combo Veterinária" multinicho 19d R$67 | **BRECHA** |
+| 11 | Corretor de imóveis | "Kit Corretor Expert em Locação", "50 modelos editáveis", planilha de clientes e imóveis | Meta: Rafael Sieiro 33,5d; Vanguarda Docs 4d; base Corretor IA 96d/21, Léa Fernandez 51d/16, Central do Corretor 23d/62 | **PROVADO** (fraco) |
+| 12 | Avaliador de imóveis / perito avaliador | laudo de avaliação + planilha MCDDM (NBR 14653) | base: Avalliemais 281d (R$197), 221d (R$97), planilha 68d/20 | **PROVADO** (ticket R$97–197) |
+| 13 | Perito judicial / assistente técnico | "Guia do Perito Blindado", "Kit do Perito Nomeado", "modelos de laudos periciais" | base: Digital Online 99d/8 R$67 (213); Juslegalpro 20d R$67; Meta: Camila R testando laudos periciais | **PROVADO** |
+| 14 | Médico de consultório | "atestado e declaração", "POPs do consultório", "clínica aprovada de primeira" | Meta: Consultório em Ordem 1,4d; Camila R 1–2d; base "+300 prescrições de PS" 18d/18 | TESTE |
+| 15 | Enfermeiro / técnico de enfermagem | "132+ modelos de evolução por R$10", "guia de anotação e evolução" | Meta: enfermagem de sucesso 4–12d; base 55d | TESTE recorrente |
+| 16 | Cuidador de idosos | "Kit Profissional da Cuidadora de Idosos", atividades para idosos | Meta: Enfermeira Lia Cibele 7,8d; base "+160 atividades para idosos" 61d | TESTE |
+| 17 | Lash / nail / sobrancelha | "Termo para lash" (termo de consentimento), catálogos, apostilas | base: Advocacia Mariane Salles "Termo para lash" 319d R$29,90; Encanto Lash 194d | **PROVADO** |
+| 18 | Profissional de educação física / personal | fichas de musculação, avaliação física, packs | Meta: ed_fisicadozero 72d; Alan Scherer 144d; base 187d; nota "avaliação física 68 anúncios" | **PROVADO** |
+| 19 | Professor de jiu-jitsu/judô/taekwondo | dinâmicas, drills, planos de aula, "kit troca de faixa" | base: Dinâmicas Jiu-Jitsu 169d; Wrestling p/ Jiu-Jitsu 95d/32; Biblioteca do Professor 71d | **PROVADO** |
+| 20 | Fotógrafo | "Kit Fotógrafo Blindado" (contratos), cláusula "brutos", presets | base: Alex Bernardo 134d R$39; Meta: Fotografia é o Meu Negócio 0–1d | **PROVADO** |
+| 21 | Arquiteto / designer de interiores | revisão de projetos, controle de horas, "12 documentos para designers de interiores" | nota 08/10: "Arquiteto docs 430d"; base Arq Louise Maria 9d/15, designer de interiores 10d | PROVADO pela nota (VERIFICAR hoje) |
+| 22 | Engenheiro (elétrico, civil, segurança) | modelos de laudos (elétrico, insalubridade, acessibilidade, mecânica), planilhas hidrossanitárias | base: Engenharia na Web 15–18d; LJ Soluções 5d; Montante 210d; Meta: JSM Planilhas dezenas de anúncios | TESTE (laudos) / PROVADO (planilhas) |
+| 23 | Eletricista | tabela digital de preços, manual, quadros elétricos | base: 184d/13 (R$67), 57d/42, 90d (todos nas 213) | **PROVADO** |
+| 24 | Instalador CFTV / técnico de ar-condicionado / integrador solar | "maleta digital do instalador", tabela de orçamento, gerador de proposta solar | base: Gilson 96d/26 (213); ar-condicionado 6d; solar 9–18d | PROVADO (CFTV) / TESTE |
+| 25 | Vidraceiro, serralheiro, **marmorista** | "maleta digital", "+1.000 projetos para marmoristas" | base: Marmorista 85d R$17 e 61d (fora das 213); vidraceiro 113d, serralheiro 126d (213) | **PROVADO** |
+| 26 | Mecânico / oficina | "ajuda mecânico", laudos de mecânica, manuais de caminhão | base: Oficina Lucrativa 24d/57; Bíblia do Mecânico 204d; Meta: só SaaS | TESTE / **BRECHA** de kit |
+| 27 | Pastor / líder de célula / secretaria de igreja | esboços de pregação, gerador de sermões, "Claude para pastores"; documentos de igreja | base: 92–104d (esboços), 38d (sermões), 28d/13 (IA); Meta: secretaria de igreja só SaaS | **PROVADO** (pregação) / **BRECHA** (documentos) |
+| 28 | Assistente social / CRAS | "+200 dinâmicas para o CRAS" | base: Juliana Mendes 53d/9 R$47 | **PROVADO** (1 vendedor) |
+| 29 | Agente comunitário de saúde (ACS/ACE) | carteirinhas, "Bolsa Família 360", "Saúde Brasil 360" | base: Agente do Povo 93d/4 R$19,90 | **PROVADO** (fraco) |
+| 30 | Food service (hamburgueria, pizzaria, açaí, açougue, sushi, confeitaria) | planilha de precificação por tipo de negócio, fichas técnicas | base: Minhas Finanças Organizadas 16–38d; Preço Certo Confeitaria 54d; Camila R testando fichas de confeitaria | **PROVADO** |
+| 31 | Terapeuta holístico | kit radiestesia, reiki, constelação, astrologia profissional, ventosaterapia | base: Caixa do Terapeuta 164d/41 (213) + 58 anúncios em astrologia; Portal Huna 118d | **PROVADO** |
+| 32 | Qualidade ISO 9001 / IATF | auditoria "do plano ao PDF", kit de implantação | base: Integra SGI 16d/10; Engenharia na Web 10d | TESTE |
+| 33 | Podólogo / quiropraxista / massoterapeuta | protocolos, fichas, biblioteca | base: 7–38d | TESTE |
+| 34 | Tosador / adestrador / pet shop | "100 modelos de tosas", cartilhas de adestramento, kit pet shop | base: 30d (1 vendedor), 2–6d | TESTE |
+| 35 | Despachante / motorista | "+100 modelos de recurso de multa e CNH" | base: 13d | TESTE |
+| 36 | Secretária de consultório | "Kit Consultório Organizado", kit recepção | base: Recepfy 8d/11 R$67; MktBoost 6–9d | TESTE |
+| 37 | Produtor cultural | "40 projetos culturais aprovados" | base: 25d R$9,90 | TESTE |
+| 38 | Body piercer / esteticista automotivo / doula | protocolos pós-piercing, fichas, manual | base: 11–33d sem anúncio ativo | sinal fraco |
 
 ## 4. Checagem lá fora (30 conceitos novos)
 (em andamento)
