@@ -49,7 +49,7 @@ Observações da medição:
 **Mais antigos ainda ativos (90+ d):**
 | Início (dias) | Título do link | Formato (pelo título) | Corpo (sondagem) |
 |---|---|---|---|
-| 01/07/2025 (485,6) | "Safeguarding Simplified!" | 2 versões | contém "Safeguarding"; NÃO contém "Ofsted" |
+| 01/07/2025 (485,6) | "Safeguarding Simplified!" | 2 versões | "Safeguarding" no título; NÃO contém "Ofsted" |
 | 02/02/2026 (269,4) | "IN STOCK NOW!" | 4 versões (produto físico) | — |
 | 04/02/2026 (267,9) | "NEW 2025 Early Years Inspection Pack" ×3 + "Today's Fruit" + "Eat Your Veggies - Display" | carrossel: pack digital + displays físicos | contém "Ofsted" |
 | 10/02/2026 (261,7) | "DOWNLOAD NOW!!" | 1 | — |
@@ -81,7 +81,7 @@ Observações da medição:
 |---|---|---|---|
 | 14/08/2025 (441,6) | "Copilul tău își ascunde emoțiile? Ajută-l cu o simplă poveste." ×4 | 4 versões | povești terapeutice (crianças) |
 | 11/09/2025 (413,1) | "O poveste pe seară = un copil mai atent, mai încrezător și liniștit." ×3 (5 anúncios) | 3 versões | idem |
-| criado 11/09/2025 → relançado 13/04/2026 e 03/07/2026 | "Copilul tău își ascunde emoțiile? Ajută-l cu o simplă poveste." | relançamento | idem |
+| criado 11/09/2025 → relançado 13/04/2026 e 04/07/2026 | "Copilul tău își ascunde emoțiile? Ajută-l cu o simplă poveste." | relançamento | idem |
 | 30/12/2025 (303,6) | "📖 316 pagini cu sfaturi și rețete pentru dieta autoimună" ×2–4 | várias versões | dieta autoimune |
 | 22/03/2026 (221,5) | "📘 Vindecă-ți trecutul printr-o experiență practică și personală" ×2–6 | várias versões | autoajuda |
 | 13/05/2026 (169,6) | "Probleme cu inima și colesterolul? Cartea asta te poate ajuta" ×2–3; "📉 Carte: 10 metode prin care reduci natural colesterolul" | várias versões | colesterol |
