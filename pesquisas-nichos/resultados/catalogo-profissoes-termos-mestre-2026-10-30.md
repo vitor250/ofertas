@@ -178,7 +178,33 @@ Régua: **PROVADO** = vendedor com anúncio ativo há 30+ dias no país/moeda. *
 | 38 | Body piercer / esteticista automotivo / doula | protocolos pós-piercing, fichas, manual | base: 11–33d sem anúncio ativo | sinal fraco |
 
 ## 4. Checagem lá fora (30 conceitos novos)
-(em andamento)
+
+Feita no conector Meta (anúncios ativos, 30/10), com o termo traduzido e vários países numa mesma consulta. O conector devolve só os anúncios mais novos e mede só ativos. "Não checado" = faltou orçamento de chamadas: o WebSearch esgotou a cota do turno (200 buscas, compartilhada entre os agentes) e o WebFetch está bloqueado. Esses ficam VERIFICAR.
+
+| # | Conceito | Resultado lá fora (termo usado → achado) | Leitura |
+|---|---|---|---|
+| 1 | Farmácia: POPs e vigilância | **MX** "PNO farmacia COFEPRIS" → **Recursos Legales PRO / Salud Mx** (page 880855681786807): PNOs Farmacia Lite $249, Estándar $699, PRO $999 MXN no mesmo catálogo de kits de consultório médico, dentista, **psicologia** ($499) e spa ($699); página com ativo de **98,8d**, 5 anúncios. ES-LATAM "plantillas para farmacias" → só lojas e FarmaAyuda (MX, consultoria) 15,5d | **PROVADO no MX** (vendedor multikit); BRECHA nos outros LATAM checados |
+| 2 | APS: SOAPs prontos | EN "SOAP notes templates" (US/GB/AU/CA) → 52 anúncios, quase todos de escriba com IA (Commure, Phorest); SigmaSmart.en "Ready-to-Use Templates for PTs" 2,9d. ES-LATAM "notas SOAP plantillas" → 0 | EN tomado por SaaS; ES BRECHA sem demanda visível |
+| 3 | Síndico | ES-LATAM "administración de condominios" → 184, só administradoras e SaaS (CostaNexa, CAZU MX); "kit administrador de condominios" → 0. **IT** "amministratori di condominio" → 172, só B2B (empreiteiras, seguros, associação Anapi). **PT** "administração de condomínios" → 13, só SaaS (Condoroo, CondoOps) e curso (ESAI) | **BRECHA** em ES-LATAM, IT e PT |
+| 4 | Jornada 5x2 / redução de jornada | **MX** "jornada 40 horas" → 142: Capacita Plus "De 48 a 46 horas en 2027", Humand "Enero 2027: el registro de jornada ya es obligatorio", Canacintra "Prepara tu empresa para las 40 horas" (0–1d, cursos/SaaS, sem kit barato) | Confirma o item **Jornada México** da fila (PRAZO jan/2027) |
+| 5 | Fonoaudiólogo | **PL** "materiały dla logopedy" → **Pani Andzia "Teczka logopedy" 226d**, Agnieszka Kaproń "T,D,L,N – kompletny system pracy" 193d, Instytut Sylwia Zasada "Kompletny pakiet dla początkującego logopedy" 115d (PLN). **IT** "materiale per logopedisti" → Arianna Allegretti 37d (1 vendedora nativa). ES-LATAM "kit fonoaudiología" → "Fonoaudiología Profesional" (USD) 2,6d e Laura Gomes (COP) 3,2d, ambos clones novos | **PROVADO PL** (forte, escolar), **PROVADO fraco IT**, TESTE LATAM |
+| 6 | Terapeuta ABA | ES-LATAM "terapia ABA programas" → 5, só clínicas (Jokipoky MX, MABC) | **BRECHA** ES |
+| 7 | Psicomotricista | ES-LATAM "psicomotricidad kit documentos" → 1 (Peru vendendo "kit de evaluación psicológica", 0d) | **BRECHA** ES |
+| 8 | Terapeuta ocupacional | ES-LATAM "material terapia ocupacional" → **Mi Colega T.O** (conta CLP) "+1.500 actividades por edad", US$17,99, 2d, ~8 anúncios | TESTE (CL) |
+| 9 | ILPI | PT "documentos lar de idosos" → 0; ES-LATAM "residencia adultos mayores formatos" → 0 | BRECHA (sem sinal de demanda) |
+| 10 | Veterinário | ES-LATAM "formatos veterinaria kit" → 5, nenhum kit vet; EN "veterinary forms templates" → 0 | **BRECHA** (sem prova de demanda em lugar nenhum) |
+| 11 | Corretor de imóveis | ES-LATAM "plantillas para agentes inmobiliarios" → 22, só SaaS/serviços (Lobbie CO, Inmoview ES) | BRECHA |
+| 12 | Perito judicial | ES-LATAM "perito judicial modelos de informes" → 1 (curso AR) | BRECHA |
+| 13 | Lash (termo de consentimento) | EN "lash tech consent forms templates" → 0; "consent forms templates" → 61, nenhum de lash | BRECHA no Meta EN (Etsy não checado: bloqueia) |
+| 14 | Fotógrafo (contratos) | EN "photography contract template" → **The Legal Paige** (EUA, marca antiga de contratos; preço VERIFICAR) ~21d nos anúncios vistos; Studio Kit by D'Argent Weddings (AUD) "the contract our couples sign" 0,5d | EN servido por marca forte |
+| 15 | Pastor / sermões | ES-LATAM "bosquejos de sermones" → 62: Luz y Palabra (USD) "Premium US$9,90", "Deja de buscar qué predicar" 0–1d; JSN 1d; "Dinámicas con Laura/Sara" | TESTE ativo (idade das páginas VERIFICAR) |
+| 16 | Médico de consultório | MX: Recursos Legales PRO "Kit Consultorio Médico $499 MXN" (mesma página do item 1, 98,8d) | **PROVADO MX** |
+| 17 | Psicopedagogo em inglês | EN: ormacionprofesional.psp (USD) "Complete Learning Assessment Toolkit +60 tests, 9 areas" 6,6d, ~16 anúncios | TESTE (operador latino indo para EN) |
+| 18–30 | Avaliador de imóveis, enfermagem, cuidador, personal, artes marciais, arquiteto/designer, engenheiro (laudos), eletricista, marmorista, mecânico, assistente social, ACS, food service, terapeuta holístico | **não checados lá fora** | VERIFICAR |
+
+**Sinais para a fila atual (fora do escopo, mas úteis):**
+- **Concorrente no México para o Maletín del Psicólogo:** Recursos Legales PRO vende "Kit Legal Psicología" a $499 MXN, numa página com ativo de 98,8d. Abrir a página (bloqueado aqui) → VERIFICAR conteúdo, normas citadas e app.
+- **Dentista EUA (Lic. Zulma Laguna, 778739435326228):** a página tem anúncio ativo desde 1/out (28,8d em 30/10), então **cruza 30 dias em 31/10**. Criativos novos em 23–24/10: "Dental Docs, Done for You", "Not a Blank Template", "Lawyer-Reviewed Dental Consents". Ela vira PROVADO na janela de re-checagem combinada (31/10–05/11).
 
 ## 5. Ranking 0–10
 
