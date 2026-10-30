@@ -159,7 +159,24 @@ As páginas de vendas não abriram (proxy bloqueia o domínio delas, Hotmart e K
 | Geriactiva | 143 ativos, USD, "+3000 Profesionales lo recomiendan", entrega em ES (71), MX (73), CO (71), US (56). Lotes de ~20 criativos a cada 3 dias. Clones "GeriActive Portugal" e "GeriActive Polska" ("1.320 atividades prontas") abertos em 29/10 | não aparece | dias reais (passa de 50 anúncios, o conector não mostra o mais antigo); preço |
 
 ## 4. Tamanho de mercado e normas (fontes oficiais)
-(preenchendo)
+
+**Bloqueio:** a cota de busca web desta rodada (200 buscas, dividida entre todos os agentes) acabou quando comecei esta parte, e o proxy bloqueia os sites oficiais (salute.gov.it, gazzettaufficiale.it, isap.sejm.gov.pl etc.). Nenhum número ou norma abaixo foi confirmado com fonte oficial nesta rodada. A coluna "pista" é memória do modelo, serve só para saber o que procurar. NÃO usar em página de vendas sem confirmar.
+
+| Item | Status | Pista (não confirmada) | Onde confirmar |
+|---|---|---|---|
+| Nº de fisioterapeutas na Polônia | VERIFICAR | ordem de 70–80 mil no registro da KIF | Krajowa Izba Fizjoterapeutów (kif.info.pl), rejestr |
+| Nº de fisioterapeutas na Colômbia | VERIFICAR | — | ReTHUS (MinSalud) e COLFI |
+| Nº de fisioterapeutas no México | VERIFICAR | — | INEGI / DGP (cédulas) |
+| Nº de kinesiólogos no Chile | VERIFICAR | — | Superintendencia de Salud, Registro Nacional de Prestadores Individuales |
+| Nº de fisioterapeutas nos EUA | VERIFICAR | ordem de 240 mil empregados | BLS OES 29-1123 |
+| Nº de fisioterapeutas na Itália | VERIFICAR | ordem de 65–70 mil no albo | FNO TSRM e PSTRP (albo fisioterapisti) |
+| DM 232/2023 (Itália, requisitos mínimos das apólices de responsabilidade das estruturas e profissionais de saúde, regulamento da Lei Gelli-Bianco 24/2017) | VERIFICAR vigência | publicado na GU de 01/03/2024, em vigor 16/03/2024, adequação dos contratos em 24 meses (o que daria 16/03/2026, já vencido) | gazzettaufficiale.it / normattiva.it |
+| Apólice só vale com ≥70% do ECM (Itália) | CONFIRMADO para dentista na pesquisa do usuário de 28/10 (`notas/fila-ofertas.md`); a regra é para profissionais de saúde em geral | vale também para fisioterapista (VERIFICAR texto) | BASE-LEGAL-IT do dentista (no Mac) |
+| Ustawa Kamilka (Polônia, proteção de menores) | VERIFICAR | Dz.U. 2023 poz. 1606; em vigor 15/02/2024; "standardy ochrony małoletnich" obrigatórios desde 15/08/2024 para quem atende menores (inclui clínicas de fisio, clubes e aulas esportivas); revisão periódica dos padrões | isap.sejm.gov.pl; gov.pl (Ministerstwo Sprawiedliwości) |
+| Colômbia: habilitação de consultório (Res. 3100/2019 + 465/2025) | CONFIRMADO para dentista nas notas do usuário; para fisioterapeuta independente VERIFICAR | o mesmo regime de habilitação e REPS se aplica a qualquer prestador independente | MinSalud |
+| México: NOM-004-SSA3-2012 (expediente clínico) para fisio e nutriólogo | VERIFICAR | — | DOF |
+
+Consequência para o ranking: nenhum PRAZO ficou confirmado em fitness/nutri/fisio nesta rodada. Os ganchos possíveis (Itália: apólice + ECM; Polônia: Kamilka; Colômbia: habilitação) entram como hipótese.
 
 ## 5. Ranking 0–10
 (preenchendo)
