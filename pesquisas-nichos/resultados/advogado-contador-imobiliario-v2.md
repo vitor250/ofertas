@@ -2,6 +2,11 @@
 
 Data de referência: 30/10/2026. Gravado aos poucos.
 
+## Resumo
+- **Top 3:** (1) México, Kit "Jornada 2027" para PyME e contador, **8,0** (prazo 01/01/2027; o adjacente "Kit Reglamento Interno Inteligente" já roda há 34 d). (2) México, Kit do advogado para o juicio oral do CNPCF, **7,5** (Abogados de Éxito vende em MXN há 273 d; CNPCF automático em 01/04/2027). (3) Argentina, kit do advogado por área, **6,0**, empatado com Espanha, Kit do abogado "MASC obrigatório", **6,0** (brecha).
+- Nenhum kit de DOCUMENTOS para advogado, contador ou agente imobiliário tem prova de 30+ dias em ES, IT, PT, CO ou CL. O que prova idade são cursos/manuais (MX) e o "reglamento interno" vendido a PyMEs (USD).
+- A v1 não estava acessível; nenhuma página de vendas pôde ser aberta (rede bloqueada); a busca web esgotou no meio. Ver seção 6.
+
 ## Avisos de método
 - A v1 (29/10, `advogado-contador-imobiliario.md`) NÃO estava acessível neste ambiente. Usei a lista de candidatos e os itens a confirmar escritos no próprio prompt.
 - SearchAPI indisponível (sem chave aqui e sem crédito até 08/11). Medições feitas com o conector Meta (`ads_library_search`, só anúncios ATIVOS). DIAS REAIS = 30/10/2026 menos o menor `ad_delivery_start_time` entre os anúncios ativos da página.
@@ -114,8 +119,67 @@ Leitura dos prazos:
 | Itália | Commercialisti | **119.050 inscritos no Albo no fim de 2025** (−0,8%) | Rapporto 2026 sull'Albo, Fondazione Nazionale Commercialisti / CNDCEC | CONFIRMADO |
 | EUA | Realtors (NAR) | **1.438.569 membros** (junho/2026; 1.463.352 um ano antes) | nar.realtor (CEO Nykia Wright, Legislative Meetings 06/2026) | CONFIRMADO |
 
+| Argentina | Abogados | ~126 mil (ESTIMATIVA de imprensa, Día del Abogado 08/2025); CPACF (CABA) "quase 90 mil matriculados" (El Cronista) x padrão eleitoral ~71 mil | diariojornada.com.ar; cronista.com | VERIFICAR (não é dado oficial) |
+| Colômbia, Chile, Peru, Portugal | Advogados/contadores | não confirmado (orçamento de busca web esgotou) | — | VERIFICAR |
+
 ## 4. Ranking 0–10 por país/nicho
-(em preenchimento)
+
+Régua do prompt: PROVADO = vendedor com anúncio ativo há 30+ dias NO país/idioma/moeda; TESTE = sinal sem vendedor antigo; PRAZO = norma com data; BRECHA = ninguém vende. Espanhol neutro/USD não prova país.
+
+| # | País | Nicho / produto sugerido | Nota | Régua | Por quê |
+|---|---|---|---|---|---|
+| 1 | **México** | **Kit "Jornada 2027" para PyME e contador**: reglamento interior adaptado a 46 h, formato de registro de jornada (papel + app), aviso aos trabalhadores, calculadora de horas extra 2027 (9 h → dobro/triplo), checklist de multa 250–5.000 UMA | **8,0** | PRAZO + adjacente PROVADO | Prazo duro **01/01/2027** (registro eletrônico obrigatório, transitório 5º da LFT, DOF 01/05/2026). "Kit Reglamento Interno Inteligente" roda há **34 d** (Coach Augusto Jimenez, 39 anúncios) e a 2ª página (Jime Bauer) tem 81 anúncios. Onda de cursos começou 29–30/10 (Capacita Plus, DFP), sem kit de formatos. 470 mil contadores + PyMEs. Já é o item "Jornada México" da fila do usuário; precisa lançar até meados de novembro |
+| 2 | **México** | **Kit do advogado para o juicio oral civil y familiar (CNPCF)**: escritos-modelo no novo código, roteiros de audiência preliminar/julgamento, tabela de prazos, app de prazos | **7,5** | PROVADO (curso) + PRAZO | Abogados de Éxito vende em **MXN há 273 d** (34 anúncios; "Domina el proceso civil oral" há 153 d). Manuales Jurídicos (mesmo título de anúncio, provável mesmo dono) acelerou: 72 anúncios, 13 criativos novos hoje. CNPCF entra **automaticamente em todo o país em 01/04/2027**. 445 mil advogados. Nenhum vendedor visto oferece KIT de documentos (são cursos/manuais) |
+| 3 | **Argentina** | Kit do advogado por área (ART/riesgos del trabajo, amparos de salud, família, danos) | **6,0** | TESTE forte | Ratio Studio tem **216 anúncios ativos** com 5 guias por área (idade real não medível; piso 1,8 d). Abogadologia "Pack Jurídico Argentino" em ARS há 16,8 d. ~126 mil advogados (estimativa). Risco: ARS, checkout, inflação |
+| 4 | **Espanha** | Kit do abogado "MASC obrigatório" (modelos de requerimento de MASC, oferta vinculante confidencial, certificado/declaração de tentativa, checklist por tipo de ação) | **6,0** | BRECHA + norma vigente | Zero kit de abogado em ES (só SaaS de IA: Rai Lomer 9 d, Catalina Leal). 149,7 mil ejercientes. LO 1/2025 vigente desde 03/04/2025 e com critérios judiciais divergentes = dor diária. Sem prazo futuro; espanhóis buscam "gratis" |
+| 5 | **México** | Kit de documentos para despacho contable (carta de encargo, solicitação de papéis do mês, avisos de golpe "correo falso del SAT", proteção de CIEC/e.firma) + prompts | **5,5** | TESTE | Automatiza juridico (MXN 349, 10 d de garantia) testa isso desde 29/10 junto com o kit de advogado; Udemia.IA e outros kits de prompt entrando. Bom como order bump do #1 |
+| 6 | **Espanhol (LATAM/ES)** | Kit de DOCUMENTOS do agente imobiliário (contrato de exclusividade, ficha de captação, checklist de documentos do imóvel, relatório de visita) | **5,5** | BRECHA (documentos) + PROVADO adjacente (marketing) | Organizagram vende "Pack Agente Inmobiliario" (posts) em espanhol há **42,6 d** (conta BRL, não prova país). Ninguém vende documentos. MX tem 103 mil agentes de bienes raíces. ES e IT: zero anúncios |
+| 7 | **Itália** | Kit do avvocato (atos pós-Cartabia) | **5,0** | BRECHA | 228,6 mil avvocati, zero kit low ticket (só SaaS Trovanorma). Sem prazo novo em 2026–27; jurídico italiano exige revisão profissional. Faz sentido só depois do Psicólogo/Dentista IT |
+| 8 | **Itália** | Kit do commercialista | **4,5** | BRECHA | 119 mil inscritos, zero vendedor. O usuário já tem o Termometro 85k (lado do forfettario); vender ao commercialista é outro público |
+| 9 | **Colômbia / Chile** | Kit do advogado ou do contador | **4,5** | BRECHA | Zero anúncios de kit nas buscas. Tamanho de mercado não confirmado (VERIFICAR) |
+| 10 | **EUA** | Templates para realtor | **4,0** | TESTE | Kim Buckner US$ 97 nasceu em 29/10; espaço tomado por assinaturas (Modern Agent Social Club, 96 anúncios) e SaaS. 1,44 mi realtors, mas concorrência madura |
+| 11 | **Peru** | Banco de questões (balotario) jurídico | **3,5** | PROVADO, fora do formato | Leg-TECH 231,8 d em PEN, mas é exame/concurso, não kit de prática |
+| 12 | **Portugal** | Advogado / imobiliário | **3,0** | BRECHA pequena | Zero vendedor; mercado não medido aqui |
+
+### Principais apostas
+- **Certeira com prazo:** #1 (Jornada 2027 MX). Mesmo comprador do "Reglamento Interno Inteligente" que já prova 34 dias; janela fecha em 01/01/2027.
+- **Certeira sem pressa:** #2 (CNPCF MX). Prova de 273 dias em MXN no mesmo público; prazo 01/04/2027 dá tempo para lançar em jan–fev.
+- **Teste barato:** #3 (Argentina, re-medir Ratio Studio após 08/11) e #4 (Espanha MASC).
+
+### Diferenças em relação à v1
+A v1 não estava acessível, então não dá para comparar nota a nota. O que esta versão acrescenta, com medição de 30/10:
+- Idade real medida por page_id: Abogados de Éxito 273 d (MXN), Coach Augusto Jimenez 33,6 d (USD), Kim Buckner com anúncios de produto de 0,3–0,6 d (ou seja, NÃO é prova), Ratio Studio e Manuales Jurídicos com mais de 50 anúncios (só piso de idade).
+- Ligação Coach Augusto Jimenez = Jime Bauer (mesmo produto) e Abogados de Éxito ≈ Manuales Jurídicos (mesmo título de anúncio).
+- Vendedores novos que a lista do prompt não tinha: Automatiza juridico (MXN 349), Abogadologia (ARS), Leg-TECH (PEN, 232 d), Organizagram ES (42,6 d), Capacita Plus/DFP (onda "40 horas" de 29–30/10).
+- Normas confirmadas com datas: CNPCF (DOF 07/06/2023, automático 01/04/2027), LFT 40 h (DOF 01/05/2026, registro eletrônico 01/01/2027, multa 250–5.000 UMA), LO 1/2025 (vigente 03/04/2025), Cartabia (28/02/2023; correttivo 11/2024).
+- Números confirmados: MX 445 mil advogados, 470 mil contadores, 103 mil agentes imobiliários; ES 149,7 mil ejercientes; IT 228,6 mil avvocati e 119 mil commercialisti; EUA 1,44 mi realtors.
 
 ## 5. VERIFICAR
-(em preenchimento)
+
+Páginas de vendas (nenhuma pôde ser aberta; rede bloqueada):
+1. Preço, plataforma, conteúdo, bumps e garantia de: Abogados de Éxito, Manuales Jurídicos, Ratio Studio, Coach Augusto Jimenez, Jime Bauer, Abogadologia, Organizagram "Pack Agente Inmobiliario", Educenter (qual é o produto?), Laura Martins (PT). Kim Buckner: confirmar na stan.store se o "ROOTED Exclusive" de US$ 99 é o mesmo dos anúncios de US$ 97. Automatiza juridico: preço MXN 349 e garantia de 10 dias vêm só do título do anúncio.
+2. Os 5 vendedores da lista do prompt NÃO localizados pelo nome no conector (sem page_id, v1 inacessível): **Recursos Legales PRO, Todo Digital, Cer Solutions, Destreza Digital, April Academy**.
+
+Idade real (re-medir com SearchAPI após 08/11, que pagina além de 50 anúncios):
+3. Manuales Jurídicos (72 anúncios; piso 8 d), Ratio Studio (216; piso 1,8 d), Jime Bauer (81; piso 5 d), Modern Agent Social Club (96; piso 23 d).
+4. Abogadologia: re-checar em 13/11 (completa 30 d).
+5. Kim Buckner: o que é o anúncio sem título ativo desde 04/04/2024 (938 d).
+
+País e operador:
+6. País-alvo de Coach Augusto Jimenez e Jime Bauer (conta USD, espanhol neutro). Confirmar se são o mesmo operador.
+7. Confirmar se Manuales Jurídicos e Abogados de Éxito são o mesmo dono.
+
+Normas:
+8. CNPCF: quais estados (e a Federação) já publicaram declaratoria e com que data; quem fica para o automático de 01/04/2027.
+9. Data do DOF da reforma CONSTITUCIONAL das 40 h (03/03/2026 segundo vários veículos x 01/05/2026) e o código DOF 5786537 da reforma da LFT.
+10. Número do correttivo Cartabia (D.Lgs. 164/2024, citado pelo prompt) e o D.L. 19/02/2026 n. 19 (conv. L. 50/2026) que teria mexido nos arts. 696/696-bis c.p.c.
+
+Mercado:
+11. Argentina: número oficial de advogados (estimativa 126 mil; CPACF 90 mil x 71 mil no padrão).
+12. Colômbia, Chile, Peru e Portugal: nº de advogados e contadores; Espanha: nº de agentes imobiliários.
+
+## 6. O que bloqueou
+- **Rede:** WebFetch/curl sem acesso a qualquer site externo (ENOTFOUND/000 até em google.com). Nenhuma página de vendas nem texto oficial aberto.
+- **SearchAPI:** sem chave aqui e sem crédito até 08/11.
+- **Busca web:** o orçamento de WebSearch da sessão (200 chamadas, compartilhado com os agentes irmãos) acabou no meio da pesquisa; números de AR/CO/CL/PE/PT e preços de Abogadologia/Abogados de Éxito ficaram sem busca.
+- **Conector Meta:** só devolve os 50 anúncios mais novos por página e não traz link de destino nem texto do anúncio.
