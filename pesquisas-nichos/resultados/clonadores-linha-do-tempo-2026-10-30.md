@@ -5,6 +5,26 @@
 > **Não havia versão anterior acessível (v1 de 29/10).** Por isso não dá para listar o que mudou em relação a ela. Toda página nova nesta lista foi encontrada hoje.
 > **Limitações deste ambiente:** a v1 de 29/10 e os arquivos do Desktop NÃO estavam acessíveis; usei só a lista de operadores do prompt e as notas (`notas/*.md`). O SearchAPI NÃO estava disponível (sem chave aqui e créditos zerados até 08/11): toda medição foi feita pelo conector Meta (`ads_library_search`, só anúncios ATIVOS). DIAS REAIS = 30/10/2026 − menor `ad_delivery_start_time` entre os anúncios ativos da página. Como o conector só vê anúncios ativos, "início" = anúncio ativo mais antigo, não necessariamente o primeiro anúncio da página.
 
+## Resumo executivo
+
+1. **O operador que mais importa é a "família APP".** É um operador só, com conta em USD, que vende os kits de dentista e psicólogo em IT e AR (o Kit Studio Blindato da nota de 28/10 é dele).
+   - Mesmo molde de título "⭐ 4.9/5 · ..." e lotes criados no mesmo minuto em 4 páginas.
+   - Dentista IT 43 dias (PROVADO) → psicólogo IT 36 dias (PROVADO) → dentista AR 32 dias (PROVADO, limite) → psicólogo AR 4 dias (TESTE).
+   - Sequência: **dentista primeiro, psicólogo 6 dias depois, mesmo país; depois o mesmo par em outro país.** O próximo par provável é ES/MX/CO/CL ou PT (VERIFICAR a partir de 05/11).
+2. **Itália ganhou um concorrente com norma italiana.** O **Sorrisi in Regola** (conta EUR, desde 17/10, 13 anúncios) vende kit de higienista, **"Kit DVR per studi dentistici"** (29/10), rastreabilidade de autoclave, registros de esterilização e um consentimento por procedimento, além de um webinar de segurança do trabalho. É o ângulo "norma" que era a nossa vantagem no Dentista Itália. Preço e plataforma: VERIFICAR.
+3. **Onda do Leste Europeu (9–29/10).** Fábricas multi-idioma com conta USD e uma página só para 6 a 10 idiomas:
+   - **Digital solutions**: 251 anúncios ("+70 documentos para o consultório" em GR/BG/HU, consentimentos, farmacologia, ECG);
+   - **Recursoslandia**: 332 anúncios (TCC para psicólogo US$ 14,90, Ergo/Logopädie €19,90, eletricista FR, handebol);
+   - **Escuela Saludable**: 47 anúncios, kit de terapeuta em HU/CZ/RO/PL/GR/TR, contas em CRC/EUR/USD;
+   - **Andrei Kowalski**: dossiê HACCP para cafeteria, SK → CZ → RO → FR em 11 dias.
+   - Todas usam uma persona local (Kowalski, Mureșan, Blažková, Hudáková, Marieke Vos, Luca Ferrari).
+4. **impultienda.com é PLATAFORMA, não operador.** É uma loja/checkout argentino de infoproduto: a página "Tu tienda propia" (ARS) anuncia "Tu web cobra y entrega sola". Há ~390 anúncios ativos apontando para o domínio, de dezenas de vendedores, entre eles um kit de psicólogo IT (Pronto Soccorso Emotivo) e kits de terapeuta PT. Aparece junto **Denise Encinas** ("La IA arma tu negocio digital… Valida, escala y traduce"), que é provavelmente a escola que ensina a clonar e traduzir. VERIFICAR.
+5. **Próximo nicho previsto** (seção 6):
+   - nichos-filhos do dentista (higienista, DVR/segurança do trabalho) e do psicólogo (terapeuta, TCC, ABA, fono);
+   - farmácia (PNOs, farmacovigilância);
+   - fisioterapia e massagem;
+   - em FR, DE, NL e nórdicos, que entraram em 28–29/10.
+
 ## 0. Método e o que funcionou neste ambiente
 
 - **Conector Meta:** busca por `page_ids` devolve os anúncios ativos da página do mais novo para o mais antigo (até 50). Com ≤50 anúncios dá para ver o mais antigo e medir os DIAS REAIS; com >50, o resultado vira "≥ X dias".
